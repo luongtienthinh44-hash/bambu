@@ -1,0 +1,42 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment and server-specific configuration
+.env
+.env.*
+!.env.example
+.user.ini
+wp-config.php
+
+# WordPress generated files and directories
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/backup-*/
+wp-content/ai1wm-backups/
+wp-content/blogs.dir/
+wp-content/languages/
+wp-content/debug.log
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/db.php
+
+# Dependencies
+node_modules/
+vendor/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# SSL certificate challenge files
+.well-known/acme-challenge/

@@ -1,0 +1,64 @@
+.bambu-page .partners-section {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 48px var(--bambu-container-gutter, 24px);
+    background: #fff;
+    border-top: 1px solid #f1f5f9;
+}
+
+.bambu-page .partners-section-inner {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.bambu-page .partners-title {
+    display: block;
+    width: auto;
+    white-space: normal;
+    margin: 0 0 32px;
+    font-size: 18px;
+    color: #1e293b;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bambu-page .partners-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.bambu-page .partner-name {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 28px;
+    color: #1e293b;
+    font-size: 18px;
+    font-weight: 500;
+    white-space: normal;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.bambu-page .partner-logo-image {
+    display: block;
+    width: auto;
+    max-width: 150px;
+    max-height: 32px;
+    object-fit: contain;
+}
+
+@media (max-width: 900px) {
+    .bambu-page .partners-row {
+        justify-content: center;
+    }
+}

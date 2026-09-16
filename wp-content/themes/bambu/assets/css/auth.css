@@ -1,0 +1,227 @@
+/* Branded styling for the native WordPress login, registration and recovery forms. */
+body.login {
+    min-height: 100vh;
+    background:
+        linear-gradient(rgba(7, 17, 39, 0.84), rgba(7, 17, 39, 0.94)),
+        url('https://wp.aries.id.vn/wp-content/uploads/2026/09/section.png') center / cover;
+    color: #cbd5e1;
+    font-family: 'Manrope', sans-serif;
+}
+
+body.login #login {
+    width: min(100% - 32px, 440px);
+    padding: 40px 0;
+}
+
+.login h1 {
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.login h1 a {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: none !important;
+    font-size: 34px;
+    font-weight: 800;
+    text-indent: 0;
+}
+
+.login h1 a .bambu-login-brand-main {
+    color: #35ad68;
+}
+
+.login h1 a .bambu-login-brand-suffix {
+    background: linear-gradient(90deg, #35ad68 0%, #3ba295 38%, #814272 100%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.login h1 a::after {
+    content: ' CONNECT TO INNOVATE';
+    display: block;
+    margin-top: 9px;
+    color: #cbd5e1;
+    font-size: 9px;
+    font-weight: 500;
+}
+
+.login form {
+    margin-top: 0;
+    padding: 32px;
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    border-radius: 18px;
+    background: rgba(7, 17, 39, 0.82);
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.3);
+}
+
+.login label {
+    color: #f8fafc;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.login form input[type='text'],
+.login form input[type='email'],
+.login form input[type='password'] {
+    min-height: 46px;
+    margin-top: 8px;
+    padding: 0 13px;
+    border: 1px solid #475569;
+    border-radius: 8px;
+    background: #0f1d37;
+    color: #ffffff;
+    box-shadow: none;
+}
+
+.login form input:focus {
+    border-color: #35ad68;
+    box-shadow: 0 0 0 2px rgba(53, 173, 104, 0.2);
+}
+
+.login .wp-pwd .button.wp-hide-pw {
+    top: 11px;
+    right: 0;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    transform: none;
+}
+
+.login .wp-pwd .button.wp-hide-pw .dashicons {
+    display: block;
+    margin: 0;
+}
+
+.login form p.forgetmenot {
+    display: flex;
+    float: none;
+    align-items: center;
+    gap: 6px;
+    min-height: 20px;
+    margin: 2px 0 0;
+}
+
+.login form p.forgetmenot input[type='checkbox'] {
+    flex: 0 0 16px;
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+    margin: 0;
+}
+
+.login form p.forgetmenot label {
+    margin: 0;
+}
+
+.login form p.forgetmenot .wp-tooltip,
+.login form p.forgetmenot .wp-tooltip__toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.login form p.forgetmenot .wp-tooltip__toggle {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+}
+
+.login form p.forgetmenot .wp-tooltip__toggle .dashicons {
+    margin: 0;
+}
+
+.login form .forgetmenot label {
+    color: #94a3b8;
+    font-weight: 400;
+}
+
+.login #login form p.submit {
+    clear: both;
+    float: none;
+    margin: 28px 0 0;
+}
+
+.login form .button-primary {
+    width: 100%;
+    height: 41px;
+    min-height: 41px;
+    border: 0;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #43b263 0%, #3ba295 35%, #7147a7 100%);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.login form .button-primary:hover,
+.login form .button-primary:focus {
+    background: linear-gradient(90deg, #51c174 0%, #45b2a4 35%, #8157b7 100%);
+}
+
+.login #nav,
+.login #backtoblog {
+    margin: 18px 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+.login #backtoblog {
+    display: none;
+}
+
+.login #nav a,
+.login #backtoblog a,
+.login .privacy-policy-page-link a {
+    color: #9bdcc0;
+    font-size: 13px;
+}
+
+.login #nav a:hover,
+.login #backtoblog a:hover,
+.login .privacy-policy-page-link a:hover {
+    color: #ffffff;
+}
+
+.login .message,
+.login .notice,
+.login #login_error {
+    margin: 0 0 18px;
+    border-left: 4px solid #35ad68;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.95);
+    color: #1e293b;
+}
+
+.login .notice-error {
+    border-left-color: #ef4444;
+}
+
+.login .privacy-policy-page-link {
+    margin-top: 24px;
+}
+
+@media (max-width: 480px) {
+    body.login #login {
+        width: min(100% - 24px, 440px);
+    }
+
+    .login form {
+        padding: 24px 20px;
+    }
+}
