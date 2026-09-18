@@ -1,0 +1,63 @@
+{
+	"ohio-sidebar-blog": {
+		"block-2": {
+			"content": "<!-- wp:search /-->"
+		},
+		"block-3": {
+			"content": "<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Recent Posts</h2><!-- /wp:heading --><!-- wp:latest-posts /--></div><!-- /wp:group -->"
+		},
+		"block-4": {
+			"content": "<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Recent Comments</h2><!-- /wp:heading --><!-- wp:latest-comments {\"displayAvatar\":false,\"displayDate\":false,\"displayExcerpt\":false} /--></div><!-- /wp:group -->"
+		}
+	},
+	"ohio-sidebar-page": {
+		"block-5": {
+			"content": "<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Archives</h2><!-- /wp:heading --><!-- wp:archives /--></div><!-- /wp:group -->"
+		},
+		"block-6": {
+			"content": "<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Categories</h2><!-- /wp:heading --><!-- wp:categories /--></div><!-- /wp:group -->"
+		}
+	},
+	"ohio-sidebar-footer-1": {
+		"block-7": {
+			"content": "Aert van Nesstraat<br>\nLote 25, 3012 CA, 5320-430<br>\n<b>Rotterdam,</b><br>\n<b>the Netherlands</b>"
+		},
+		"block-12": {
+			"content": "GPS<br>\nN 64° 35' 84.36\"<br>\nW 5° 45' 6.20\"<br>\n<a href=\"#\" target=\"_blank\"><b>Get Direction</b></a>"
+		},
+		"block-13": {
+			"content": "Call<br>\n<a href=\"#\" target=\"_blank\"><b>+330.563.599.230</b></a>"
+		}
+	},
+	"ohio-sidebar-footer-2": {
+		"block-8": {
+			"content": "Witte de Withstraat<br>\nLote 50, 3012 BR, 6518-25<br>\n<b>Groningen,</b><br>\n<b>the Netherlands</b>"
+		},
+		"block-9": {
+			"content": "GPS<br>\nN 64° 35' 84.36\"<br>\nW 5° 45' 6.20\"<br>\n<a href=\"#\" target=\"_blank\"><b>Get Direction</b></a>"
+		},
+		"block-14": {
+			"content": "Call<br>\n<a href=\"#\" target=\"_blank\"><b>+330.269.699.230</b></a>"
+		}
+	},
+	"ohio-sidebar-footer-3": {
+		"block-10": {
+			"content": "General questions<br>\n<a href=\"#\" target=\"_blank\"><b>hello@clbthemes.com</b></a>"
+		},
+		"block-11": {
+			"content": "New business enquiries<br>\n<a href=\"#\" target=\"_blank\"><b>work@clbthemes.com</b></a>"
+		},
+		"block-15": {
+			"content": "<a href=\"#\" target=\"_blank\"><b>Facebook</b></a><br>\n<a href=\"#\" target=\"_blank\"><b>Twitter</b></a><br>\n<a href=\"#\" target=\"_blank\"><b>Instagram</b></a><br>\n<a href=\"#\" target=\"_blank\"><b>Behance</b></a><br>\n<a href=\"#\" target=\"_blank\"><b>Medium</b></a>"
+		}
+	},
+	"ohio-sidebar-footer-4": {
+		"block-16": {
+			"content": "<h3 style=\"color:inherit;\">Disrupting the<br class=\"vc_hiddden-xs\">\nordinary in brand<br class=\"vc_hiddden-xs\">\n& digital design.\n</h3>"
+		},
+		"ohio_widget_subscribe-3": {
+			"title": "",
+			"feedburner": "5"
+		}
+	}
+}

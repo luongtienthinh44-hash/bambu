@@ -1,0 +1,2820 @@
+# Copyright (C) 2026 BambuUP
+# This file is distributed under the same license as the Bambu theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bambu 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/bambu\n"
+"Last-Translator: \n"
+"Language-Team: Vietnamese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-18T16:22:56+08:00\n"
+"PO-Revision-Date: 2026-09-18 08:32+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: bambu\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.8.8; wp-7.1; php-8.1.32"
+
+#: footer.php:94
+msgid "&copy;"
+msgstr "và sao chép;"
+
+#: page-our-people.php:38
+msgid "&ldquo;"
+msgstr "&ghế sofa;"
+
+#: page-innovation-intelligence.php:270
+msgid "&lsaquo; Previous"
+msgstr "&lsaquo Đó"
+
+#: footer.php:28
+msgid "01 Nguyen Huu An Street, Cau Giay Ward."
+msgstr "01 Nguyễn Hữu Một Cầu Giấy Ward."
+
+#: page-detail.php:112
+msgid "1. Opportunity overview"
+msgstr "1. Cơ hội tổng"
+
+#: front-page.php:449
+msgid "12 weeks"
+msgstr "12 tuần"
+
+#: page-detail.php:164
+msgid "16S rRNA gene sequencing."
+msgstr "16 rRNA chuỗi gen."
+
+#: page-detail.php:138
+msgid "2. What we are looking for"
+msgstr "2. Những gì chúng tôi đang tìm kiếm"
+
+#: page-detail.php:149
+msgid "3. Must-have requirements"
+msgstr "3. -Phải có yêu cầu"
+
+#: page-detail.php:61
+msgid "30 Nov 2026"
+msgstr "30 Tháng 2026"
+
+#: front-page.php:443
+msgid "30 Oct 2026"
+msgstr "30 Tháng mười năm 2026"
+
+#: page-detail.php:181
+msgid "4. Nice to have"
+msgstr "4. Tốt đẹp để có"
+
+#: page-detail.php:195
+msgid "5. Related Keywords"
+msgstr "5. Từ Khóa Liên Quan"
+
+#: page-community.php:110
+msgid "6 min read • Case Study"
+msgstr "6 phút đọc • Nghiên cứu"
+
+#: footer.php:32
+msgid "7th Floor, 123 Truong Dinh Street, Xuan Hoa Ward"
+msgstr "Tầng 7, 123 Trương Định Xuân Hòa Ward"
+
+#: footer.php:35
+msgid "[E] info@bambuup.com"
+msgstr ""
+
+#: page-about-us.php:123
+msgid "A decade of building"
+msgstr "Một thập niên của tòa nhà"
+
+#: front-page.php:332
+msgid ""
+"A decision platform\n"
+"                                        designed to identify risk early"
+msgstr "Một quyết định nền tảng được thiết kế để nhận rủi ro sớm"
+
+#: page-about-us.php:68
+msgid "A one-stop open innovation platform"
+msgstr "Một sự đổi mới mở nền tảng"
+
+#: front-page.php:24
+msgid ""
+"A one-stop open innovation platform to facilitate meaningful connection "
+"between Innovation Seekers & Innovation Providers"
+msgstr ""
+"Một sự đổi mới mở nền tảng để tạo kết nối có ý nghĩa giữa sự Đổi mới Người "
+"và Đổi mới, các nhà cung Cấp"
+
+#: page-detail.php:125
+msgid ""
+"A proven ability to shift the\n"
+"                                    oral microbiome composition from a "
+"dysbiotic to a eubiotic state."
+msgstr ""
+"Một chứng minh khả năng thay đổi miệng vi sinh phần từ một dysbiotic để một "
+"eubiotic nước."
+
+#: page-detail.php:127
+msgid ""
+"A targeted reduction of key\n"
+"                                    pathogenic species associated with "
+"gingivitis."
+msgstr "Một mục tiêu giảm chìa khóa loài gây bệnh kết hợp với bệnh viêm lợi."
+
+#: header.php:58
+msgid "ABOUT BAMBUUP"
+msgstr "VỀ BAMBUUP"
+
+#: footer.php:87 header.php:66
+msgid "About BambuUP"
+msgstr "Về BambuUP"
+
+#: acf/global-sections-options.php:55
+msgid "About Us"
+msgstr "Về Chúng Tôi"
+
+#: page-detail.php:102
+msgid "About us"
+msgstr "Về chúng tôi"
+
+#: front-page.php:68
+msgid "Accelerated cohorts and scalable"
+msgstr "Tăng tốc đội quân, và mở rộng"
+
+#: header.php:102 page-startup.php:74
+msgid "Accelerator Programmes"
+msgstr "Chương Trình Gia Tốc"
+
+#: front-page.php:204 header.php:158
+msgid "Accelerator-as-a-Service"
+msgstr "Máy gia tốc-như-dịch Vụ"
+
+#: page-community.php:66
+msgid "Accepts International Submissions"
+msgstr "Chấp Nhận Quốc Tế Nộp"
+
+#: footer.php:64
+msgid "ACCESS"
+msgstr "TRUY cập"
+
+#: page-challenge-hub.php:71
+msgid ""
+"Access a global network of innovation demand, solution capabilities and "
+"strategic partnerships"
+msgstr ""
+"Truy cập mạng lưới toàn cầu của sự đổi mới yêu cầu, khả năng giải pháp và "
+"đối tác chiến lược"
+
+#: page-challenge-hub.php:79
+msgid ""
+"Access innovation demand, solution capabilities and collaboration "
+"opportunities across Vietnam's innovation ecosystem"
+msgstr ""
+"Đổi mới truy cập nhu cầu, khả năng giải pháp và cơ hội hợp tác trên khắp "
+"nước Việt nam của sự đổi mới hệ sinh thái"
+
+#: page-data-report.php:88
+msgid ""
+"Access structured data, technology intelligence and ecosystem insights to "
+"discover opportunities faster"
+msgstr ""
+"Truy cập vào dữ liệu có cấu trúc, công nghệ thông minh và hệ sinh thái hiểu "
+"biết để khám phá nhanh hơn cơ hội"
+
+#: page-startup.php:97
+msgid "Access the connections behind innovation"
+msgstr "Truy cập vào các kết nối đằng sau sự đổi mới"
+
+#: page-our-people.php:38
+msgid ""
+"access the right data, technologies and partnerships faster than everyone "
+"else&rdquo;"
+msgstr ""
+"truy cập vào dữ liệu công nghệ và quan hệ đối tác nhanh hơn so với tất cả "
+"mọi người khác và khuyến mãi lớn tuyệt vời;"
+
+#: front-page.php:550
+msgid "across Southeast Asia."
+msgstr "ở Đông nam Á."
+
+#: header.php:158
+msgid ""
+"Activate ecosystems and scale high-potential ventures with targeted support"
+msgstr ""
+"Kích hoạt hệ sinh thái và quy mô cao tiềm năng doanh với mục tiêu hỗ trợ"
+
+#: page-challenge-hub.php:82
+msgid "Active Challenges"
+msgstr "Thách Thức Hoạt Động"
+
+#: page-data-report.php:93
+msgid "Active Nodes: 1,420+"
+msgstr "Hoạt Động Nút: 1,420+"
+
+#: front-page.php:546
+msgid "activity to advantage"
+msgstr "hoạt động thế"
+
+#: acf/global-sections-options.php:43
+msgid "Add hero"
+msgstr "Thêm anh hùng"
+
+#: functions.php:276
+msgid "Add New"
+msgstr "Thêm Mới"
+
+#: functions.php:277
+msgid "Add New Opportunity"
+msgstr "Thêm Cơ Hội Mới"
+
+#: functions.php:317
+msgid "Add New Opportunity Category"
+msgstr "Thêm Cơ Hội Mới Mục"
+
+#: functions.php:341
+msgid "Add New Opportunity Tag"
+msgstr "Thêm Cơ Hội Mới Tag"
+
+#: functions.php:370
+msgid "Add New Opportunity Type"
+msgstr "Thêm Cơ Hội Mới Loại"
+
+#: functions.php:346
+msgid "Add or remove tags"
+msgstr "Thêm hoặc bỏ thẻ"
+
+#: acf/global-sections-options.php:163
+msgid "Add partner"
+msgstr "Thêm đối tác"
+
+#: functions.php:392
+msgid "Add widgets here."
+msgstr "Thêm vật dụng ở đây."
+
+#: front-page.php:321
+msgid "AI &amp; Analytics"
+msgstr "AI và phân Tích"
+
+#: front-page.php:471
+msgid ""
+"AI Accelerator\n"
+"                                        Programme"
+msgstr "AI chương Trình gia Tốc"
+
+#: page-detail.php:382
+msgid "AI-powered supply chain rider volatility platform"
+msgstr "AI cung cấp chuỗi rider biến động nền tảng"
+
+#: page-detail.php:340
+msgid "AI-powered supply chain visibility platform"
+msgstr "AI cung cấp chuỗi nền tảng"
+
+#: page-challenge-hub.php:104
+msgid "All Challenges"
+msgstr "Tất Cả Những Thách Thức"
+
+#: functions.php:285
+msgid "All Opportunities"
+msgstr "Tất Cả Những Cơ Hội"
+
+#: functions.php:312
+msgid "All Opportunity Categories"
+msgstr "Tất Cả Các Cơ Hội Loại"
+
+#: functions.php:338
+msgid "All Opportunity Tags"
+msgstr "Tất Cả Các Cơ Hội Tags"
+
+#: functions.php:367
+msgid "All Opportunity Types"
+msgstr "Tất Cả Các Cơ Hội Loại"
+
+#: acf/innovation-intelligence-options.php:98
+msgid "All tab label"
+msgstr "Tất cả tab nhãn"
+
+#: front-page.php:333
+msgid ""
+"and improve\n"
+"                                        operational response through real-"
+"time"
+msgstr "và cải thiện hoạt động phản ứng qua thời gian thực"
+
+#: page-detail.php:159
+msgid "Antimicrobial activity in multispecies oral biofilm models"
+msgstr "Kháng sinh hoạt động trong đa loài miệng sinh học mô hình"
+
+#: page-detail.php:366 page-detail.php:408
+msgid "Available for"
+msgstr "Sẵn cho"
+
+#. Theme Name of the theme
+#: style.css footer.php:16 header.php:28
+msgid "Bambu"
+msgstr "Ngang"
+
+#. Template Name of the theme
+msgid "Bambu - About Us"
+msgstr "Ngang - Về Chúng Tôi"
+
+#. Template Name of the theme
+msgid "Bambu - Challenge Hub"
+msgstr "Ngang Thách Thức Trung Tâm"
+
+#. Template Name of the theme
+msgid "Bambu - Community"
+msgstr "Ngang - Cộng Đồng"
+
+#. Template Name of the theme
+msgid "Bambu - Contact Us"
+msgstr "Ngang - Liên Lạc Với Chúng Tôi"
+
+#. Template Name of the theme
+msgid "Bambu - Data & Report"
+msgstr "Ngang - Dữ Liệu Và Báo Cáo"
+
+#. Template Name of the theme
+msgid "Bambu - Detail"
+msgstr "Ngang - Chi Tiết"
+
+#. Template Name of the theme
+msgid "Bambu - Home"
+msgstr "Ngang - Nhà"
+
+#. Template Name of the theme
+msgid "Bambu - Innovation"
+msgstr "Ngang - Sáng Tạo"
+
+#. Template Name of the theme
+msgid "Bambu - Innovation Intelligence"
+msgstr "Ngang - Sự Đổi Mới, Trí Thông Minh"
+
+#. Template Name of the theme
+msgid "Bambu - Innovation-as-a-Service"
+msgstr "Ngang - sáng tạo-như-dịch Vụ"
+
+#. Template Name of the theme
+msgid "Bambu - IP Research"
+msgstr "Ngang - IP Nghiên cứu"
+
+#. Template Name of the theme
+msgid "Bambu - Our People"
+msgstr "Ngang - Người Của Chúng Tôi"
+
+#. Template Name of the theme
+msgid "Bambu - Our Services"
+msgstr "Ngang - Dịch Vụ Của Chúng Tôi"
+
+#. Template Name of the theme
+msgid "Bambu - Pricing"
+msgstr "Ngang - Giá Cả"
+
+#. Template Name of the theme
+msgid "Bambu - Register"
+msgstr "Ngang - Đăng Ký"
+
+#. Template Name of the theme
+msgid "Bambu - Startups"
+msgstr "Ngang - Khởi Động"
+
+#. Author of the theme
+#: style.css
+msgid "BambuUP"
+msgstr "BambuUP"
+
+#. Description of the theme
+#: style.css
+msgid "BambuUP custom classic WordPress theme."
+msgstr "BambuUP chỉnh cổ điển theme"
+
+#: page-data-report.php:86
+msgid "BambuUP Data Room"
+msgstr "BambuUP Dữ Liệu Phòng"
+
+#: footer.php:14 header.php:26
+msgid "BambuUP home"
+msgstr "BambuUP nhà"
+
+#: front-page.php:663
+msgid ""
+"BambuUP is a great partner throughout the process of implementing projects "
+"with IPSC, especially in the Innovation for Enterprise workshops, with a "
+"team of knowledgeable lecturers and experts"
+msgstr ""
+"BambuUP là một đối tác trong suốt quá trình thực hiện các dự án đặc biệt, "
+"đặc biệt là trong sự Đổi mới cho Nhân hội thảo, với một đội của hiểu biết và "
+"giảng viên chuyên gia"
+
+#: page-about-us.php:71
+msgid "BambuUP platform video preview"
+msgstr "BambuUP nền tảng trước video"
+
+#: header.php:84
+msgid "BambuUP team collaboration"
+msgstr "BambuUP đội hợp tác"
+
+#: footer.php:94
+msgid ""
+"BambuUP. All rights reserved. Empowering Asia's Open Innovation Ecosystem."
+msgstr ""
+"BambuUP. Tất cả các quyền. Nâng cao vị thế của châu Á Đổi mới Mở hệ sinh "
+"Thái."
+
+#: page-our-services.php:124
+msgid "Best matched with"
+msgstr "Tốt nhất phù hợp với"
+
+#: page-data-report.php:72
+msgid ""
+"Beyond running time-bound cohorts, accelerators are now expected to connect "
+"stakeholders, reduce uncertainty..."
+msgstr ""
+"Ngoài chạy thời gian quân tăng tốc đang mong đợi để kết nối bên giảm sự "
+"không chắc chắn..."
+
+#: front-page.php:367
+msgid "Bio-based"
+msgstr "Sinh học dựa"
+
+#: page-detail.php:168
+msgid "Biological Relevance"
+msgstr "Sự Liên Quan Sinh Học"
+
+#: page-our-people.php:57
+msgid "BOARD OF DIRECTORS"
+msgstr "BAN GIÁM ĐỐC"
+
+#: acf/global-sections-options.php:60
+#: acf/innovation-intelligence-options.php:29
+msgid "Breadcrumb title"
+msgstr "Mẩu bánh mì đề"
+
+#: page-our-people.php:132
+msgid "Bring your perspective"
+msgstr "Mang theo quan điểm của bạn"
+
+#: header.php:154
+msgid ""
+"Build a repeatable innovation process and execution roadmap for long-term "
+"growth"
+msgstr ""
+"Xây dựng một lặp lại sự đổi mới quá trình và thực hiện lộ trình tăng trưởng "
+"dài hạn"
+
+#: front-page.php:208
+msgid ""
+"Build and scale accelerator\n"
+"                                    programmes that drive meaningful "
+"collaboration and measurable business outcomes"
+msgstr ""
+"Xây dựng và thang máy gia tốc chương trình mà lái xe có ý nghĩa hợp tác và "
+"đo được kết quả kinh doanh"
+
+#: front-page.php:435
+msgid ""
+"Build the infrastructure for a\n"
+"                                    resilient,"
+msgstr "Xây dựng cơ sở hạ tầng cho một khả năng hồi phục,"
+
+#: page-startup.php:73
+msgid "Build venture readiness"
+msgstr "Xây dựng sẵn sàng mạo hiểm"
+
+#: header.php:124
+msgid "Build visible, connected regional ecosystems"
+msgstr "Xây dựng có thể nhìn thấy được kết nối hệ sinh thái của khu vực"
+
+#: page-about-us.php:112
+msgid ""
+"Built around a simple belief: the right connection can change what is "
+"possible"
+msgstr ""
+"Được xây dựng dựa trên niềm tin đơn giản: quyền kết nối có thể thay đổi "
+"những gì có thể"
+
+#: page-our-services.php:110
+msgid "Built around your role in the ecosystem"
+msgstr "Được xây dựng trên vai trò của mình trong hệ sinh thái"
+
+#: header.php:59
+msgid "Built to connect innovation"
+msgstr "Được xây dựng để kết nối đổi mới"
+
+#: page-pricing.php:201
+msgid "BUSINESS"
+msgstr "Kinh DOANH"
+
+#: acf/innovation-intelligence-options.php:147
+msgid "Business Problem filter label"
+msgstr "Vấn Đề kinh doanh lọc nhãn"
+
+#: front-page.php:289
+msgid ""
+"carbon\n"
+"                                        without compromising operational"
+msgstr "carbon mà không làm ảnh hưởng đến hoạt động"
+
+#: footer.php:88
+msgid "Careers"
+msgstr "Nghề nghiệp"
+
+#: footer.php:79 header.php:193
+msgid "Case Studies"
+msgstr "Nghiên Cứu"
+
+#: front-page.php:556
+msgid "CASE STUDY"
+msgstr "NGHIÊN CỨU"
+
+#: page-startup.php:177
+msgid "Case Study"
+msgstr "Nghiên Cứu"
+
+#: functions.php:311 page-community.php:63
+msgid "Categories"
+msgstr "Loại"
+
+#: acf/innovation-intelligence-options.php:133
+msgid "Categories filter label"
+msgstr "Loại lọc nhãn"
+
+#: page-challenge-hub.php:103
+msgid "Challenge categories"
+msgstr "Thách thức loại"
+
+#: front-page.php:399
+msgid "CHALLENGE HUB"
+msgstr "THÁCH THỨC TRUNG TÂM"
+
+#: header.php:101 header.php:109 header.php:125 header.php:135
+#: page-startup.php:65
+msgid "Challenge Hub"
+msgstr "Thách Thức Trung Tâm"
+
+#: footer.php:56
+msgid "Challenges Hubs"
+msgstr "Thách Thức Trung Tâm"
+
+#: page-our-people.php:70 page-our-people.php:99
+msgid "Chief Executive Officer"
+msgstr "Giám Đốc Điều Hành"
+
+#: page-our-people.php:41
+msgid "Chief Executive Officer - BambuUP"
+msgstr "Giám Đốc Điều Hành - BambuUP"
+
+#: page-our-people.php:79 page-our-people.php:108
+msgid "Chief Growth Officer"
+msgstr "Trưởng Tăng Trưởng Sĩ Quan"
+
+#: page-our-people.php:88 page-our-people.php:117
+msgid "Chief Operating Officer"
+msgstr "Giám Đốc Điều Hành"
+
+#: functions.php:347
+msgid "Choose from the most used tags"
+msgstr "Chọn từ nhất dùng loại"
+
+#: front-page.php:370
+msgid "Circular"
+msgstr "Tròn"
+
+#: page-community.php:110
+msgid "Cleantech &amp; AI"
+msgstr "Công nghệ sạch và AI"
+
+#: acf/innovation-intelligence-options.php:105
+msgid "Clear filters text"
+msgstr "Rõ ràng bộ lọc văn bản"
+
+#: page-challenge-hub.php:87
+msgid "Climate tech"
+msgstr "Khí hậu tech"
+
+#: page-detail.php:82
+msgid "Co-development / Licensing"
+msgstr "Co-phát triển / cấp giấy Phép"
+
+#: page-detail.php:101
+msgid "Collaboration"
+msgstr "Sự hợp tác"
+
+#: page-detail.php:81
+msgid "Collaboration:"
+msgstr "Phối hợp:"
+
+#: page-startup.php:107
+msgid "Commercial pilots and partnerships launched through the platform."
+msgstr "Phi công thương mại và quan hệ đối tác đưa ra thông qua các nền tảng."
+
+#: front-page.php:80
+msgid "Commercial pilots converted to"
+msgstr "Phi công thương mại chuyển đến"
+
+#: page-about-us.php:123
+msgid "community &amp; momentum"
+msgstr "cộng đồng và đà"
+
+#: page-community.php:60
+msgid "Community content filters"
+msgstr "Nội dung cộng đồng bộ lọc"
+
+#: footer.php:85
+msgid "COMPANY"
+msgstr "Công TY"
+
+#: page-pricing.php:193
+msgid "Compare all plan features"
+msgstr "So sánh tất cả các kế hoạch"
+
+#: header.php:167
+msgid "Configure a service around your objectives"
+msgstr "Cấu hình một vụ xung quanh mục tiêu của bạn"
+
+#: page-detail.php:349 page-detail.php:370 page-detail.php:391
+#: page-detail.php:412 page-innovation-intelligence.php:261
+msgid "Connect"
+msgstr "Kết nối"
+
+#: header.php:162
+msgid ""
+"Connect capital with strategic growth opportunities and ecosystem partners"
+msgstr "Kết nối vốn với chiến lược, cơ hội tăng trưởng và hệ sinh thái đối tác"
+
+#: header.php:116
+msgid "Connect research with commercial opportunity"
+msgstr "Kết nối nghiên cứu thương mại cơ hội"
+
+#: front-page.php:20
+msgid "Connect to"
+msgstr "Kết nối đến"
+
+#: footer.php:19 header.php:37
+msgid "CONNECT TO INNOVATE"
+msgstr "KẾT NỐI ĐỂ ĐỔI MỚI"
+
+#: page-our-people.php:138
+msgid "Connect with our team"
+msgstr "Kết nối với đội ngũ của chúng tôi"
+
+#: page-about-us.php:114
+msgid "Connect with our team ↗"
+msgstr ""
+
+#: functions.php:203
+msgid "Connected"
+msgstr "Kết nối"
+
+#: front-page.php:164 header.php:146 page-our-services.php:50
+msgid "Connecting Innovation"
+msgstr "Đổi Mới Kết Nối"
+
+#: page-detail.php:363 page-detail.php:405
+msgid "Consumer Goods Company"
+msgstr "Công Ty Hàng Tiêu Dùng"
+
+#: page-detail.php:271
+msgid "Contact BambuUP support →"
+msgstr ""
+
+#: header.php:171
+msgid "Contact form"
+msgstr "Hình thức liên lạc"
+
+#: header.php:229
+msgid "Contact Us"
+msgstr "Liên Lạc Với Chúng Tôi"
+
+#: page-pricing.php:223
+msgid "Contact us ↗"
+msgstr ""
+
+#: page-data-report.php:49
+msgid "Content type"
+msgstr "Loại nội dung"
+
+#: footer.php:100
+msgid "Cookie Settings"
+msgstr "Cài Đặt Cookie"
+
+#: page-detail.php:302
+msgid "Copy link"
+msgstr "Sao chép liên kết"
+
+#: page-innovation-as-a-service.php:110
+msgid "Core activities"
+msgstr "Lõi hoạt động"
+
+#: header.php:152
+msgid "CORE SERVICES"
+msgstr "LÕI DỊCH VỤ"
+
+#: header.php:107
+msgid "Corporations"
+msgstr "Tập đoàn"
+
+#: page-detail.php:169
+msgid "Cosmetic, medical device, or food supplement"
+msgstr "Thẩm mỹ thiết bị y tế, hay thức ăn bổ sung"
+
+#: front-page.php:164 header.php:146 page-our-services.php:50
+msgid "Creating Impact"
+msgstr "Tạo Tác Động"
+
+#: acf/global-sections-options.php:112
+msgid "CTA banner"
+msgstr "Cố vấn trưởng banner"
+
+#: acf/global-sections-options.php:132
+msgid "CTA button text"
+msgstr "Cố vấn trưởng văn bản nút"
+
+#: acf/global-sections-options.php:139
+msgid "CTA button URL"
+msgstr "Cố vấn trưởng nút URL"
+
+#: acf/global-sections-options.php:125
+msgid "CTA description"
+msgstr "Cố vấn trưởng mô tả"
+
+#: acf/global-sections-options.php:118
+msgid "CTA title"
+msgstr "Cố vấn trưởng đề"
+
+#: page-about-us.php:111
+msgid "Curious minds"
+msgstr "Tâm trí tò mò"
+
+#: page-startup.php:164
+msgid "Data &amp; Reports"
+msgstr "Dữ liệu và báo Cáo"
+
+#: header.php:134 header.php:201
+msgid "Data Room"
+msgstr "Dữ Liệu Phòng"
+
+#: front-page.php:441 page-challenge-hub.php:166
+msgid "Deadline"
+msgstr "Hạn chót"
+
+#: page-detail.php:60
+msgid "Deadline:"
+msgstr "Hạn chót:"
+
+#: page-detail.php:122
+msgid "Desired outcome"
+msgstr "Quả mong muốn"
+
+#: page-detail.php:67
+msgid "Development Stage:"
+msgstr "Giai Đoạn Phát Triển:"
+
+#: page-about-us.php:133
+msgid ""
+"Different ambitions require different pathways. Explore how BambuUP connects "
+"each participant with the services, opportunities and partners most relevant "
+"to them"
+msgstr ""
+"Tham vọng khác nhau yêu cầu con đường khác nhau. Khám phá làm thế nào "
+"BambuUP kết nối mỗi người tham gia với các dịch vụ cơ hội và các đối tác "
+"nhất có liên quan đến họ"
+
+#: page-our-services.php:112
+msgid ""
+"Different ambitions require different pathways. Explore how BambuUP connects "
+"each participant with the services, opportunities and partners most relevant "
+"to them."
+msgstr ""
+"Tham vọng khác nhau yêu cầu con đường khác nhau. Khám phá làm thế nào "
+"BambuUP kết nối mỗi người tham gia với các dịch vụ cơ hội và các đối tác có "
+"liên quan nhất để họ."
+
+#: front-page.php:328
+msgid "Digital Tech"
+msgstr "Kỹ Thuật Công Nghệ Cao"
+
+#: page-detail.php:407
+msgid "Digitization"
+msgstr "Số hóa"
+
+#: front-page.php:633
+msgid "Director of Sales at HM Foods Company (BFC Group)"
+msgstr "Giám đốc kinh Doanh tại HM công Ty thực Phẩm (ĐỐI với Nhóm)"
+
+#: page-detail.php:30
+msgid ""
+"Discover business needs, explore innovative solutions, and connect with the "
+"right\n"
+"                partners."
+msgstr ""
+"Khám phá kinh doanh cần khám phá giải pháp sáng tạo, và kết nối với các đối "
+"tác quyền."
+
+#: page-community.php:110
+msgid ""
+"Discover how an innovative mobility venture built a proprietary battery-"
+"swapping network and AI fleet platform, partnering with regional enterprises "
+"to drive net-zero logistics across urban transit hubs."
+msgstr ""
+"Khám phá làm thế nào một sáng tạo di động liên xây dựng một độc quyền pin-"
+"trao đổi mạng và AI hạm đội nền tảng phát triển khu vực doanh nghiệp để lái "
+"xe net-zero hậu cần qua vận chuyển đô thị trung tâm."
+
+#: page-startup.php:98
+msgid ""
+"Discover opportunities, build strategic partnerships and engage with "
+"innovation leaders across global ecosystems"
+msgstr ""
+"Khám phá cơ hội xây dựng chiến lược, quan hệ hợp tác, và tham gia với sự đổi "
+"mới các nhà lãnh đạo trên toàn cầu hệ sinh thái"
+
+#: header.php:205
+msgid "Discover relevant ventures"
+msgstr "Khám phá có liên quan doanh"
+
+#: front-page.php:117
+msgid ""
+"Discover solutions that\n"
+"                                    accelerate business transformation"
+msgstr "Khám phá giải pháp tăng tốc chuyển đổi kinh doanh"
+
+#: header.php:86
+msgid "Discover the ecosystem"
+msgstr "Khám phá hệ sinh thái"
+
+#: header.php:132
+msgid "Discover ventures and support innovation programmes"
+msgstr "Khám phá liên và hỗ trợ sự đổi mới chương trình"
+
+#: header.php:171
+msgid "Discuss your innovation priorities"
+msgstr "Thảo luận của sự đổi mới ưu tiên"
+
+#: front-page.php:376
+msgid "distribution chains."
+msgstr "dây chuyền phân phối."
+
+#: page-detail.php:288
+msgid "Do I have to reveal confidential information?"
+msgstr "Tôi đã để lộ bí mật thông tin?"
+
+#: page-detail.php:290
+msgid "Do I need to sign an NDA before submitting?"
+msgstr "Tôi phải ký một NĂM trước khi trình?"
+
+#: front-page.php:647
+msgid "Douglas Kuo"
+msgstr "Douglas Quốc"
+
+#: header.php:147
+msgid ""
+"Each engagement is configured around your priorities, internal readiness and "
+"desired outcomes—while following a clear path towards action"
+msgstr ""
+"Mỗi tham gia được cấu hình xung quanh ưu tiên của bạn, nội bộ sẵn sàng và "
+"mong muốn kết quả—trong khi sau một con đường rõ ràng đối với hành động"
+
+#: footer.php:57
+msgid "Ecosystem Map"
+msgstr "Hệ Sinh Thái Bản Đồ"
+
+#: page-startup.php:101
+msgid "Ecosystem orbit graphic"
+msgstr "Hệ sinh thái quỹ đạo đồ họa"
+
+#: functions.php:278
+msgid "Edit Opportunity"
+msgstr "Chỉnh Sửa Cơ Hội"
+
+#: functions.php:315
+msgid "Edit Opportunity Category"
+msgstr "Chỉnh Sửa Cơ Hội Mục"
+
+#: functions.php:339
+msgid "Edit Opportunity Tag"
+msgstr "Chỉnh Sửa Cơ Hội Tag"
+
+#: functions.php:368
+msgid "Edit Opportunity Type"
+msgstr "Chỉnh Sửa Cơ Hội Loại"
+
+#: front-page.php:56
+msgid "emerging high-impact sectors"
+msgstr "mới tác động cao lĩnh vực"
+
+#: header.php:243
+msgid "EN"
+msgstr "VI"
+
+#: page-challenge-hub.php:87
+msgid "Enterprise AI"
+msgstr "Enterprise AI"
+
+#: footer.php:59
+msgid "Enterprise PoC"
+msgstr "Enterprise PoC"
+
+#: front-page.php:375
+msgid ""
+"enterprise-level deployment across\n"
+"                                        diverse"
+msgstr "cấp doanh nghiệp triển khai trên khắp đa dạng"
+
+#: front-page.php:590
+msgid "EVENT"
+msgstr "Sự KIỆN"
+
+#: page-startup.php:179
+msgid "Event"
+msgstr "Sự kiện"
+
+#: page-community.php:94
+msgid "Events &amp; Webinars"
+msgstr "Sự kiện và hội Thảo"
+
+#: page-about-us.php:148
+msgid ""
+"Every participant enters with a different ambition. BambuUP helps each one "
+"find the intelligence, opportunities, partners and programmes most relevant "
+"to their role"
+msgstr ""
+"Mọi người tham gia vào với khác tham vọng. BambuUP giúp mỗi người tìm thấy "
+"những thông minh cơ hội, và chương trình các đối tác có liên quan nhất để "
+"vai trò của họ"
+
+#: front-page.php:431
+msgid "Exclusive"
+msgstr "Độc quyền"
+
+#: page-our-people.php:58
+msgid "EXECUTIVE OFFICERS"
+msgstr "GIÁM ĐỐC ĐIỀU HÀNH"
+
+#: front-page.php:44
+msgid "expertise, access and opportunity"
+msgstr "chuyên môn truy cập, và cơ hội"
+
+#: front-page.php:406 front-page.php:407
+msgid "Explore all challenges"
+msgstr "Khám phá những thách thức tất cả"
+
+#: front-page.php:527 front-page.php:529 page-startup.php:167
+msgid "Explore all insights"
+msgstr "Khám phá tất cả những hiểu biết"
+
+#: header.php:148
+msgid "Explore all services"
+msgstr "Khám phá tất cả dịch vụ"
+
+#: header.php:61
+msgid "Explore BambuUP"
+msgstr "Khám Phá BambuUP"
+
+#: header.php:188 page-data-report.php:89
+msgid "Explore Data &amp; Report"
+msgstr "Khám phá dữ Liệu và báo Cáo"
+
+#: front-page.php:122
+msgid ""
+"Explore innovation\n"
+"                                        needs"
+msgstr "Khám phá mới cần"
+
+#: page-community.php:94
+msgid "Explore more Events"
+msgstr "Khám phá thêm sự Kiện"
+
+#: page-our-people.php:143
+msgid "Explore opportunities"
+msgstr "Tìm kiếm cơ hội"
+
+#: front-page.php:28
+msgid "Explore Our Innovations"
+msgstr "Khám Phá Của Chúng Tôi Đổi Mới"
+
+#: page-startup.php:77
+msgid "Explore programmes"
+msgstr "Khám phá chương trình"
+
+#: page-startup.php:99
+msgid "Explore the ecosystem"
+msgstr "Khám phá những hệ sinh thái"
+
+#: footer.php:39
+msgid "Facebook"
+msgstr "Facebook"
+
+#: page-detail.php:282
+msgid "FAQs"
+msgstr "Câu hỏi"
+
+#: page-community.php:110
+msgid "FEATURED CASE • SELEX MOTORS"
+msgstr "ĐẶC TRƯNG TRƯỜNG HỢP • LỖI ĐỘNG CƠ"
+
+#: page-pricing.php:199
+msgid "FEATURES"
+msgstr "Tính NĂNG"
+
+#: page-community.php:65
+msgid "Financial Value"
+msgstr "Giá Trị Tài Chính"
+
+#: acf/innovation-intelligence-options.php:154
+msgid "Financial Value filter label"
+msgstr "Tài chính Trị lọc nhãn"
+
+#: page-startup.php:68
+msgid "Find a challenge"
+msgstr "Tìm thấy một thử thách"
+
+#: page-startup.php:66
+msgid ""
+"Find clearly framed innovation needs and submit your solution to "
+"organisations seeking new approaches."
+msgstr ""
+"Tìm thấy rõ ràng khung đổi mới cần và gửi các giải pháp cho các tổ chức tìm "
+"kiếm những phương pháp mới."
+
+#: header.php:100
+msgid "Find demand, programmes and routes to market"
+msgstr "Tìm nhu cầu, các chương trình và đường đến trường"
+
+#: acf/innovation-intelligence-options.php:50
+msgid "Find Solutions button text"
+msgstr "Tìm Giải pháp văn bản nút"
+
+#: acf/innovation-intelligence-options.php:57
+msgid "Find Solutions button URL"
+msgstr "Tìm Giải pháp nút URL"
+
+#: front-page.php:90
+msgid "FIND YOUR STARTING POINT"
+msgstr "TÌM ĐIỂM BẮT ĐẦU CỦA BẠN"
+
+#: acf/global-sections-options.php:86
+msgid "First CTA text"
+msgstr "Đầu tiên cố vấn trưởng văn bản"
+
+#: acf/global-sections-options.php:92
+msgid "First CTA URL"
+msgstr "Đầu tiên cố vấn trưởng URL"
+
+#: page-about-us.php:146
+msgid "Five perspectives"
+msgstr "Năm quan điểm"
+
+#: front-page.php:576
+msgid ""
+"Five technology signals\n"
+"                                    reshaping industrial resilience"
+msgstr "Năm công nghệ tín hiệu định hình lại công nghiệp khả năng phục hồi"
+
+#: page-startup.php:178
+msgid "Five technology signals reshaping industrial resilience"
+msgstr "Năm công nghệ tín hiệu định hình lại công nghiệp khả năng phục hồi"
+
+#: footer.php:66
+msgid "For Corporations"
+msgstr "Cho Công Ty"
+
+#: footer.php:69
+msgid "For Government &amp; Hubs"
+msgstr "Cho chính Phủ và trung Tâm"
+
+#: front-page.php:138
+msgid "FOR INNOVATION PROVIDERS"
+msgstr "CHO SỰ ĐỔI MỚI, CÁC NHÀ CUNG CẤP"
+
+#: front-page.php:113
+msgid "FOR INNOVATION SEEKERS"
+msgstr "CHO NGƯỜI MỚI"
+
+#: footer.php:68
+msgid "For Investors &amp; VCs"
+msgstr "Cho các nhà đầu Tư, và đầu Tư mạo hiểm"
+
+#: page-community.php:77 page-data-report.php:62
+msgid "For Member Only"
+msgstr "Cho Thành Viên Duy Nhất"
+
+#: footer.php:67
+msgid "For Tech Startups"
+msgstr "Cho Khởi Động Công Nghệ Cao"
+
+#: page-pricing.php:236
+msgid "Frequently Asked Questions"
+msgstr "Những Câu Hỏi Thường"
+
+#: front-page.php:402
+msgid "From Challenge to Impact"
+msgstr "Từ thử Thách để Tác động"
+
+#: front-page.php:187
+msgid ""
+"From strategy to execution,\n"
+"                                    across a proven roadmap for scalable "
+"open innovation success"
+msgstr ""
+"Từ chiến thuật để thực hiện trên một chứng minh lộ trình cho khả năng mở "
+"rộng sự đổi mới mở thành công"
+
+#: front-page.php:495
+msgid ""
+"Future of Sustainable\n"
+"                                        Finance"
+msgstr "Tương lai bền Vững Tài chính"
+
+#: front-page.php:654
+msgid "General Manager at Abbott Nutrition International Vietnam"
+msgstr "Tổng Quản lý ở công ty Abbott Việt nam"
+
+#: front-page.php:273
+msgid "generation production"
+msgstr "thế hệ sản xuất"
+
+#: page-detail.php:386
+msgid "Global"
+msgstr "Toàn cầu"
+
+#: page-challenge-hub.php:68
+msgid "Global Challenge Network"
+msgstr "Thách Thức Toàn Cầu Mạng"
+
+#: page-data-report.php:92
+msgid "Global ecosystem map"
+msgstr "Hệ sinh thái toàn cầu bản đồ"
+
+#: page-challenge-hub.php:74
+msgid "Global innovation map"
+msgstr "Toàn cầu sự đổi mới bản đồ"
+
+#: acf/global-sections-options.php:18 acf/global-sections-options.php:19
+#: acf/global-sections-options.php:29
+msgid "Global Sections"
+msgstr "Toàn Cầu Phần"
+
+#: page-innovation-intelligence.php:275
+msgid "Go to page"
+msgstr "Đi tới trang"
+
+#: footer.php:27
+msgid "Hanoi - Vietnam"
+msgstr "Hà Nội - Tổng"
+
+#: page-detail.php:43
+msgid "Healthcare Innovation Partner"
+msgstr "Chăm Sóc Sức Khỏe Đổi Mới Đối Tác"
+
+#: page-detail.php:267
+msgid "Help"
+msgstr "Giúp"
+
+#: acf/innovation-intelligence-options.php:23
+msgid "Hero"
+msgstr "Anh hùng"
+
+#: acf/global-sections-options.php:72
+#: acf/innovation-intelligence-options.php:43
+msgid "Hero description"
+msgstr "Anh hùng mô tả"
+
+#: acf/global-sections-options.php:33
+msgid "Hero sections"
+msgstr "Phần anh hùng"
+
+#: acf/global-sections-options.php:66
+#: acf/innovation-intelligence-options.php:36
+msgid "Hero title"
+msgstr "Anh hùng tiêu"
+
+#: acf/global-sections-options.php:39
+msgid "Heroes"
+msgstr "Anh hùng"
+
+#: footer.php:31
+msgid "Ho Chi Minh City - Vietnam"
+msgstr "Hồ Chí Minh - Tổng"
+
+#: page-detail.php:22 template-parts/global-hero.php:20
+msgid "Home"
+msgstr "Nhà"
+
+#: front-page.php:559
+msgid ""
+"How a regional manufacturer\n"
+"                                    cut pilot time by 40%"
+msgstr "Làm thế nào một khu vực nhà sản xuất cắt phi công thời gian 40%"
+
+#: page-startup.php:177
+msgid "How a regional manufacturer cut pilot time by 40%"
+msgstr "Làm thế nào một khu vực nhà sản xuất cắt phi công thời gian 40%"
+
+#: page-detail.php:286
+msgid "How do I protect my intellectual property?"
+msgstr "Làm thế nào để tôi bảo vệ tài sản trí tuệ?"
+
+#: page-detail.php:284
+msgid "How do I write a winning proposal?"
+msgstr "Làm thế nào tôi viết một chiến thắng đề nghị?"
+
+#: front-page.php:612
+msgid ""
+"How innovation leaders, founders and\n"
+"                        ecosystem"
+msgstr "Làm thế nào mới các nhà lãnh đạo, người sáng lập và hệ sinh thái"
+
+#: page-detail.php:292
+msgid "How long will it take to get a response?"
+msgstr "Sẽ phải mất bao lâu để nhận được một phản ứng?"
+
+#: page-community.php:110
+msgid ""
+"How Selex Motors Scaled Their Clean Mobility AI Solution Across Southeast "
+"Asia"
+msgstr ""
+"Làm thế nào Lỗi động Cơ Thu nhỏ của Họ làm Sạch di Động AI Giải pháp ở Đông "
+"nam Á"
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://bambuup.com/"
+msgstr ""
+
+#: page-startup.php:57
+msgid "impact"
+msgstr "tác động"
+
+#: footer.php:41 page-detail.php:300
+msgid "in"
+msgstr "trong"
+
+#: page-data-report.php:50
+msgid "Industry &amp; topic"
+msgstr "Ngành công nghiệp và chủ đề"
+
+#: header.php:111 header.php:197
+msgid "Industry Reports"
+msgstr "Ngành Công Nghiệp Báo Cáo"
+
+#: front-page.php:21
+msgid "Innovate"
+msgstr "Đổi mới"
+
+#: footer.php:52
+msgid "INNOVATION"
+msgstr "ĐỔI mới"
+
+#: page-startup.php:57
+msgid "innovation"
+msgstr "đổi mới"
+
+#: front-page.php:226
+msgid ""
+"Innovation\n"
+"                                    Investment-as-a-Service"
+msgstr "Đổi mới đầu Tư-như-dịch Vụ"
+
+#: header.php:177
+msgid "Innovation as a service"
+msgstr "Đổi mới là một dịch vụ"
+
+#: header.php:126
+msgid "Innovation Ecosystem"
+msgstr "Đổi Mới Hệ Sinh Thái"
+
+#: page-startup.php:56 page-startup.php:96
+msgid "Innovation for Startups"
+msgstr "Đổi mới cho Khởi động"
+
+#: front-page.php:26
+msgid "Innovation hero actions"
+msgstr "Đổi mới hành động anh hùng"
+
+#: front-page.php:246
+msgid "INNOVATION INTELLIGENCE"
+msgstr "SỰ ĐỔI MỚI, TRÍ THÔNG MINH"
+
+#: acf/global-sections-options.php:52 page-detail.php:24
+msgid "Innovation Intelligence"
+msgstr "Sự Đổi Mới, Trí Thông Minh"
+
+#: acf/innovation-intelligence-options.php:19
+msgid "Innovation Intelligence Content"
+msgstr "Sự Đổi Mới, Trí Thông Minh Nội Dung"
+
+#: header.php:193
+msgid "Innovation journeys in practice"
+msgstr "Đổi mới trong chuyến đi thực tế"
+
+#: header.php:110
+msgid "Innovation Marketplace"
+msgstr "Đổi Mới Thị Trường"
+
+#: page-detail.php:28
+msgid "INNOVATION NEED"
+msgstr "ĐỔI MỚI CẦN"
+
+#: front-page.php:266 front-page.php:353 page-detail.php:26 page-detail.php:336
+#: page-detail.php:378
+msgid "Innovation Need"
+msgstr "Đổi Mới Cần"
+
+#: footer.php:54
+msgid "Innovation Needs"
+msgstr "Đổi Mới Cần"
+
+#: page-community.php:110
+msgid "INNOVATION OF THE WEEK"
+msgstr "ĐỔI MỚI CỦA TUẦN"
+
+#: page-community.php:109
+msgid "Innovation of the Week"
+msgstr "Đổi mới của Tuần"
+
+#: front-page.php:310 header.php:103 header.php:118 page-detail.php:357
+#: page-detail.php:399 page-startup.php:83
+msgid "Innovation Offer"
+msgstr "Đổi Mới Cung Cấp"
+
+#: footer.php:55
+msgid "Innovation Offers"
+msgstr "Đổi Mới Cung Cấp"
+
+#: page-innovation-as-a-service.php:92
+msgid "Innovation process"
+msgstr "Quá trình đổi"
+
+#: front-page.php:675
+msgid ""
+"Innovation Program Manager (Northern Region) at USAID Improving Private "
+"Sector Competitiveness (IPSC)"
+msgstr ""
+"Chương Trình đổi mới Quản lý (Khu vực phía Bắc) tại USAID Cải thiện khu Vực "
+"Riêng tư cạnh tranh (TIẾNG)"
+
+#: page-startup.php:105
+msgid "Innovation solutions across emerging and high-impact sectors."
+msgstr "Đổi mới giải pháp qua nổi lên và chất tác động lĩnh vực."
+
+#: page-community.php:116
+msgid "Innovation UP"
+msgstr "Đổi mới LÊN"
+
+#: front-page.php:183 header.php:154 header.php:179
+#: page-innovation-as-a-service.php:88
+msgid "Innovation-as-a-Service"
+msgstr "Đổi mới-như-dịch Vụ"
+
+#: footer.php:75 front-page.php:518
+msgid "INSIGHTS &amp; RESOURCES"
+msgstr "HIỂU biết và NGUỒN lực"
+
+#: page-innovation-as-a-service.php:131
+msgid "Insights &amp; Resources"
+msgstr "Hiểu biết và Nguồn lực"
+
+#: page-innovation-as-a-service.php:132
+msgid "Insights shaping what's next"
+msgstr "Hiểu biết hình những gì tiếp theo"
+
+#: front-page.php:522
+msgid ""
+"Intelligence What comes\n"
+"                                    next"
+msgstr "Thông minh những Gì sẽ đến tiếp theo"
+
+#: page-detail.php:236
+msgid "Interested in this opportunity?"
+msgstr "Quan tâm đến cơ hội này?"
+
+#: page-startup.php:57
+msgid "into real-world"
+msgstr "vào trong thế giới thực"
+
+#: header.php:131
+msgid "Investment Funds"
+msgstr "Các Quỹ Đầu Tư"
+
+#: header.php:162
+msgid "Investment Innovation-as-a-Service"
+msgstr "Đầu tư sáng tạo-như-dịch Vụ"
+
+#: front-page.php:573
+msgid "IP / RESEARCH"
+msgstr "IP / NGHIÊN CỨU"
+
+#: page-startup.php:178
+msgid "IP / Research"
+msgstr "IP / Nghiên cứu"
+
+#: header.php:117
+msgid "IP / Research Hub"
+msgstr "IP / trung Tâm Nghiên cứu"
+
+#: front-page.php:642
+msgid ""
+"It was a good start. All the startups (selected by BambuUP) have interesting "
+"solutions to many pain points of large corporate"
+msgstr ""
+"Đó là một khởi đầu tốt. Tất cả các khởi động (được lựa chọn bởi BambuUP) có "
+"giải pháp thú vị đến rất nhiều đau điểm của công ty lớn"
+
+#: page-pricing.php:225
+msgid "Join Business"
+msgstr "Tham Gia Kinh Doanh"
+
+#: page-startup.php:75
+msgid ""
+"Join focused journeys that strengthen your proposition, network and "
+"readiness for pilots or growth."
+msgstr ""
+"Tham gia tập trung vào những hành trình tăng cường đề nghị mạng và sẵn sàng "
+"cho phi công hay tăng trưởng."
+
+#: page-pricing.php:224
+msgid "Join Standard"
+msgstr "Tham Gia Chuẩn"
+
+#: page-data-report.php:71
+msgid "July 14, 2026"
+msgstr "Ngày 14 tháng bảy năm 2026"
+
+#: page-innovation-as-a-service.php:118
+msgid "Key outcome"
+msgstr "Chìa khóa kết quả"
+
+#: page-detail.php:113
+msgid ""
+"Lacer is seeking to identify and develop innovative solutions that address "
+"the\n"
+"                        root cause of gingivitis by actively restoring oral "
+"microbiome balance (eubiosis), moving beyond\n"
+"                        traditional 'kill bacteria' strategies."
+msgstr ""
+"Lacer đang tìm cách để xác định và phát triển giải pháp sáng tạo địa chỉ đó, "
+"căn nguyên của viêm lợi bằng cách tích cực khôi phục lại miệng vi sinh cân "
+"bằng (eubiosis), di chuyển ra ngoài truyền thống 'giết vi khuẩn' chiến lược."
+
+#: page-detail.php:220
+msgid ""
+"Lacer S.A is a pharmaceutical laboratory firmly committed to\n"
+"                                    public health. Our research and services "
+"focus on improving people's well-being and\n"
+"                                    quality of life."
+msgstr ""
+"Lacer S. Một là một phòng thí nghiệm dược phẩm cam kết chắc chắn để sức khỏe "
+"cộng đồng. Nghiên cứu của chúng tôi và dịch vụ tập trung vào việc mọi người "
+"hạnh phúc và chất lượng cuộc sống."
+
+#: page-detail.php:209
+msgid "LACER S.A."
+msgstr "LACER S. A."
+
+#: page-detail.php:213
+msgid "Lacer S.A. (Healthcare Innovation Partner)"
+msgstr "Lacer Hoa Kỳ (Chăm Sóc Sức Khỏe Đổi Mới Đối Tác)"
+
+#: page-startup.php:172
+msgid "Landscape Report · 2026"
+msgstr "Cảnh Báo Cáo · 2026"
+
+#: front-page.php:542
+msgid "LANDSCAPE REPORT • 2026"
+msgstr "CẢNH BÁO CÁO • 2026"
+
+#: page-challenge-hub.php:86
+msgid "Leading Focus Areas"
+msgstr "Khu Vực Tập Trung Hàng Đầu"
+
+#: header.php:60
+msgid ""
+"Learn about our story, ecosystem and the people building meaningful "
+"connections between innovation seekers and providers"
+msgstr ""
+"Tìm hiểu về câu chuyện của chúng tôi, hệ sinh thái và người ta xây dựng có ý "
+"nghĩa kết nối giữa sự đổi mới và tìm các nhà cung cấp"
+
+#: footer.php:41 page-detail.php:300
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: acf/innovation-intelligence-options.php:78
+msgid "Listing"
+msgstr "Danh sách"
+
+#: acf/innovation-intelligence-options.php:91
+msgid "Listing description"
+msgstr "Danh sách mô tả"
+
+#: acf/innovation-intelligence-options.php:84
+msgid "Listing title"
+msgstr "Danh sách tiêu đề"
+
+#: front-page.php:249
+msgid "Live opportunities"
+msgstr "Sống cơ hội"
+
+#: page-challenge-hub.php:180
+msgid "Load more challenges"
+msgstr "Nạp thêm những thách thức"
+
+#: acf/global-sections-options.php:174
+msgid "Logo"
+msgstr "Logo"
+
+#: front-page.php:80
+msgid "long-term engagements"
+msgstr "dài hạn cam kết"
+
+#: page-detail.php:345 page-detail.php:387
+msgid "Looking for"
+msgstr "Tìm kiếm"
+
+#: front-page.php:374
+msgid ""
+"Looking for circular\n"
+"                                        materials and systems ready for"
+msgstr "Tìm kiếm thông tư liệu và hệ thống đã sẵn sàng cho"
+
+#: front-page.php:436
+msgid "low-carbon city."
+msgstr "thấp-cacbon thành phố."
+
+#: page-detail.php:361
+msgid "Low-carbon material manufacturing solutions"
+msgstr "Thấp-cacbon liệu sản xuất giải pháp"
+
+#: front-page.php:272
+msgid ""
+"Low-carbon materials for\n"
+"                                        next-"
+msgstr "Thấp-cacbon liệu cho tiếp theo"
+
+#: page-detail.php:403
+msgid "Low-carbon tech manufacturing solutions"
+msgstr "Thấp-cacbon tech sản xuất giải pháp"
+
+#: page-startup.php:82
+msgid "Make capability visible"
+msgstr "Làm cho khả năng nhìn thấy được"
+
+#: page-our-people.php:59
+msgid "MANAGEMENT COMMITTEE"
+msgstr "BAN QUẢN LÝ"
+
+#: page-detail.php:343 page-detail.php:364 page-detail.php:385
+#: page-detail.php:406
+msgid "Manufacturing"
+msgstr "Sản xuất"
+
+#: front-page.php:277
+msgid "Materials"
+msgstr "Liệu"
+
+#: page-detail.php:153
+msgid "Maturity"
+msgstr "Sự trưởng thành"
+
+#: front-page.php:56
+msgid "Mentors &amp; advisors across"
+msgstr "Cố vấn và cố vấn qua"
+
+#: page-detail.php:158
+msgid "Microbiome Modulation"
+msgstr "Vi Sinh Điều Chế"
+
+#: page-community.php:110
+msgid "Mobility"
+msgstr "Di động"
+
+#: page-detail.php:108
+msgid "Modern research facility atrium"
+msgstr "Hiện đại, cơ sở nghiên cứu nhĩ"
+
+#: front-page.php:651
+msgid "Mr. Douglas Kuo"
+msgstr "Ông Douglas Quốc"
+
+#: front-page.php:630
+msgid "Mr. Quang Hop Dinh"
+msgstr "Ông Quảng Hop Định"
+
+#: front-page.php:672
+msgid "Mr. Thang Tran"
+msgstr "Ông Thắng Trần"
+
+#: page-our-people.php:87 page-our-people.php:116
+msgid "Mrs. Chau Quach"
+msgstr "Bà Châu, Quách"
+
+#: page-our-people.php:40
+msgid "MRS. QUYNH NGUYEN"
+msgstr "BÀ QUỲNH NGUYỄN"
+
+#: page-our-people.php:69 page-our-people.php:98
+msgid "Mrs. Quynh Nguyen"
+msgstr "Bà Quỳnh Nguyễn"
+
+#: page-our-people.php:78 page-our-people.php:107
+msgid "Mrs. Tuyet Nguyen"
+msgstr "Bà Tuyết Nguyễn"
+
+#: header.php:94
+msgid "Multiple paths to innovation"
+msgstr "Nhiều đường dẫn đến sự đổi mới"
+
+#: acf/global-sections-options.php:167
+msgid "Name"
+msgstr "Tên"
+
+#: footer.php:28
+msgid "National Innovation Center (NIC)"
+msgstr "Sáng tạo quốc gia trung Tâm (NIC)"
+
+#: page-detail.php:269
+msgid ""
+"Need help submitting your proposal or have questions regarding this\n"
+"                        Innovation Need?"
+msgstr "Cần giúp đỡ gửi đề nghị của bạn hoặc có câu hỏi về sự Đổi mới này Cần?"
+
+#: page-pricing.php:223
+msgid "Need more seats or custom limits?"
+msgstr "Cần thêm chỗ hoặc chỉnh giới hạn?"
+
+#: functions.php:279
+msgid "New Opportunity"
+msgstr "Cơ Hội Mới"
+
+#: functions.php:318
+msgid "New Opportunity Category Name"
+msgstr "Cơ Hội Mới Mục Tên"
+
+#: functions.php:342
+msgid "New Opportunity Tag Name"
+msgstr "Cơ Hội Mới Tên Thẻ"
+
+#: functions.php:371
+msgid "New Opportunity Type Name"
+msgstr "Cơ Hội Mới Loại Tên"
+
+#: page-community.php:73
+msgid "News"
+msgstr "Tin tức"
+
+#: page-innovation-intelligence.php:272
+msgid "Next &rsaquo;"
+msgstr "Tiếp theo &rsaquo;"
+
+#: page-community.php:109
+msgid "Next innovation"
+msgstr "Đổi mới tiếp theo"
+
+#: page-community.php:116
+msgid "Next Innovation UP"
+msgstr "Tiếp theo sự Đổi mới LÊN"
+
+#: header.php:187
+msgid "next move"
+msgstr "di chuyển tiếp theo"
+
+#: page-community.php:73
+msgid "Next news"
+msgstr "Tiếp theo tin tức"
+
+#: page-challenge-hub.php:179
+msgid "No challenges found."
+msgstr "Không tìm thấy thách thức."
+
+#: functions.php:284
+msgid "No opportunities found in Trash."
+msgstr "Không có cơ hội tìm thấy trong thùng Rác."
+
+#: functions.php:283
+msgid "No opportunities found."
+msgstr "Không có cơ hội tìm thấy."
+
+#: functions.php:202
+msgid "No opportunities match your filters."
+msgstr "Không có cơ hội phù hợp với bộ lọc."
+
+#: functions.php:348
+msgid "No opportunity tags found."
+msgstr "Không có cơ hội loại tìm thấy."
+
+#: page-pricing.php:176
+msgid "Not included:"
+msgstr "Không bao gồm:"
+
+#: page-detail.php:313
+msgid "Not ready to connect yet?"
+msgstr "Chưa sẵn sàng để kết nối được chưa?"
+
+#: header.php:250
+msgid "Notifications"
+msgstr "Thông báo"
+
+#: page-innovation-as-a-service.php:89
+msgid "One connected path from signal to scale"
+msgstr "Một kết nối đường từ tín hiệu để quy mô"
+
+#: header.php:94
+msgid "One Platform"
+msgstr "Một Nền Tảng"
+
+#: front-page.php:93
+msgid "One platform"
+msgstr "Một nền tảng"
+
+#: header.php:85
+msgid ""
+"One platform connecting startups, corporations, research institutions, "
+"regions and investors"
+msgstr ""
+"Một nền tảng kết nối khởi động, các công ty, các cơ sở nghiên cứu, khu vực "
+"và các nhà đầu tư"
+
+#: page-about-us.php:146
+msgid "One shared opportunity"
+msgstr "Một cơ hội"
+
+#: front-page.php:421 front-page.php:467 front-page.php:491
+msgid "OPEN"
+msgstr "MỞ"
+
+#: acf/innovation-intelligence-options.php:119
+msgid "Open Call Status filter label"
+msgstr "Mở Gọi tình Trạng lọc nhãn"
+
+#: front-page.php:593
+msgid ""
+"Open Innovation Forum — Ho\n"
+"                                    Chi Minh City"
+msgstr "Đổi Mới Mở Diễn Đàn — Hồ Chí Minh"
+
+#: page-startup.php:179
+msgid "Open Innovation Forum — Ho Chi Minh City"
+msgstr "Đổi Mới Mở Diễn Đàn — Hồ Chí Minh"
+
+#: page-challenge-hub.php:83
+msgid "Open Programmes"
+msgstr "Mở Chương Trình"
+
+#: front-page.php:480 front-page.php:504
+msgid "Opening"
+msgstr "Mở"
+
+#: functions.php:273 functions.php:275
+msgid "Opportunities"
+msgstr "Cơ hội"
+
+#: page-startup.php:116
+msgid "Opportunities in Motion"
+msgstr "Cơ hội in Motion"
+
+#: functions.php:274
+msgid "Opportunity"
+msgstr "Cơ hội"
+
+#: functions.php:309
+msgid "Opportunity Categories"
+msgstr "Cơ Hội Loại"
+
+#: functions.php:310
+msgid "Opportunity Category"
+msgstr "Cơ Hội Mục"
+
+#: page-community.php:61
+msgid "Opportunity Status"
+msgstr "Cơ Hội Tình Trạng"
+
+#: functions.php:336
+msgid "Opportunity Tag"
+msgstr "Cơ Hội Tag"
+
+#: functions.php:335
+msgid "Opportunity Tags"
+msgstr "Cơ Hội Tags"
+
+#: functions.php:365
+msgid "Opportunity Type"
+msgstr "Cơ Hội Loại"
+
+#: acf/innovation-intelligence-options.php:126
+msgid "Opportunity Type filter label"
+msgstr "Cơ hội lọc Loại, nhãn"
+
+#: functions.php:364
+msgid "Opportunity Types"
+msgstr "Cơ Hội Loại"
+
+#: front-page.php:44
+msgid "Organisations contributing"
+msgstr "Tổ chức đóng góp"
+
+#: page-startup.php:104
+msgid "Organisations contributing expertise, access and opportunity."
+msgstr "Tổ chức đóng góp chuyên môn truy cập, và cơ hội."
+
+#: header.php:74
+msgid "Organisations growing with us"
+msgstr "Tổ chức phát triển với chúng tôi"
+
+#: page-about-us.php:122
+msgid "Our History"
+msgstr "Lịch Sử Của Chúng Tôi"
+
+#: page-our-people.php:52
+msgid "Our Leadership"
+msgstr "Lãnh Đạo Của Chúng Tôi"
+
+#: header.php:74
+msgid "Our Partners"
+msgstr "Đối Tác Của Chúng Tôi"
+
+#: header.php:78
+msgid "Our People"
+msgstr "Người Của Chúng Tôi"
+
+#: page-our-people.php:51
+msgid "OUR PEOPLE ARE OUR GREATEST ASSET"
+msgstr "NGƯỜI CỦA CHÚNG TÔI LÀ TÀI SẢN LỚN NHẤT CỦA CHÚNG TÔI"
+
+#: header.php:66
+msgid "Our platform and purpose"
+msgstr "Nền tảng của chúng tôi và mục đích"
+
+#: page-our-services.php:75
+msgid "Our service lines"
+msgstr "Dịch vụ của chúng tôi dòng"
+
+#: front-page.php:161 header.php:145
+msgid "OUR SERVICES"
+msgstr "DỊCH VỤ CỦA CHÚNG TÔI"
+
+#: header.php:70
+msgid "Our Story"
+msgstr "Câu Chuyện Của Chúng Tôi"
+
+#: page-about-us.php:113
+msgid ""
+"Our team works across strategy, intelligence, programme design, ecosystem "
+"partnerships and venture investment. We combine disciplined thinking with a "
+"practical understanding of what it takes to make collaboration work"
+msgstr ""
+"Nhóm chúng tôi làm việc trên chiến lược, thông minh, chương trình thiết kế "
+"hệ sinh thái quan hệ đối tác, và đầu tư mạo hiểm. Chúng tôi kết hợp luật suy "
+"nghĩ với một thực sự hiểu biết của những gì nó có để làm cho việc hợp tác"
+
+#: page-detail.php:99
+msgid "Overview"
+msgstr "Tổng"
+
+#: front-page.php:284 front-page.php:364
+msgid "Packaging"
+msgstr "Đóng gói"
+
+#: acf/global-sections-options.php:47 page-innovation-intelligence.php:274
+msgid "Page"
+msgstr "Trang"
+
+#: page-innovation-intelligence.php:271
+msgid "Pagination pages"
+msgstr "Số trang trang"
+
+#: functions.php:313
+msgid "Parent Opportunity Category"
+msgstr "Cha Mẹ Cơ Hội Mục"
+
+#: functions.php:314
+msgid "Parent Opportunity Category:"
+msgstr "Cha Mẹ Cơ Hội Mục:"
+
+#: footer.php:70
+msgid "Partner Directory"
+msgstr "Đối Tác Mục"
+
+#: template-parts/partners-section.php:16
+msgid "Partner organizations"
+msgstr "Đối tác tổ chức"
+
+#: front-page.php:37
+msgid "PARTNERS"
+msgstr "Đối TÁC"
+
+#: acf/global-sections-options.php:159 page-startup.php:104
+msgid "Partners"
+msgstr "Đối tác"
+
+#: front-page.php:613
+msgid "partners experience working through BambuUP"
+msgstr "đối tác kinh nghiệm làm việc thông qua BambuUP"
+
+#: acf/global-sections-options.php:146
+msgid "Partners section"
+msgstr "Đối tác phần"
+
+#: acf/global-sections-options.php:152
+msgid "Partners section title"
+msgstr "Đối tác mục tiêu đề"
+
+#: front-page.php:93
+msgid "partnerships"
+msgstr "quan hệ đối tác"
+
+#: front-page.php:290
+msgid "performance."
+msgstr "hiệu suất."
+
+#: page-detail.php:197
+msgid ""
+"PharmaceuticsCare, Hygiene, Beauty, CosmeticsBiological SciencesMedicine, "
+"Human HealthBiology /\n"
+"                        BiotechnologyMicrobiology TechnologyHealth "
+"careMedical Health relatedOther Medical / Health\n"
+"                        RelatedConsumer relatedHealth and beauty aids, "
+"Cosmeticsoral careeubiosis"
+msgstr ""
+"PharmaceuticsCare Vệ sinh, người Đẹp, CosmeticsBiological SciencesMedicine, "
+"con Người HealthBiology / BiotechnologyMicrobiology TechnologyHealth "
+"careMedical sức Khỏe relatedOther sức Khỏe RelatedConsumer relatedHealth và "
+"vẻ đẹp aids, Cosmeticsoral careeubiosis"
+
+#: page-about-us.php:74
+msgid "Play"
+msgstr "Chơi"
+
+#: functions.php:344
+msgid "Popular Opportunity Tags"
+msgstr "Phổ Biến Cơ Hội Tags"
+
+#: page-challenge-hub.php:155 page-startup.php:141
+msgid "Posted"
+msgstr "Đăng"
+
+#: page-detail.php:404
+msgid "Posted July 08, 2026"
+msgstr "Đăng 08 Tháng Bảy, Năm 2026"
+
+#: page-detail.php:383
+msgid "Posted July 10, 2026"
+msgstr "Đăng 10 Tháng Bảy Năm 2026"
+
+#: page-detail.php:362
+msgid "Posted July 12, 2026"
+msgstr "Đăng Ngày 12 Tháng Bảy, Năm 2026"
+
+#: page-detail.php:341
+msgid "Posted July 14, 2026"
+msgstr "Đăng Ngày 14 Tháng Bảy Năm 2026"
+
+#: page-innovation-intelligence.php:235
+msgid "Posted:"
+msgstr "Đăng:"
+
+#: front-page.php:93
+msgid "Powering innovation"
+msgstr "Cung cấp năng lượng đổi mới"
+
+#: front-page.php:316
+msgid ""
+"Predictive intelligence\n"
+"                                        for resilient"
+msgstr "Dự đoán tình báo cho kiên cường"
+
+#: page-startup.php:84
+msgid ""
+"Present your technology, use cases and collaboration model to innovation "
+"seekers across the platform."
+msgstr ""
+"Hiện tại của công nghệ sử dụng trường và hợp tác người mẫu để đổi mới tìm "
+"trên nền tảng."
+
+#: page-community.php:109
+msgid "Previous innovation"
+msgstr "Trước sự đổi mới"
+
+#: page-community.php:116
+msgid "Previous Innovation UP"
+msgstr "Trước sự Đổi mới LÊN"
+
+#: page-community.php:73
+msgid "Previous news"
+msgstr "Tin trước"
+
+#: acf/global-sections-options.php:53
+msgid "Pricing"
+msgstr "Giá cả"
+
+#: footer.php:58
+msgid "Pricing &amp; Plans"
+msgstr "Giá cả và kế Hoạch"
+
+#: functions.php:26
+msgid "Primary menu"
+msgstr "Chính menu"
+
+#: header.php:42
+msgid "Primary navigation"
+msgstr "Định hướng chính"
+
+#: footer.php:96
+msgid "Privacy Policy"
+msgstr "Chính Sách Bảo Mật"
+
+#: page-pricing.php:202
+msgid "PRO"
+msgstr "PRO"
+
+#: front-page.php:447 page-challenge-hub.php:167
+msgid "Programme"
+msgstr "Chương trình"
+
+#: header.php:167
+msgid "Programmes &amp; Packages"
+msgstr "Các chương trình và Gói"
+
+#: header.php:123
+msgid "Provinces &amp; Cities"
+msgstr "Tỉnh và thành Phố"
+
+#: page-startup.php:86
+msgid "Publish your offer"
+msgstr "Xuất bản cung cấp của bạn"
+
+#: front-page.php:626
+msgid "Quang Hop Dinh"
+msgstr "Quảng Hop Định"
+
+#: page-our-people.php:95
+msgid "Quynh Nguyen"
+msgstr "Quỳnh Nguyễn"
+
+#: page-community.php:83
+msgid "Read article"
+msgstr "Đọc bài viết"
+
+#: page-community.php:119
+msgid "Read case study"
+msgstr "Đọc nghiên cứu"
+
+#: page-community.php:110
+msgid "Read full story"
+msgstr "Đọc toàn bộ câu chuyện"
+
+#: page-community.php:73 page-community.php:109 page-community.php:116
+msgid "Read more"
+msgstr "Đọc nhiều"
+
+#: front-page.php:581
+msgid "Read research"
+msgstr "Đọc nghiên cứu"
+
+#: page-startup.php:178
+msgid "Read research ↗"
+msgstr ""
+
+#: front-page.php:564
+msgid "Read story"
+msgstr "Đọc câu chuyện"
+
+#: page-startup.php:177
+msgid "Read story ↗"
+msgstr ""
+
+#: page-data-report.php:93
+msgid "Real-time Telemetry"
+msgstr "Thời gian thực từ Xa"
+
+#: page-pricing.php:156 page-pricing.php:202
+msgid "RECOMMENDED"
+msgstr "Đề NGHỊ"
+
+#: page-community.php:100
+msgid "Register now"
+msgstr "Đăng ký ngay bây giờ"
+
+#: page-detail.php:173
+msgid "Regulatory Framework"
+msgstr "Khuôn Khổ Pháp Lý"
+
+#: page-detail.php:329
+msgid "Related innovation opportunities"
+msgstr "Liên quan sáng tạo cơ hội"
+
+#: functions.php:200
+msgid "Remove saved opportunity"
+msgstr "Bỏ cứu cơ hội"
+
+#: header.php:119 header.php:127
+msgid "Reports &amp; Publications"
+msgstr "Báo cáo và Ấn phẩm"
+
+#: footer.php:78
+msgid "Reports &amp; Whitepapers"
+msgstr "Báo cáo và trang trắng"
+
+#: page-detail.php:239
+msgid "Request connection"
+msgstr "Yêu cầu nối"
+
+#: functions.php:201
+msgid "Request sent"
+msgstr "Yêu cầu gửi"
+
+#: page-detail.php:100
+msgid "Requirements"
+msgstr "Yêu cầu"
+
+#: header.php:115
+msgid "Research Institutions"
+msgstr "Cơ Sở Nghiên Cứu"
+
+#: page-startup.php:64
+msgid "Respond to real demand"
+msgstr "Đáp ứng nhu cầu bất"
+
+#: front-page.php:359
+msgid ""
+"Rethinking sustainable\n"
+"                                        packaging at"
+msgstr "Suy nghĩ lại đóng gói bền vững vào"
+
+#: footer.php:32
+msgid "Saigon Innovation Hub (SIHUB)"
+msgstr "Saigon Đổi mới trung Tâm (SIHUB)"
+
+#: page-detail.php:251 page-detail.php:317
+msgid "Save opportunity"
+msgstr "Tiết kiệm cơ hội"
+
+#: functions.php:199
+msgid "Save opportunity "
+msgstr ""
+
+#: page-detail.php:314
+msgid "Save this opportunity and return when your proposal is ready"
+msgstr "Tiết kiệm cơ hội này và trở lại khi đề nghị của ông đã sẵn sàng"
+
+#: functions.php:198
+msgid "Saved opportunity "
+msgstr ""
+
+#: front-page.php:360
+msgid "scale"
+msgstr "quy mô"
+
+#: header.php:226
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: page-challenge-hub.php:101 page-community.php:58
+msgid "Search by keyword, technology, industry or organization"
+msgstr "Tìm kiếm từ khóa theo công nghệ, hoặc tổ chức"
+
+#: page-challenge-hub.php:98
+msgid "Search challenges"
+msgstr "Tìm kiếm những thách thức"
+
+#: page-community.php:53 page-community.php:55
+msgid "Search community content"
+msgstr "Cộng đồng tìm kiếm nội dung"
+
+#: page-data-report.php:46
+msgid "Search insights, reports and case studies..."
+msgstr "Tìm kiếm những báo cáo và các nghiên cứu..."
+
+#: functions.php:282
+msgid "Search Opportunities"
+msgstr "Tìm Kiếm Cơ Hội"
+
+#: functions.php:319
+msgid "Search Opportunity Categories"
+msgstr "Tìm Kiếm Cơ Hội Loại"
+
+#: functions.php:343
+msgid "Search Opportunity Tags"
+msgstr "Tìm Kiếm Cơ Hội Tags"
+
+#: acf/innovation-intelligence-options.php:112
+msgid "Search placeholder"
+msgstr "Giữ chỗ tìm kiếm"
+
+#: page-data-report.php:41 page-data-report.php:44
+msgid "Search reports"
+msgstr "Báo cáo tìm kiếm"
+
+#: acf/global-sections-options.php:98
+msgid "Second CTA text"
+msgstr "Thứ hai cố vấn trưởng văn bản"
+
+#: acf/global-sections-options.php:104
+msgid "Second CTA URL"
+msgstr "Thứ hai cố vấn trưởng URL"
+
+#: header.php:197
+msgid "Sector landscapes and market signals"
+msgstr "Ngành cảnh và thị trường tín hiệu"
+
+#: footer.php:102
+msgid "Security Statement"
+msgstr "Cáo An Ninh"
+
+#: page-data-report.php:87
+msgid "See the ecosystem with greater clarity"
+msgstr "Xem hệ sinh thái với rõ ràng hơn"
+
+#: page-pricing.php:194
+msgid "See what is included and choose the plan that fits your needs"
+msgstr "Xem được chọn những kế hoạch đó phù hợp với nhu cầu của bạn"
+
+#: front-page.php:288
+msgid ""
+"Seeking scalable\n"
+"                                        technologies that reduce embodied"
+msgstr "Mở rộng tìm kiếm công nghệ làm giảm thể hiện"
+
+#: page-innovation-as-a-service.php:143
+msgid ""
+"Seeking scalable technologies that reduce embodied carbon without "
+"compromising performance."
+msgstr "Mở rộng tìm kiếm công nghệ làm giảm thể hiện carbon mà không hiệu quả."
+
+#: page-detail.php:29
+msgid "Seeking solutions to restore oral microbiome balance"
+msgstr "Tìm kiếm giải pháp để khôi phục lại miệng vi sinh cân bằng"
+
+#: header.php:233
+msgid "Select language"
+msgstr "Chọn ngôn ngữ"
+
+#: page-startup.php:106
+msgid "Selected disruptive ventures actively solving market challenges."
+msgstr "Lựa chọn gây rối liên tích cực giải quyết trường thách thức."
+
+#: page-challenge-hub.php:77
+msgid "Selected Innovation Territory"
+msgstr "Lựa Chọn Sáng Tạo Lãnh Thổ"
+
+#: page-community.php:110
+msgid "Selex Motors Clean Mobility AI Platform"
+msgstr "Lỗi, động Cơ Rõ ràng di Động AI nền Tảng"
+
+#: functions.php:345
+msgid "Separate tags with commas"
+msgstr "Thẻ riêng với dấu phẩy"
+
+#: acf/global-sections-options.php:54
+msgid "Services"
+msgstr "Dịch vụ"
+
+#: page-detail.php:298
+msgid "Share this opportunity"
+msgstr "Chia sẻ cơ hội này"
+
+#: page-about-us.php:111
+msgid "Shared momentum"
+msgstr "Miễn phí đà"
+
+#: acf/global-sections-options.php:78
+msgid "Show CTA buttons"
+msgstr "Show cố vấn trưởng nút"
+
+#: page-community.php:88 page-data-report.php:78
+msgid "Show more articles"
+msgstr "Thấy nhiều điều"
+
+#: acf/innovation-intelligence-options.php:64
+msgid "Showcase Solution button text"
+msgstr "Giới thiệu nút Giải pháp văn bản"
+
+#: acf/innovation-intelligence-options.php:71
+msgid "Showcase Solution button URL"
+msgstr "Giới thiệu Giải pháp nút URL"
+
+#: front-page.php:147
+msgid "Showcase your solution"
+msgstr "Giới thiệu giải pháp của bạn"
+
+#: functions.php:390
+msgid "Sidebar"
+msgstr "Bên"
+
+#: header.php:255
+msgid "Sign In"
+msgstr "Đừng Trong"
+
+#: page-detail.php:245
+msgid "Sign in to continue."
+msgstr "Đừng để có thể tiếp tục."
+
+#: front-page.php:549
+msgid ""
+"Signals, sectors and\n"
+"                                collaboration models shaping the next era of "
+"open innovation"
+msgstr ""
+"Tín hiệu, lĩnh vực và hợp tác mô hình tiếp theo thời đại của sự đổi mới mở"
+
+#: page-startup.php:174
+msgid ""
+"Signals, sectors and collaboration models shaping the next era of open "
+"innovation across Southeast Asia."
+msgstr ""
+"Tín hiệu, lĩnh vực và hợp tác mô hình tiếp theo thời đại của sự đổi mới mở ở "
+"Đông nam Á."
+
+#: page-challenge-hub.php:87
+msgid "Smart city"
+msgstr "Thành phố thông minh"
+
+#: footer.php:38
+msgid "Social media"
+msgstr "Xã hội"
+
+#: header.php:108
+msgid "Source solutions and turn priorities into action"
+msgstr "Nguồn giải pháp và biến ưu tiên vào hành động"
+
+#: header.php:212
+msgid "Southeast Asia Innovation Landscape 2026"
+msgstr "Đông Nam Á Đổi Cảnh Quan 2026"
+
+#: header.php:211
+msgid "Southeast Asia innovation report"
+msgstr "Đông nam Á đổi mới bản báo cáo"
+
+#: page-detail.php:174
+msgid "Spain, the European Union, &amp; Latin America"
+msgstr "Tây ban nha, liên Minh châu Âu, và châu Mỹ Latin"
+
+#: page-pricing.php:200
+msgid "STANDARD"
+msgstr "CHUẨN"
+
+#: header.php:259
+msgid "Start For Free"
+msgstr "Bắt Đầu Miễn Phí"
+
+#: front-page.php:97
+msgid ""
+"Start with your objective. BambuUP\n"
+"                            connects innovation demand with proven "
+"capabilities, accelerating the path from\n"
+"                            opportunity to impact."
+msgstr ""
+"Bắt đầu với mục tiêu của bạn. BambuUP kết nối đổi mới yêu cầu với chứng minh "
+"khả năng đẩy các con đường từ cơ hội để tác động."
+
+#: front-page.php:61
+msgid "STARTUPS"
+msgstr "KHỞI động"
+
+#: header.php:99 page-startup.php:106
+msgid "Startups"
+msgstr "Khởi động"
+
+#: header.php:133 header.php:205
+msgid "Startups Listing"
+msgstr "Khởi Động Danh Sách"
+
+#: page-startup.php:165
+msgid "Stories and insight for"
+msgstr "Những câu chuyện và nhìn sâu sắc cho"
+
+#: header.php:201
+msgid "Structured ecosystem intelligence"
+msgstr "Cấu trúc hệ sinh thái trí thông minh"
+
+#: page-community.php:64
+msgid "Sub-category"
+msgstr "Sub-mục"
+
+#: acf/innovation-intelligence-options.php:140
+msgid "Sub-category filter label"
+msgstr "Sub-lọc loại, nhãn"
+
+#: front-page.php:73
+msgid "SUCCESSFUL MATCHINGS"
+msgstr "THÀNH CÔNG MATCHINGS"
+
+#: page-startup.php:107
+msgid "Successful Matchings"
+msgstr "Thành Công Matchings"
+
+#: front-page.php:325
+msgid "Supply Chain"
+msgstr "Cung Cấp Chuỗi"
+
+#: front-page.php:317
+msgid "supply networks"
+msgstr "mạng lưới cấp"
+
+#: front-page.php:280 page-detail.php:344 page-detail.php:365
+#: page-detail.php:386
+msgid "Sustainability"
+msgstr "Bền vững"
+
+#: functions.php:337
+msgid "Tags"
+msgstr "Tags"
+
+#: page-detail.php:74
+msgid "Target Regions:"
+msgstr "Các Khu Vực Mục Tiêu:"
+
+#: footer.php:37
+msgid "Tax Code: 0109260278"
+msgstr "Thuế: 0109260278"
+
+#: page-about-us.php:108 page-our-people.php:151
+msgid "Team collaboration"
+msgstr "Đội hợp tác"
+
+#: footer.php:80
+msgid "Tech Data Room"
+msgstr "Công Nghệ Dữ Liệu Phòng"
+
+#: page-detail.php:342 page-detail.php:384
+msgid "Tech Solution Provider"
+msgstr "Công Nghệ Cung Cấp Giải Pháp"
+
+#: page-detail.php:154
+msgid "Technology Readiness Level (TRL) of &gt; 5."
+msgstr "Công nghệ sẵn Sàng Cấp (ROOM) của > 5."
+
+#: page-detail.php:301
+msgid "Telegram"
+msgstr "Bức điện"
+
+#: front-page.php:334
+msgid "telemetry."
+msgstr "từ xa."
+
+#: page-detail.php:237
+msgid "Tell the organization why your solution could be a good fit"
+msgstr "Nói với các tổ chức tại sao giải pháp của bạn có thể là một phù hợp"
+
+#: footer.php:98
+msgid "Terms of Service"
+msgstr "Điều khoản của dịch Vụ"
+
+#: page-community.php:62
+msgid "Territory"
+msgstr "Lãnh thổ"
+
+#: front-page.php:477 front-page.php:501
+msgid "Thailand"
+msgstr "Thái lan"
+
+#: front-page.php:668
+msgid "Thang Tran"
+msgstr "Thắng Trần"
+
+#: page-about-us.php:145
+msgid "The BambuUP Ecosystem"
+msgstr "Các BambuUP Hệ Sinh Thái"
+
+#: page-our-people.php:38
+msgid ""
+"The future belongs not to those with the most resources, but to those who can"
+msgstr ""
+"Tương lai thuộc về không để những người với những nguồn tài nguyên, nhưng để "
+"những người có thể"
+
+#: header.php:187
+msgid "The intelligence behind your"
+msgstr "Trí tuệ của bạn, phía sau"
+
+#: page-startup.php:165
+msgid "the journey ahead"
+msgstr "cuộc hành trình phía trước"
+
+#: page-about-us.php:110
+msgid "The People Behind the Platform"
+msgstr "Những Người đứng Sau các nền Tảng"
+
+#: page-detail.php:129
+msgid ""
+"The simultaneous increase or\n"
+"                                    preservation of beneficial commensal "
+"bacteria to deliver more sustainable clinical\n"
+"                                    outcomes."
+msgstr ""
+"Đồng thời tăng hoặc bảo quản của lợi hội sinh vi khuẩn để cung cấp bền vững "
+"hơn kết quả lâm sàng."
+
+#: header.php:78
+msgid "The team behind the platform"
+msgstr "Các đội phía sau các nền tảng"
+
+#: front-page.php:168
+msgid ""
+"Three complementary service lines\n"
+"                            designed to transform innovation opportunities "
+"into strategic partnerships, scalable\n"
+"                            programmes and long-term growth"
+msgstr ""
+"Ba dịch vụ bổ sung dòng được thiết kế để biến đổi mới cơ hội thành đối tác "
+"chiến lược, mở rộng các chương trình và dài hạn tăng trưởng"
+
+#: page-about-us.php:69
+msgid ""
+"To facilitate meaningful connections between Innovation Seekers and "
+"Innovation Providers"
+msgstr ""
+"Để tạo kết nối có ý nghĩa giữa sự Đổi mới và Tìm sự Đổi mới, các nhà cung Cấp"
+
+#: page-our-people.php:132
+msgid "to the ecosystem"
+msgstr "để những hệ sinh thái"
+
+#: header.php:222
+msgid "Toggle menu"
+msgstr "Chuyển đổi thực đơn"
+
+#: front-page.php:49
+msgid "TOP EXPERTS"
+msgstr "CÁC CHUYÊN GIA HÀNG ĐẦU"
+
+#: page-startup.php:105
+msgid "Top Experts"
+msgstr "Các Chuyên Gia Hàng Đầu"
+
+#: front-page.php:142
+msgid ""
+"Transform innovation\n"
+"                                    capabilities into enterprise "
+"opportunities"
+msgstr "Biến đổi mới khả năng vào nhân cơ hội"
+
+#: front-page.php:230
+msgid ""
+"Transform innovation into\n"
+"                                    scalable growth through investment, "
+"governance and venture execution"
+msgstr ""
+"Biến đổi thành mở rộng sự phát triển qua đầu tư, quản trị và mạo hiểm thực "
+"hiện"
+
+#: page-detail.php:68
+msgid "TRL 5"
+msgstr "ROOM 5"
+
+#: page-startup.php:117
+msgid "Turn capabilities into opportunities"
+msgstr "Biến khả năng vào những cơ hội"
+
+#: header.php:178
+msgid ""
+"Turn strategic challenges into qualified solutions, validated pilots and "
+"scalable outcomes"
+msgstr ""
+"Biến thách thức chiến lược vào đủ điều kiện giải pháp đã được xác nhận, phi "
+"công, và mở rộng kết quả"
+
+#: page-startup.php:57
+msgid "Turn your"
+msgstr "Biến"
+
+#: functions.php:366
+msgid "Types"
+msgstr "Loại"
+
+#: footer.php:17 header.php:31
+msgid "UP"
+msgstr "LÊN"
+
+#: functions.php:316
+msgid "Update Opportunity Category"
+msgstr "Cập Nhật Cơ Hội Mục"
+
+#: functions.php:340
+msgid "Update Opportunity Tag"
+msgstr "Cập Nhật Cơ Hội Tag"
+
+#: functions.php:369
+msgid "Update Opportunity Type"
+msgstr "Cập Nhật Cơ Hội Loại"
+
+#: page-community.php:110
+msgid "Updated July 2026"
+msgstr "Cập Nhật Tháng Bảy Năm 2026"
+
+#: page-pricing.php:226
+msgid "Upgrade to Pro"
+msgstr "Nâng cấp Pro"
+
+#: acf/global-sections-options.php:182
+msgid "URL"
+msgstr "URL"
+
+#: page-detail.php:163
+msgid "Validation Method"
+msgstr "Xác Nhận Phương Pháp"
+
+#: front-page.php:68
+msgid "ventures launched"
+msgstr "liên ra"
+
+#: page-about-us.php:72
+msgid "Video thumbnail"
+msgstr "Hình thu nhỏ"
+
+#: front-page.php:428 page-challenge-hub.php:78 page-detail.php:52
+#: page-detail.php:344
+msgid "Vietnam"
+msgstr "Việt nam"
+
+#: page-detail.php:75
+msgid "Vietnam &amp; Thailand"
+msgstr "Vietnam và Thailand"
+
+#: footer.php:77 page-startup.php:171
+msgid "Vietnam Open Innovation Outlook"
+msgstr "Việt Nam Đổi Mới Mở Vọng"
+
+#: front-page.php:545
+msgid ""
+"Vietnam Open Innovation Outlook:\n"
+"                                From"
+msgstr "Việt Nam Đổi Mới Mở Vọng: Từ"
+
+#: page-startup.php:173
+msgid "Vietnam Open Innovation Outlook: From activity to advantage"
+msgstr "Việt nam Đổi mới Mở Vọng: Từ hoạt động để lợi dụng"
+
+#: front-page.php:213
+msgid "View Accelerator-as-a-Service"
+msgstr "Xem Tốc-như-dịch Vụ"
+
+#: page-startup.php:119
+msgid "View all"
+msgstr "Xem tất cả"
+
+#: page-innovation-as-a-service.php:134
+msgid "View all insights &amp; resources"
+msgstr "Xem tất cả những hiểu biết và nguồn lực"
+
+#: front-page.php:252 front-page.php:254
+msgid "View all opportunities"
+msgstr "Xem tất cả các cơ hội"
+
+#: page-challenge-hub.php:89
+msgid "View challenges in this location"
+msgstr "Xem thử thách ở vị trí này"
+
+#: front-page.php:298 front-page.php:341 front-page.php:383 front-page.php:454
+#: page-challenge-hub.php:169 page-startup.php:149
+msgid "View details"
+msgstr "Xem chi tiết"
+
+#: page-innovation-intelligence.php:259
+msgid "View details ↗"
+msgstr ""
+
+#: page-detail.php:348 page-detail.php:369 page-detail.php:390
+#: page-detail.php:411
+msgid "View details ➔"
+msgstr ""
+
+#: front-page.php:598
+msgid "View event"
+msgstr "Xem sự kiện"
+
+#: page-startup.php:179
+msgid "View event ↗"
+msgstr ""
+
+#: header.php:213
+msgid "View featured report"
+msgstr "Xem các báo cáo"
+
+#: front-page.php:234
+msgid "View Innovation Investment-as-a-Service"
+msgstr "Xem Đổi mới đầu Tư-như-dịch Vụ"
+
+#: front-page.php:191
+msgid "View Innovation-as-a-Service"
+msgstr "Xem sự Đổi mới, một số dịch Vụ"
+
+#: functions.php:281
+msgid "View Opportunities"
+msgstr "Xem Cơ Hội"
+
+#: functions.php:280
+msgid "View Opportunity"
+msgstr "Xem Cơ Hội"
+
+#: page-detail.php:225
+msgid "View organization profile →"
+msgstr ""
+
+#: header.php:104 header.php:112 header.php:120 header.php:128 header.php:136
+msgid "Visit Hub"
+msgstr "Truy Cập Trung Tâm"
+
+#: page-about-us.php:75
+msgid "Volume"
+msgstr "Khối lượng"
+
+#: page-our-people.php:133
+msgid ""
+"We are always interested in people and partners who believe innovation "
+"should be more open, more connected and more capable of creating real-world "
+"impact"
+msgstr ""
+"Chúng tôi luôn quan tâm đến người và các đối tác, những người tin rằng sự "
+"đổi mới nên cởi mở hơn, kết nối nhiều hơn và nhiều hơn nữa có khả năng tạo "
+"ra thế giới thực tác động"
+
+#: page-detail.php:188
+msgid ""
+"We are looking for technologies at least capable of demonstrating\n"
+"                            efficacy in patients with Grade 2 gingivitis, "
+"ideally showing measurable improvements."
+msgstr ""
+"Chúng tôi đang tìm kiếm công nghệ ít nhất có thể chứng minh hiệu quả ở bệnh "
+"nhân Cấp 2 viêm lợi, lý tưởng nhất đang ở đo được cải tiến."
+
+#: front-page.php:620
+msgid ""
+"We have unlocked entirely new ways of thinking about issues that we "
+"previously believed were unsolvable, by connecting with entities that "
+"provide strong solutions for our business"
+msgstr ""
+"Chúng tôi đã mở khóa hoàn toàn mới cách suy nghĩ về vấn đề mà chúng ta tin "
+"tưởng trước đây đã không thể giải quyết được, bằng cách kết nối với các đơn "
+"vị cung cấp các giải pháp mạnh mẽ cho kinh doanh của chúng tôi"
+
+#: page-about-us.php:80
+msgid "What we bring together"
+msgstr "Những gì chúng ta mang lại với nhau"
+
+#: page-our-services.php:109
+msgid "What we do"
+msgstr "Những gì chúng tôi làm"
+
+#: page-challenge-hub.php:69
+msgid "Where challenges become opportunities"
+msgstr "Nơi thách thức trở thành cơ hội"
+
+#: page-detail.php:139
+msgid ""
+"While current gingivitis treatments primarily rely on broad bacterial "
+"reduction\n"
+"                        (antiseptics) or symptom control (anti-"
+"inflammatories), emerging science indicates that\n"
+"                        long-term oral health depends on precise microbiome "
+"modulation. Lacer aims to establish\n"
+"                        leadership in microbiome-based oral care by "
+"integrating this science into next-generation\n"
+"                        products, enabling new differentiated claims such as "
+"reversing early-stage gingivitis by\n"
+"                        targeting underlying imbalances."
+msgstr ""
+"Trong khi hiện phương pháp điều trị bệnh viêm lợi chủ yếu dựa trên rộng vi "
+"khuẩn giảm (thuốc) hoặc triệu chứng kiểm soát (sê), nổi lên khoa học cho "
+"thấy rằng lâu dài, miệng sức khỏe phụ thuộc vào chính xác vi sinh điều chế. "
+"Lacer nhằm thiết lập lãnh đạo trong vi sinh dựa trên miệng chăm sóc bằng "
+"cách kết hợp này khoa học vào thế hệ tiếp theo sản phẩm cho phép mới phân "
+"biệt tuyên bố như đảo ngược giai đoạn đầu viêm lợi của mục tiêu dưới sự mất "
+"cân bằng."
+
+#: page-about-us.php:67
+msgid "Who We Are"
+msgstr "Chúng Ta Là Ai"
+
+#: page-detail.php:285
+msgid "Who will evaluate my proposal?"
+msgstr "Ai sẽ đánh giá đề nghị của tôi?"
+
+#: header.php:70
+msgid "Why BambuUP was created"
+msgstr "Tại sao BambuUP được tạo ra"
+
+#: header.php:59
+msgid "with real opportunity"
+msgstr "với cơ hội thực sự"
+
+#: header.php:165 page-our-people.php:131
+msgid "WORK WITH US"
+msgstr "LÀM VIỆC VỚI CHÚNG TÔI"
+
+#: footer.php:40
+msgid "X"
+msgstr "X"
+
+#: page-detail.php:248
+msgid "Your request is review before contact details are shared."
+msgstr "Yêu cầu của bạn là trước khi xét các chi tiết liên lạc được chia sẻ."
+
+#: footer.php:42
+msgid "YouTube"
+msgstr "YouTube"
+
+#: page-detail.php:345 page-detail.php:387
+msgid "• Pilot Project"
+msgstr "• Dự Án Phi Công"
+
+#: page-detail.php:366 page-detail.php:408
+msgid "• POC &amp; Co-growth"
+msgstr "• POC và Co-tăng trưởng"

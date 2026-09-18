@@ -1,0 +1,51 @@
+
+---Downloaded files---
+The import files for: <b>Demo 27</b> Corporate were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://wp.aries.id.vn
+Data file = /www/wwwroot/da/wp.aries.id.vn/wp-content/uploads/2026/09/demo-content-import-file_2026-09-15__10-58-53.xml
+Widget file = /www/wwwroot/da/wp.aries.id.vn/wp-content/uploads/2026/09/demo-widgets-import-file_2026-09-15__10-58-53.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Blog : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Pages : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer column 1 : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer column 2 : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer column 3 : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer column 4 : 
+
+Block - No Title - Imported
+Ohio: Subscribe Form - No Title - Imported
+
+
+
+---pt-ocdi/after_import---
+
