@@ -232,7 +232,7 @@ get_header();
 						</div>
                         </div>
                         <div class="card-body">
-                            <div class="card-date">Posted: <?php echo esc_html($opportunity['date']); ?></div>
+                            <div class="card-date"><?php esc_html_e( 'Posted:', 'bambu' ); ?> <?php echo esc_html($opportunity['date']); ?></div>
                             <div class="card-org-badge <?php echo esc_attr($opportunity['organization_class']); ?>">
                                 <?php echo esc_html($opportunity['organization']); ?>
                                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
@@ -256,9 +256,9 @@ get_header();
                                     <?php if ( $opportunity['meta_label'] || $opportunity['meta_value'] ) : ?>
                                         <div class="card-meta"><?php echo esc_html($opportunity['meta_label']); ?> <strong><?php echo esc_html($opportunity['meta_value']); ?></strong></div>
                                     <?php endif; ?>
-                                    <a href="<?php echo esc_url( $opportunity['url'] ); ?>" class="view-details">View details ↗</a>
+                                    <a href="<?php echo esc_url( $opportunity['url'] ); ?>" class="view-details"><?php esc_html_e( 'View details ↗', 'bambu' ); ?></a>
                                 </div>
-                                <button class="connect-btn">Connect</button>
+                                <button class="connect-btn"><?php esc_html_e( 'Connect', 'bambu' ); ?></button>
                             </div>
                         </div>
                     </div>
@@ -267,12 +267,12 @@ get_header();
 
             <!-- Pagination -->
             <div class="pagination-wrap">
-                <button class="page-nav" type="button">&lsaquo; Previous</button>
-                <div class="page-numbers" aria-label="Pagination pages"></div>
-                <button class="page-nav" type="button">Next &rsaquo;</button>
+                <button class="page-nav" type="button"><?php _e( '&lsaquo; Previous', 'bambu' ); ?></button>
+                <div class="page-numbers" aria-label="<?php esc_attr_e( 'Pagination pages', 'bambu' ); ?>"></div>
+                <button class="page-nav" type="button"><?php _e( 'Next &rsaquo;', 'bambu' ); ?></button>
                 <label class="pagination-jump">
-                    <span>Page</span>
-                    <input type="number" value="1" min="1" max="<?php echo esc_attr($total_pages); ?>" aria-label="Go to page" />
+                    <span><?php esc_html_e( 'Page', 'bambu' ); ?></span>
+                    <input type="number" value="1" min="1" max="<?php echo esc_attr($total_pages); ?>" aria-label="<?php esc_attr_e( 'Go to page', 'bambu' ); ?>" />
                     <span>/</span>
                     <span class="pagination-total"><?php echo esc_html($total_pages); ?></span>
                 </label>

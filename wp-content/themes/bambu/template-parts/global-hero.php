@@ -17,7 +17,7 @@ $hero = bambu_get_global_hero( $page_key, $fallback );
     <div class="hero-decor"></div>
     <div class="hero-inner">
         <div class="breadcrumb">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a>
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Home', 'bambu' ); ?></a>
             <span class="breadcrumb-sep">/</span>
             <span class="breadcrumb-cur"><?php echo esc_html( $hero['breadcrumb'] ); ?></span>
         </div>

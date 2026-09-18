@@ -458,7 +458,6 @@
 
     .services-page .hero-title {
         font-size: clamp(40px, 12vw, 56px);
-        line-height: 1.1;
         overflow-wrap: anywhere;
     }
 
@@ -466,7 +465,6 @@
         max-width: 100%;
         margin-bottom: 24px;
         font-size: 15px;
-        line-height: 1.5;
     }
 
     .services-page .hero-ctas {
@@ -488,7 +486,6 @@
     .services-page .services-metrics h2 {
         margin-bottom: 40px;
         font-size: clamp(28px, 8vw, 36px);
-        line-height: 1.2;
     }
 
     .services-page .services-metrics-grid {
@@ -498,7 +495,6 @@
     .services-page .services-metric p {
         max-width: 100%;
         font-size: 11px;
-        line-height: 1.45;
         overflow-wrap: anywhere;
     }
 
@@ -506,7 +502,6 @@
         gap: 16px;
         padding-block: 20px;
         font-size: 18px;
-        line-height: 1.35;
     }
 
     .services-page .service-line-panel {
@@ -520,11 +515,9 @@
 
     .services-page .service-line-content h3 {
         font-size: 22px;
-        line-height: 1.25;
     }
 
     .services-page .services-ecosystem h2 {
         font-size: clamp(28px, 8vw, 36px);
-        line-height: 1.2;
     }
 }

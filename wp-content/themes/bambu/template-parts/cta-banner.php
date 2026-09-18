@@ -8,9 +8,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-$title       = bambu_get_global_section_option( 'bambu_global_cta_title', 'Start with the right connection.' );
-$description = bambu_get_global_section_option( 'bambu_global_cta_description', 'We make innovation easy to access for every business everywhere. The next deal is you.' );
-$button_text = bambu_get_global_section_option( 'bambu_global_cta_button_text', 'Contact us' );
+$title       = bambu_get_global_section_option( 'bambu_global_cta_title', __( 'Start with the right connection.', 'bambu' ) );
+$description = bambu_get_global_section_option( 'bambu_global_cta_description', __( 'We make innovation easy to access for every business everywhere. The next deal is you.', 'bambu' ) );
+$button_text = bambu_get_global_section_option( 'bambu_global_cta_button_text', __( 'Contact us', 'bambu' ) );
 $button_url  = bambu_get_global_section_option( 'bambu_global_cta_button_url', home_url( '/contact-us/' ) );
 ?>
 <section class="cta-banner">

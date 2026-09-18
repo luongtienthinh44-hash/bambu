@@ -47,7 +47,7 @@ get_header();
 
     <section class="services-metrics" aria-labelledby="services-metrics-title">
         <div class="services-container">
-            <h2 id="services-metrics-title">Connecting Innovation<br>Creating Impact</h2>
+            <h2 id="services-metrics-title"><?php esc_html_e( 'Connecting Innovation', 'bambu' ); ?><br><?php esc_html_e( 'Creating Impact', 'bambu' ); ?></h2>
             <div class="services-metrics-grid">
                 <?php
                 $metrics = array(
@@ -72,7 +72,7 @@ get_header();
 
     <section class="services-lines" aria-labelledby="services-lines-title">
         <div class="services-container">
-            <h2 id="services-lines-title" class="screen-reader-text">Our service lines</h2>
+            <h2 id="services-lines-title" class="screen-reader-text"><?php esc_html_e( 'Our service lines', 'bambu' ); ?></h2>
             <div class="services-accordion" data-services-accordion>
                 <?php foreach ( $service_lines as $index => $service ) : ?>
                     <article class="service-line <?php echo 0 === $index ? 'is-open' : ''; ?>">
@@ -106,10 +106,10 @@ get_header();
         <div class="services-container">
             <div class="services-ecosystem-header">
                 <div>
-                    <p class="services-eyebrow">What we do</p>
-                    <h2 id="services-ecosystem-title">Built around your role in the ecosystem</h2>
+                    <p class="services-eyebrow"><?php esc_html_e( 'What we do', 'bambu' ); ?></p>
+                    <h2 id="services-ecosystem-title"><?php esc_html_e( 'Built around your role in the ecosystem', 'bambu' ); ?></h2>
                 </div>
-                <p>Different ambitions require different pathways. Explore how BambuUP connects each participant with the services, opportunities and partners most relevant to them.</p>
+                <p><?php esc_html_e( 'Different ambitions require different pathways. Explore how BambuUP connects each participant with the services, opportunities and partners most relevant to them.', 'bambu' ); ?></p>
             </div>
             <div class="services-ecosystem-divider"></div>
             <div class="services-personas">
@@ -121,7 +121,7 @@ get_header();
                             <h3><?php echo esc_html( $persona['name'] ); ?></h3>
                             <p class="services-persona-description"><?php echo esc_html( $persona['description'] ); ?></p>
                             <div class="services-matched">
-                                <span class="services-matched-label">Best matched with</span>
+                                <span class="services-matched-label"><?php esc_html_e( 'Best matched with', 'bambu' ); ?></span>
                                 <ul>
                                     <?php foreach ( $persona['matched'] as $matched ) : ?>
                                         <li><?php echo esc_html( $matched ); ?></li>

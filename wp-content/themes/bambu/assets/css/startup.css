@@ -1,0 +1,545 @@
+.startup-page {
+    background: #ffffff;
+    color: #0f172a;
+}
+
+.startup-container {
+    width: calc(100% - (2 * var(--bambu-container-gutter, 24px)));
+    max-width: var(--bambu-container-max-width, 1290px);
+    margin-inline: auto;
+    box-sizing: border-box;
+}
+
+.startup-value-section,
+.startup-opportunities-section,
+.startup-stories-section {
+    padding: 96px 0;
+}
+
+.startup-value-section {
+    background: #ffffff;
+}
+
+.startup-section-header {
+    margin-bottom: 64px;
+}
+
+.startup-eyebrow {
+    margin: 0 0 12px;
+    color: #64748b;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.startup-section-header h2,
+.startup-opportunities-header h2,
+.startup-stories-header h2 {
+    margin: 0;
+    color: #0f172a;
+    font-size: clamp(36px, 4vw, 48px);
+    font-weight: 800;
+    letter-spacing: -1.2px;
+}
+
+.startup-section-header h2 span {
+    background: linear-gradient(90deg, #35ad68, #7855a2);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.startup-value-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 32px;
+}
+
+.startup-value-card {
+    display: flex;
+    min-height: 360px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 37px;
+    background: #f1f4f9;
+    border: 1px solid #e2e8f0cc;
+    border-radius: 24px;
+    box-shadow: 0 1px 1px #0000000d;
+}
+
+.startup-value-card-dark {
+    color: #ffffff;
+    background: #111f39;
+    border-color: #1e293b;
+    box-shadow: 0 20px 25px -5px #0000001a;
+}
+
+.startup-value-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 31px;
+    background: #ffffff;
+    border-radius: 12px;
+}
+
+.startup-value-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.startup-card-eyebrow {
+    margin: 0 0 4px;
+    color: #64748b;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+}
+
+.startup-value-card-dark .startup-card-eyebrow {
+    color: #35ad68;
+}
+
+.startup-value-card h3 {
+    margin: 0;
+    color: #0f172a;
+    font-size: 22px;
+}
+
+.startup-value-card-dark h3 {
+    color: #ffffff;
+}
+
+.startup-value-card > div > p:last-child {
+    margin: 7px 0 0;
+    color: #475569;
+    font-size: 14px;
+}
+
+.startup-value-card-dark > div > p:last-child {
+    color: #94a3b8;
+}
+
+.startup-value-card > a {
+    padding-top: 38px;
+    color: #0f172a;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+
+.startup-value-card-dark > a {
+    color: #ffffff;
+}
+
+.startup-value-card > a span,
+.startup-ecosystem-copy > a span,
+.startup-opportunities-header > a span,
+.startup-opportunity-link span,
+.startup-stories-header > a span {
+    padding-left: 6px;
+}
+
+.startup-ecosystem-section {
+    padding: 96px 0;
+    background: linear-gradient(69.91deg, #0d1534 0%, #141b45 47.26%, #452650 94.53%);
+}
+
+.startup-ecosystem-top {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    gap: 48px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.startup-ecosystem-copy .startup-eyebrow {
+    color: #94a3b8;
+}
+
+.startup-ecosystem-copy h2 {
+    max-width: 520px;
+    margin: 12px 0 0;
+    color: #ffffff;
+    font-size: clamp(36px, 4vw, 44px);
+    font-weight: 800;
+    letter-spacing: -1.1px;
+}
+
+.startup-ecosystem-copy > p:not(.startup-eyebrow) {
+    max-width: 512px;
+    margin: 24px 0 0;
+    color: #cbd5e1;
+    font-size: 16px;
+}
+
+.startup-ecosystem-copy > a {
+    display: inline-flex;
+    margin-top: 35px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.startup-ecosystem-image {
+    height: 598px;
+}
+
+.startup-ecosystem-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.startup-metrics-row {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 32px;
+    padding-top: 49px;
+    border-top: 1px solid #1e293b;
+}
+
+.startup-metrics-row > div {
+    min-width: 0;
+}
+
+.startup-metrics-row strong {
+    display: block;
+    width: fit-content;
+    color: transparent;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -1.2px;
+    background: linear-gradient(90deg, #43b263, #3ba295 25%, #3b7ab5 50%, #7147a7 75%, #814272);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.startup-metrics-row strong span {
+    font-size: 24px;
+    vertical-align: top;
+}
+
+.startup-metrics-row b {
+    display: block;
+    margin-top: 8px;
+    color: #94a3b8;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+
+.startup-metrics-row p {
+    max-width: 220px;
+    margin: 4px 0 0;
+    color: #94a3b8;
+    font-size: 12px;
+}
+
+.startup-opportunities-section {
+    background: #f8fafc;
+}
+
+.startup-opportunities-header,
+.startup-stories-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.startup-opportunities-header h2,
+.startup-stories-header h2 {
+    font-size: 36px;
+}
+
+.startup-opportunities-header > a,
+.startup-stories-header > a {
+    flex: 0 0 auto;
+    color: #0f172a;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.startup-opportunities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 32px;
+}
+
+.startup-opportunity-card {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 1px 2px #0000000d;
+}
+
+.startup-opportunity-image {
+    position: relative;
+    height: 192px;
+    overflow: hidden;
+    background: #f1f5f9;
+}
+
+.startup-opportunity-image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.startup-opportunity-image > span {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 10px;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 800;
+    background: #10b981f2;
+    border-radius: 9999px;
+}
+
+.startup-opportunity-image i {
+    width: 6px;
+    height: 6px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.startup-opportunity-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 5px;
+    padding: 24px 24px 16px;
+}
+
+.startup-opportunity-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.startup-opportunity-title h3 {
+    margin: 0;
+    color: #0f172a;
+    font-size: 16px;
+}
+
+.startup-opportunity-title > span {
+    color: #475569;
+    font-size: 22px;
+}
+
+.startup-opportunity-date,
+.startup-opportunity-type {
+    margin: 0;
+    color: #94a3b8;
+    font-size: 11px;
+}
+
+.startup-opportunity-type {
+    padding-top: 7px;
+    color: #35ad68;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.startup-opportunity-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 11px 0 4px;
+}
+
+.startup-opportunity-tags span {
+    padding: 2px 8px;
+    color: #047857;
+    font-size: 11px;
+    background: #ecfdf5;
+    border-radius: 4px;
+}
+
+.startup-opportunity-link {
+    padding: 14px 24px 26px;
+    color: #0f172a;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.startup-stories-section {
+    background: #e3e9f5;
+}
+
+.startup-stories-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 48px;
+}
+
+.startup-feature-story > img {
+    display: block;
+    width: 100%;
+    height: 357px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px #0000001a;
+}
+
+.startup-story-eyebrow,
+.startup-story-list article > p {
+    margin: 17px 0 0;
+    color: #059669;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+
+.startup-feature-story h3 {
+    margin: 4px 0 0;
+    color: #08162d;
+    font-size: 26px;
+}
+
+.startup-feature-story > p:last-child {
+    margin: 5px 0 0;
+    color: #66758b;
+    font-size: 15px;
+}
+
+.startup-story-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.startup-story-list article {
+    padding: 0 0 31px;
+}
+
+.startup-story-list article + article {
+    padding-top: 28px;
+    border-top: 1px solid #f1f5f9;
+}
+
+.startup-story-list article > p {
+    margin-top: 0;
+    color: #94a3b8;
+    font-size: 11px;
+}
+
+.startup-story-list h3 {
+    margin: 4px 0 0;
+    color: #08162d;
+    font-size: 20px;
+}
+
+.startup-story-list a {
+    display: inline-block;
+    margin-top: 13px;
+    color: #08162d;
+    font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+    .startup-value-grid,
+    .startup-opportunities-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .startup-ecosystem-top {
+        grid-template-columns: 1fr;
+    }
+
+    .startup-ecosystem-image {
+        height: 420px;
+    }
+}
+
+@media (max-width: 767px) {
+    .startup-value-section,
+    .startup-ecosystem-section,
+    .startup-opportunities-section,
+    .startup-stories-section {
+        padding-block: 64px;
+    }
+
+    .startup-section-header,
+    .startup-opportunities-header,
+    .startup-stories-header {
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+
+    .startup-value-grid,
+    .startup-opportunities-grid,
+    .startup-stories-grid,
+    .startup-metrics-row {
+        grid-template-columns: 1fr;
+    }
+
+    .startup-value-card {
+        min-height: 0;
+    }
+
+    .startup-ecosystem-top {
+        gap: 32px;
+        margin-bottom: 48px;
+    }
+
+    .startup-ecosystem-image {
+        height: 300px;
+    }
+
+    .startup-metrics-row {
+        gap: 28px;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .startup-metrics-row strong,
+    .startup-metrics-row p {
+        margin-inline: auto;
+    }
+
+    .startup-feature-story > img {
+        height: 280px;
+    }
+}
+
+@media (max-width: 560px) {
+    .startup-value-section,
+    .startup-ecosystem-section,
+    .startup-opportunities-section,
+    .startup-stories-section {
+        padding-block: 48px;
+    }
+
+    .startup-section-header h2,
+    .startup-opportunities-header h2,
+    .startup-stories-header h2 {
+        font-size: 32px;
+    }
+
+    .startup-value-card {
+        padding: 28px;
+    }
+}

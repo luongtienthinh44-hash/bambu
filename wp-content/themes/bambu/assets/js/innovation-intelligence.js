@@ -42,7 +42,7 @@
             if (bookmark) {
                 bookmark.setAttribute('role', 'button');
                 bookmark.setAttribute('tabindex', '0');
-                bookmark.setAttribute('aria-label', 'Save opportunity');
+                bookmark.setAttribute('aria-label', bambuL10n.saveOpportunity);
             }
         });
 
@@ -121,7 +121,7 @@
                 if (!emptyState) {
                     emptyState = document.createElement('p');
                     emptyState.className = 'innovation-empty-state';
-                    emptyState.textContent = 'No opportunities match your filters.';
+                    emptyState.textContent = bambuL10n.noResults;
                     page.querySelector('.card-grid')?.before(emptyState);
                 }
                 emptyState.hidden = false;
@@ -370,7 +370,7 @@
             const toggleBookmark = function () {
                 const saved = bookmark.classList.toggle('is-bookmarked');
                 bookmark.setAttribute('aria-pressed', saved ? 'true' : 'false');
-                bookmark.setAttribute('aria-label', saved ? 'Remove saved opportunity' : 'Save opportunity');
+                bookmark.setAttribute('aria-label', saved ? bambuL10n.removeSavedOpportunity : bambuL10n.saveOpportunity);
             };
 
             bookmark.addEventListener('click', toggleBookmark);
@@ -384,7 +384,7 @@
 
         page.querySelectorAll('.connect-btn').forEach(function (button) {
             button.addEventListener('click', function () {
-                button.textContent = 'Connected';
+                button.textContent = bambuL10n.connected;
                 button.disabled = true;
                 button.setAttribute('aria-pressed', 'true');
             });

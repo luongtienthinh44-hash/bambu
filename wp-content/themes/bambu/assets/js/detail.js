@@ -27,14 +27,14 @@
                 button.setAttribute('aria-pressed', saved ? 'true' : 'false');
 
                 if (button.classList.contains('save-btn') || button.classList.contains('save-opp-btn')) {
-                    button.childNodes[0].textContent = saved ? 'Saved opportunity ' : 'Save opportunity ';
+                    button.childNodes[0].textContent = saved ? bambuL10n.savedOpportunity : bambuL10n.saveOpportunity;
                 }
             });
         });
 
         page.querySelectorAll('.req-conn-btn, .rel-connect').forEach(function (button) {
             button.addEventListener('click', function () {
-                button.textContent = 'Request sent';
+                button.textContent = bambuL10n.requestSent;
                 button.disabled = true;
                 button.setAttribute('aria-pressed', 'true');
             });

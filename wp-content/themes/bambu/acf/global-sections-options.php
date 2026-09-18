@@ -227,7 +227,7 @@ function bambu_get_global_hero( $page_key, $fallback = array() ) {
 		if ( isset( $global_hero['page_key'] ) && $page_key === $global_hero['page_key'] ) {
 			foreach ( $default as $key => $value ) {
 				if ( isset( $global_hero[ $key ] ) && '' !== $global_hero[ $key ] && null !== $global_hero[ $key ] ) {
-					$hero[ $key ] = $global_hero[ $key ];
+					$hero[ $key ] = __( $global_hero[ $key ], 'bambu' );
 				}
 			}
 
@@ -245,7 +245,7 @@ function bambu_get_global_section_option( $key, $default = '' ) {
 
 	$value = get_field( $key, 'option' );
 
-	return '' !== $value && null !== $value ? $value : $default;
+	return '' !== $value && null !== $value ? ( is_string( $value ) ? __( $value, 'bambu' ) : $value ) : $default;
 }
 
 function bambu_get_global_partners() {

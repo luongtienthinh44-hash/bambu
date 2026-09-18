@@ -1,0 +1,994 @@
+/*
+=======================================================
+LocoAI Dashboard - Admin Panel Styles
+=======================================================
+*/
+
+:root {
+    --primary-color: #30b230;
+    --secondary-color: #239d23;
+    --background-color: #f8f9fa;
+    --border-color: #ddd;
+    --text-color: #222;
+    --text-color-light: #666;
+    --link-color: #0073aa;
+    --shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    --font-size-base: 16px;
+    --line-height-base: 1.5;
+}
+
+/* General Wrapper */
+.atlt-dashboard-wrapper {
+    margin: 0 0 0 -20px;
+    padding: 0;
+    width: calc(100% + 20px);
+    box-sizing: border-box;
+
+}
+
+.atlt-dashboard-wrapper .nav-tab-wrapper a:first-child{
+    margin-left: 30px;
+}
+
+.atlt-dashboard-wrapper .nav-tab-wrapper a {
+    padding: 10px 12px;
+    border-radius: 6px 6px 0 0;
+}
+
+.atlt-dashboard-wrapper * {
+    box-sizing: border-box;
+    font-family: Inter, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.atlt-dashboard-wrapper h3 {
+    font-size: 19px;
+    line-height: 1.5em;
+    margin: 0px 0px 20px;
+    padding: 0px;
+}
+
+:is(.toplevel_page_loco-addon,.loco-translate_page_loco-atlt-dashboard) #wpbody #wpbody-content {
+    margin-top: 80px !important;
+    margin-block-start: 80px !important;
+}
+
+/* ================================================
+   Buttons & Links
+================================================ */
+.atlt-dashboard-btns-row {
+    display: flex;
+    gap: 10px;
+}
+
+.atlt-dashboard-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid var(--border-color);
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+.atlt-dashboard-btn:focus {
+   box-shadow: none;
+}
+
+.atlt-dashboard-btn.primary {
+    background: var(--primary-color);
+    color: #fff;
+    border-color: var(--secondary-color);
+}
+
+.atlt-dashboard-btn:hover {
+    background: #efffef;
+    color: var(--primary-color);
+    border-color: var(--border-color);
+    cursor: pointer;
+}
+
+.atlt-dashboard-provider-labels{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: flex-end;
+}
+
+.atlt-dashboard-provider-label{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 6px;
+    font-weight: 500 !important;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid var(--border-color);
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+/* ================================================
+   Header Section
+================================================ */
+.atlt-dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--background-color);
+    padding: 5px 30px;
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 6px 6px 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% + 20px);
+    margin: 0 0 0 -20px;
+    box-shadow: var(--shadow);
+    height: 70px;
+}
+.atlt-dashboard-header-left,
+.atlt-dashboard-info-links p,
+.feedback-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.atlt-dashboard-header-left img{
+	max-width: 130px;
+}
+.atlt-dashboard-header-left svg {
+    height: 50px;
+}
+
+.atlt-dashboard-tab-title {
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.atlt-dashboard-header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.atlt-dashboard-left-section {
+    width: auto;
+    flex: 2;
+    margin-top: 30px;
+}
+
+
+/* ================================================
+   Welcome Section
+================================================ */
+.atlt-dashboard-welcome {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow);
+	gap: 20px;
+}
+
+.atlt-dashboard-translation-providers{
+    margin-top: 24px;
+}
+
+.atlt-dashboard-welcome-text {
+    width: 50%;
+    flex-direction: column;
+}
+
+.atlt-dashboard-welcome-text .atlt-dashboard-welcome-subhead-container{
+    padding-top: 30px;
+    font-size: 1rem;
+}
+
+.atlt-dashboard-welcome-text h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 25px;
+    margin: 10px 0px;
+}
+
+.atlt-dashboard-welcome p {
+    font-size: 0.875rem;
+    color: var(--text-color-light);
+}
+
+.atlt-dashboard-steps{
+    list-style: disc;
+    padding-block: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-block: 13px;
+}
+
+.atlt-dashboard-welcome-video {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.atlt-dashboard-welcome-video .play-icon {
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    left: calc(50% - 27px);
+    top: calc(50% - 27px);
+    animation: play-icon 1s ease-in-out infinite;
+}
+
+.atlt-dashboard-welcome-video img.loco-video {
+    width: 100%;
+    height: auto;
+}
+
+a.atlt-dashboard-docs {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: var(--text-color);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+a.atlt-dashboard-docs:hover {
+    color: var(--primary-color);
+}
+
+a.atlt-dashboard-docs:focus,
+a.atlt-dashboard-video-link:focus,
+.atlt-pro-toggle-link:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+a.atlt-dashboard-video-link {
+    display: block;
+    position: relative;
+    line-height: 0;
+}
+
+
+/* ================================================
+   Translation Providers
+================================================ */
+.atlt-dashboard-providers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+/* ================================================
+   Sidebar
+================================================ */
+.atlt-dashboard-sidebar {
+    width: 450px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    flex: 1;
+}
+
+/* Translation Status */
+.atlt-dashboard-sidebar .atlt-dashboard-status{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 10px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow);
+    flex-direction: column;
+}
+
+/* Full Website Translate (addon list) */
+.atlt-dashboard-sidebar .atlt-dashboard-translate-full{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.atlt-dashboard-sts-top {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #c3c4c7;
+    gap: 12px;
+    font-size: 15px;
+}
+
+.atlt-dashboard-sts-top span:first-child {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+ul.atlt-dashboard-sts-btm {
+    padding: 0;
+    margin: 9px 0;
+}
+
+ul.atlt-dashboard-sts-btm li {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0;
+    padding-block: 10px;
+    border-bottom: 1px solid #e9e9e9b0;
+}
+
+ul.atlt-dashboard-sts-btm li:last-child {
+    margin-bottom: 0px;
+    border-bottom: none;
+}
+
+ul.atlt-dashboard-sts-btm li span:first-child {
+    font-weight: 600;
+}
+
+
+/* Full Website Translate */
+.atlt-dashboard-translate-full .atlt-dashboard-addon {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow);
+    padding: 16px;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.atlt-dashboard-addon-l {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.atlt-dashboard-addon-r img {
+    width: 72px;
+}
+
+.atlt-dashboard-translate-full .installed {
+    background: #9a9d9a6e;
+    color: black;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: default;
+}
+
+.atlt-dashboard-translate-full .addon-desc {
+    font-size: 12px;
+    color: #838389;
+    margin-bottom: 5px;
+}
+
+.atlt-dashboard-translate-full .atlt-install-message{
+    margin-top: 8px;
+}
+
+.atlt-dashboard-translate-full .atlt-install-message:empty{
+    display: none !important;
+}
+
+/* ================================================
+   Rate Us Section
+================================================ */
+.atlt-dashboard-rate-us,
+.atlt-dashboard-support {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow);
+}
+.atlt-dashboard-rate-us h3,
+.atlt-dashboard-support h3{
+    line-height: 25px;
+}
+
+/* ================================================
+   Animations
+================================================ */
+@keyframes play-icon {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/*===============================================
+    Tab Content
+================================================ */
+.atlt-dashboard-wrapper .tab-content{
+    display: flex;
+    gap: 30px !important;
+    padding: 0 30px;
+}
+
+.atlt-dashboard-free-vs-pro .header,
+.atlt-dashboard-license .header ,
+.atlt-dashboard-settings .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* ================================================
+   Free vs Pro
+================================================ */
+.atlt-dashboard-free-vs-pro {
+    width: 100%;
+    flex: 2;
+}
+
+.atlt-dashboard-free-vs-pro-container{
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.atlt-dashboard-free-vs-pro p {
+    font-size: 14px;
+    color: var(--text-color-light);
+    margin-bottom: 20px;
+}
+
+.atlt-dashboard-free-vs-pro table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+
+.atlt-dashboard-free-vs-pro th {
+    background-color: #e7e7e7;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px;
+}
+
+.atlt-dashboard-free-vs-pro td {
+    padding: 12px;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+.atlt-dashboard-free-vs-pro .check {
+    color: green;
+    font-size: 16px;
+}
+
+.atlt-dashboard-free-vs-pro .cross {
+    color: red;
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .atlt-dashboard-free-vs-pro {
+        width: 100%;
+        padding: 16px;
+    }
+}
+
+/* ================================================
+   AI Translations
+================================================ */
+.atlt-dashboard-ai-translations {
+    width: auto;
+    flex: 2;
+    margin-top: 25px;
+}
+
+.atlt-dashboard-ai-translations .description {
+    font-size: 14px;
+    color: var(--text-color-light);
+    margin: 10px 0 35px 0;
+}
+
+.atlt-dashboard-ai-translations .atlt-dashboard-translation-card {
+    position: relative;
+    text-align: start;
+    flex: 1;
+    background: #fff;
+    padding: 21px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow);
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.atlt-dashboard-ai-translations .atlt-dashboard-translation-card:hover {
+    border-color: rgba(48, 178, 48, 0.35);
+    box-shadow: 0 8px 24px rgba(48, 178, 48, 0.12);
+}
+
+.atlt-dashboard-ai-translations .atlt-dashboard-translation-card h3{
+    margin-top: 12px;
+	font-size: 1.0rem;
+    margin-bottom: 10px;
+}
+.atlt-dashboard-ai-translations .atlt-dashboard-translation-card p {
+    padding-right: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    border-top: 1px solid #ececec;
+    padding-top: 15px;
+}
+
+.atlt-dashboard-ai-translations .atlt-dashboard-translation-card .logo{
+	background-color: white;
+    left: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.atlt-dashboard-ai-translations .atlt-dashboard-translation-card .atlt-dashboard-translation-card-header > a{
+    text-decoration: none;
+    box-shadow: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.atlt-dashboard-ai-translations .atlt-dashboard-translation-card .logo img{
+    height: 25px;
+}
+
+.atlt-dashboard-ai-translations .atlt-dashboard-translation-card .atlt-dashboard-translation-card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.atlt-pro-toggle-link{
+    display: inline-flex;
+    text-decoration: none;
+    box-shadow: none;
+}
+.atlt-pro-toggle-link *{
+    pointer-events: none;
+}
+.atlt-pro-toggle-link .atlt-switch-label,
+.atlt-pro-toggle-link .atlt-switch-slider{
+    cursor: pointer;
+}
+.atlt-pro-toggle-link .atlt-switch-label.is-disabled .atlt-switch-slider{
+    cursor: pointer;
+}
+.atlt-switch-label {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+    margin: 0;
+}
+.atlt-switch-label .atlt-input-toggle{
+    opacity: 0 !important;
+    width: 0;
+    height: 0;
+}
+.atlt-switch-label.is-disabled {
+    opacity: 0.45;
+}
+.atlt-switch-label.is-disabled .atlt-switch-slider {
+    cursor: not-allowed;
+}
+:is(.atlt-switch-label, .atlt-pro-toggle-link)[data-atlt-tooltip] {
+    position: relative;
+}
+:is(.atlt-switch-label, .atlt-pro-toggle-link)[data-atlt-tooltip]:hover::after,
+:is(.atlt-switch-label, .atlt-pro-toggle-link)[data-atlt-tooltip]:focus::after,
+:is(.atlt-switch-label, .atlt-pro-toggle-link)[data-atlt-tooltip]:focus-within::after {
+    content: attr(data-atlt-tooltip);
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    padding: 4px 10px;
+    border-radius: 6px;
+    background: #000 !important;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.35;
+    white-space: nowrap;
+    text-align: center;
+    z-index: 9999;
+    pointer-events: none;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
+}
+:is(.atlt-switch-label, .atlt-pro-toggle-link)[data-atlt-tooltip]:hover::before,
+:is(.atlt-switch-label, .atlt-pro-toggle-link)[data-atlt-tooltip]:focus::before,
+:is(.atlt-switch-label, .atlt-pro-toggle-link)[data-atlt-tooltip]:focus-within::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #000 !important;
+    transform: translate(-50%, -100%);
+    pointer-events: none;
+    z-index: 10000;
+}
+:is(.atlt-switch-label, .atlt-pro-toggle-link)[data-atlt-tooltip]:focus {
+    outline: none;
+}
+:is(.atlt-switch-label, .atlt-pro-toggle-link)[data-atlt-tooltip]:focus-visible .atlt-switch-slider {
+    box-shadow: 0 0 0 2px rgba(48, 178, 48, 0.25);
+}
+.atlt-input-toggle:checked + .atlt-switch-slider {
+    background-color: var(--primary-color);
+}
+.atlt-pro-toggle-link .atlt-input-toggle:disabled + .atlt-switch-slider {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+.atlt-pro-toggle-link .atlt-input-toggle:disabled:checked + .atlt-switch-slider {
+    background-color: #e0e0e0;
+}
+.atlt-switch-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.3s;
+    border-radius: 24px;
+}
+.atlt-input-toggle:checked + .atlt-switch-slider:before {
+    transform: translateX(20px);
+}
+.atlt-switch-slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+.atlt-dashboard-ai-translations .atlt-dashboard-translation-card .play-btn-container img {
+ width: 100%;
+ height: 100%;
+ border-radius: 8px;
+}
+.atlt-dashboard-ai-translations .atlt-dashboard-translation-card .play-btn-container a:focus {
+    box-shadow: none;
+   }
+
+/* ================================================
+   License
+================================================ */
+.atlt-dashboard-license {
+    width: 100%;
+    flex: 2;
+}
+
+.atlt-dashboard-license-container{
+    background: white;
+    font-family: Arial, sans-serif;
+    color: #333;
+    border: 1px solid var(--border-color);
+    padding: 24px;
+    border-radius: 5px;
+}
+
+.atlt-dashboard-license h1 {
+    font-weight: 600;
+    color: #000;
+    margin: 14px 0px 22px 0px;
+    font-size: 22px;
+}
+
+.atlt-dashboard-license p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.atlt-dashboard-upgrade-box {
+    background-color: #f3fcf3;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-left: 4px solid #30b230;
+}
+
+.atlt-dashboard-upgrade-box a {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.atlt-dashboard-upgrade-box a:hover {
+    text-decoration: underline;
+}
+
+.atlt-dashboard-upgrade-box em {
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #555;
+}
+
+/* ================================================
+   Settings Section
+================================================ */
+.atlt-dashboard-settings {
+    width: 100%;
+    flex: 2;
+}
+
+.atlt-dashboard-settings-container{
+    padding: 24px;
+    background: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.atlt-dashboard-settings h1{
+    margin: 14px 0px 22px 0px;
+    font-size: 22px;
+	line-height: 25px;
+}
+
+.atlt-dashboard-api-settings-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.atlt-dashboard-api-settings {
+    width: 100%;
+}
+
+.atlt-dashboard-api-settings label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.atlt-dashboard-api-settings label:not(:first-of-type) {
+    padding: 10px 0px 0px 0px;
+    border-top: 1px solid var(--border-color);
+}
+
+.atlt-dashboard-api-settings .api-settings-label:not(:first-of-type) {
+    border-top: 1px solid var(--border-color);
+    padding-top: 18px;
+}
+
+.atlt-dashboard-api-settings .input-group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.atlt-dashboard-api-settings .input-group input{
+    width: 60%;
+}
+.atlt-dashboard-api-settings input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.atlt-openai-model-select {
+    height: 32px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.atlt-dashboard-api-settings-form a { 
+    display: inline-block;
+    font-size: 14px;
+    color: var(--link-color);
+    text-decoration: none;
+    margin-bottom: 18px;
+}
+
+.atlt-dashboard-api-settings .atlt-context-aware-textarea {
+    width: 100%;
+    min-height: 110px;
+    padding: 10px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--text-color);
+    background: #fff;
+    resize: vertical;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.atlt-dashboard-api-settings .atlt-context-aware-textarea[disabled] {
+    background: #f6f7f7;
+    color: #8c8f94;
+}
+
+.atlt-dashboard-api-settings p{
+    margin:0px 0px 24px 0px;
+}
+
+.atlt-dashboard-api-settings .atlt-dashboard-save-btn-container{
+    margin-top: 15px;
+}
+
+/* ================================================
+   Info
+================================================ */
+.atlt-dashboard-info {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.atlt-dashboard-info-links {
+    font-size: 14px;
+}
+
+.atlt-dashboard-info .logo {
+    width: 109px;
+    height: 7px;
+    margin-bottom: 10px;
+}
+
+.atlt-dashboard-info .logo  a:focus{
+    box-shadow: none;
+}
+
+.atlt-dashboard-info-links a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+@media (max-width: 488px) and  (min-width:100px){
+	.atlt-dashboard-free-vs-pro-container .header,
+	.atlt-dashboard-settings-container .header,
+	.atlt-dashboard-license-container .header{
+    flex-direction: column;
+    align-items: start;
+	padding-bottom: 10px;
+}
+}
+@media (max-width: 767px) {
+    .atlt-dashboard-providers-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .atlt-dashboard-btns-row,
+    ul.atlt-dashboard-sts-btm li {
+        flex-direction: column;
+        align-items: start;
+    }
+    .feedback-row {
+        flex-direction: column;
+        align-items: start !important;
+    }
+    .atlt-dashboard-provider-labels {
+        justify-content: start;
+    }
+    .atlt-dashboard-wrapper .nav-tab-wrapper a {
+        padding: 8px 7px;
+        font-size: 10px;
+    }
+    .atlt-dashboard-wrapper .tab-content {
+        padding: 0px 20px 0px 20px;
+        flex-direction: column;
+        gap: 0px;
+    }
+	.atlt-dashboard-sidebar {
+        width: auto;
+        max-width: 100%;
+        margin-top: 0px;
+    }
+	.atlt-dashboard-header {
+        padding: 0px 11px 11px 20px;
+        height: 145px;
+        flex-direction: column;
+        gap: 0px;
+        top: 47px;
+    }
+	.atlt-dashboard-welcome {
+        flex-direction: column;
+    }
+    .atlt-dashboard-welcome-text {
+        width: calc(100% - 0px);
+    }
+    .atlt-dashboard-welcome-video {
+        width: 100%;
+    }
+	.atlt-dashboard-wrapper{
+	    padding:60px 0px 0px 0px;
+	}
+	.atlt-dashboard-header-right {
+        gap: 6px;
+    }
+}
+@media (max-width: 766px) and  (min-width:601px){
+	.atlt-dashboard-header {
+        top: 0px;
+    }
+}
+	
+@media (max-width: 767px) and  (min-width:375px){
+	.atlt-dashboard-header {
+        height: 110px;
+    }
+}
+	
+	
+@media (max-width: 1024px) {
+    .atlt-dashboard-header-left svg {
+        max-width: 120px;
+    }
+    .atlt-dashboard-header {
+        gap: 15px;
+    }
+    .atlt-dashboard-header-left img{
+        max-width: 125px;
+    }
+        .atlt-dashboard-btn {
+        padding: 8px 6px;
+    }
+        .atlt-dashboard-header-right {
+        gap: 13px;
+    }
+}
+
+/* ================================================
+   Feedback
+================================================ */
+.atlt-dashboard-feedback-container {
+    margin: 25px 0px 18px 0px;
+}
+
+.feedback-row p {
+    margin: 0;
+}
+
+input#atlt-dashboard-feedback-checkbox {
+    width: auto;
+    align-items: center;
+    margin-top: 3px;
+}
+

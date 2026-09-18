@@ -201,6 +201,7 @@
     font-weight: 800;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    width: fit-content;
 }
 
 .about-stat sup {
@@ -527,13 +528,11 @@
 
     .about-page .hero-title {
         font-size: clamp(42px, 14vw, 60px);
-        line-height: 1.08;
     }
 
     .about-page .hero-sub {
         max-width: 100%;
         font-size: 16px;
-        line-height: 1.5;
     }
 
     .about-page .hero-ctas {
@@ -589,7 +588,8 @@
         width: 100%;
     }
 
-    .about-stat p {
+    .about-stat p,
+    .about-stat strong {
         margin-right: auto;
         margin-left: auto;
     }

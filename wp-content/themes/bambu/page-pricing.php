@@ -153,7 +153,7 @@ get_header();
                     <?php foreach ( $plans as $plan ) : ?>
                         <article class="pricing-plan-card <?php echo esc_attr( $plan['class'] ); ?>">
                             <?php if ( false !== strpos( $plan['class'], 'recommended' ) ) : ?>
-                                <span class="pricing-recommended">RECOMMENDED</span>
+                                <span class="pricing-recommended"><?php esc_html_e( 'RECOMMENDED', 'bambu' ); ?></span>
                             <?php endif; ?>
                             <h2 class="pricing-plan-name"><?php echo esc_html( $plan['name'] ); ?></h2>
                             <p class="pricing-plan-description"><?php echo esc_html( $plan['description'] ); ?></p>
@@ -173,7 +173,7 @@ get_header();
                             </div>
                             <?php if ( $plan['not_included'] ) : ?>
                                 <div class="pricing-not-included">
-                                    <p>Not included:</p>
+                                    <p><?php esc_html_e( 'Not included:', 'bambu' ); ?></p>
                                     <ul>
                                         <?php foreach ( $plan['not_included'] as $feature ) : ?>
                                             <li><?php echo esc_html( $feature ); ?></li>
@@ -190,16 +190,16 @@ get_header();
 
         <section class="pricing-comparison-section" aria-labelledby="comparison-title">
             <div class="pricing-container pricing-comparison-card">
-                <h2 id="comparison-title">Compare all plan features</h2>
-                <p>See what is included and choose the plan that fits your needs</p>
+                <h2 id="comparison-title"><?php esc_html_e( 'Compare all plan features', 'bambu' ); ?></h2>
+                <p><?php esc_html_e( 'See what is included and choose the plan that fits your needs', 'bambu' ); ?></p>
                 <div class="pricing-table-wrap">
                     <table class="pricing-table">
                         <thead>
                             <tr>
-                                <th scope="col">FEATURES</th>
-                                <th scope="col">STANDARD</th>
-                                <th scope="col">BUSINESS</th>
-                                <th scope="col" class="is-recommended">PRO <span>RECOMMENDED</span></th>
+                                <th scope="col"><?php esc_html_e( 'FEATURES', 'bambu' ); ?></th>
+                                <th scope="col"><?php esc_html_e( 'STANDARD', 'bambu' ); ?></th>
+                                <th scope="col"><?php esc_html_e( 'BUSINESS', 'bambu' ); ?></th>
+                                <th scope="col" class="is-recommended"><?php esc_html_e( 'PRO', 'bambu' ); ?> <span><?php esc_html_e( 'RECOMMENDED', 'bambu' ); ?></span></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -220,10 +220,10 @@ get_header();
                         </tbody>
                         <tfoot>
                             <tr>
-                                <th scope="row">Need more seats or custom limits? <a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Contact us ↗</a></th>
-                                <td><a class="pricing-table-cta" href="<?php echo esc_url( home_url( '/register/' ) ); ?>">Join Standard</a></td>
-                                <td><a class="pricing-table-cta" href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Join Business</a></td>
-                                <td><a class="pricing-table-cta pricing-table-cta-primary" href="<?php echo esc_url( home_url( '/register/' ) ); ?>">Upgrade to Pro</a></td>
+                                <th scope="row"><?php esc_html_e( 'Need more seats or custom limits?', 'bambu' ); ?> <a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>"><?php esc_html_e( 'Contact us ↗', 'bambu' ); ?></a></th>
+                                <td><a class="pricing-table-cta" href="<?php echo esc_url( home_url( '/register/' ) ); ?>"><?php esc_html_e( 'Join Standard', 'bambu' ); ?></a></td>
+                                <td><a class="pricing-table-cta" href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>"><?php esc_html_e( 'Join Business', 'bambu' ); ?></a></td>
+                                <td><a class="pricing-table-cta pricing-table-cta-primary" href="<?php echo esc_url( home_url( '/register/' ) ); ?>"><?php esc_html_e( 'Upgrade to Pro', 'bambu' ); ?></a></td>
                             </tr>
                         </tfoot>
                     </table>
@@ -233,7 +233,7 @@ get_header();
 
         <section class="pricing-faq-section" aria-labelledby="faq-title">
             <div class="pricing-container">
-                <h2 id="faq-title">Frequently Asked Questions</h2>
+                <h2 id="faq-title"><?php esc_html_e( 'Frequently Asked Questions', 'bambu' ); ?></h2>
                 <div class="pricing-faq-list">
                     <?php foreach ( $faqs as $index => $faq ) : ?>
                         <article class="pricing-faq-item <?php echo 0 === $index ? 'is-open' : ''; ?>">

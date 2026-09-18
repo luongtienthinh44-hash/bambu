@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'BAMBU_VERSION', time() );
 
 function bambu_setup() {
-    load_theme_textdomain( 'bambu', get_template_directory() . '/languages' );
+    load_theme_textdomain( 'bambu', get_template_directory() . '/lang' );
 
     add_theme_support( 'title-tag' );
     add_theme_support( 'post-thumbnails' );
@@ -29,8 +29,21 @@ function bambu_setup() {
 }
 add_action( 'after_setup_theme', 'bambu_setup' );
 
+function bambu_primary_menu_fallback( $args ) {
+    $menus = wp_get_nav_menus();
+    if ( ! empty( $menus ) ) {
+        $first_menu = $menus[0];
+        $fallback_args = $args;
+        $fallback_args['menu'] = $first_menu->term_id;
+        unset( $fallback_args['theme_location'] );
+        unset( $fallback_args['fallback_cb'] );
+        return wp_nav_menu( $fallback_args );
+    }
+}
+
 require_once get_template_directory() . '/acf/innovation-intelligence-options.php';
 require_once get_template_directory() . '/acf/global-sections-options.php';
+require_once get_template_directory() . '/inc/polylang-strings.php';
 
 function bambu_enqueue_assets() {
     $theme_uri = get_template_directory_uri();
@@ -46,10 +59,14 @@ function bambu_enqueue_assets() {
     $is_pricing_page                = is_page_template( 'page-pricing.php' ) || is_page( 'pricing' );
     $is_services_page               = is_page_template( 'page-our-services.php' ) || is_page( 'our-services' );
     $is_about_page                  = is_page_template( 'page-about-us.php' ) || is_page( array( 'about', 'about-us' ) );
+    $is_data_report_page            = is_page_template( 'page-data-report.php' ) || is_page( 'data-report' );
+    $is_iaas_page                   = is_page_template( 'page-innovation-as-a-service.php' ) || is_page( 'innovation-as-a-service' );
     $is_challenge_hub_page          = is_page_template( 'page-challenge-hub.php' ) || is_page( 'challenge-hub' );
+    $is_startup_page                = is_page_template( 'page-startup.php' ) || is_page( array( 'startup', 'startups' ) );
     $is_community_page              = is_page_template( 'page-community.php' ) || is_page( 'community' );
+    $is_our_people_page             = is_page_template( 'page-our-people.php' ) || is_page( 'our-people' );
 
-    if ( $is_innovation_intelligence_page || $is_pricing_page || $is_services_page || $is_about_page || $is_challenge_hub_page || $is_community_page ) {
+    if ( $is_innovation_intelligence_page || $is_pricing_page || $is_services_page || $is_about_page || $is_data_report_page || $is_iaas_page || $is_challenge_hub_page || $is_startup_page || $is_community_page || $is_our_people_page ) {
         wp_enqueue_style(
             'bambu-innovation-intelligence',
             $theme_uri . '/assets/css/innovation-intelligence.css',
@@ -104,6 +121,24 @@ function bambu_enqueue_assets() {
         wp_enqueue_style( 'bambu-about', $theme_uri . '/assets/css/about.css', array( 'bambu-innovation-intelligence' ), BAMBU_VERSION );
     }
 
+    if ( $is_data_report_page ) {
+        wp_enqueue_style( 'bambu-data-report', $theme_uri . '/assets/css/data-report.css', array( 'bambu-style' ), BAMBU_VERSION );
+    }
+
+    if ( $is_iaas_page ) {
+        wp_enqueue_style( 'bambu-innovation-as-a-service', $theme_uri . '/assets/css/innovation-as-a-service.css', array( 'bambu-innovation-intelligence' ), BAMBU_VERSION );
+        wp_enqueue_script(
+            'bambu-innovation-as-a-service',
+            $theme_uri . '/assets/js/innovation-as-a-service.js',
+            array( 'bambu-main' ),
+            BAMBU_VERSION,
+            array(
+                'in_footer' => true,
+                'strategy'  => 'defer',
+            )
+        );
+    }
+
     if ( $is_challenge_hub_page ) {
         wp_enqueue_style( 'bambu-challenge-hub', $theme_uri . '/assets/css/challenge-hub.css', array( 'bambu-innovation-intelligence' ), BAMBU_VERSION );
         wp_enqueue_script(
@@ -118,8 +153,13 @@ function bambu_enqueue_assets() {
         );
     }
 
+    if ( $is_startup_page ) {
+        wp_enqueue_style( 'bambu-startup', $theme_uri . '/assets/css/startup.css', array( 'bambu-innovation-intelligence' ), BAMBU_VERSION );
+    }
+
     if ( $is_community_page ) {
         wp_enqueue_style( 'bambu-community', $theme_uri . '/assets/css/community.css', array( 'bambu-innovation-intelligence' ), BAMBU_VERSION );
+
         wp_enqueue_script(
             'bambu-community',
             $theme_uri . '/assets/js/community.js',
@@ -130,6 +170,10 @@ function bambu_enqueue_assets() {
                 'strategy'  => 'defer',
             )
         );
+    }
+
+    if ( is_page_template( 'page-our-people.php' ) || is_page( 'our-people' ) ) {
+        wp_enqueue_style( 'bambu-our-people', $theme_uri . '/assets/css/our-people.css', array( 'bambu-style' ), BAMBU_VERSION );
     }
 
     if ( is_page_template( 'page-detail.php' ) || is_page( 'detail' ) ) {
@@ -162,6 +206,15 @@ function bambu_enqueue_assets() {
             'strategy'  => 'defer',
         )
     );
+
+    wp_localize_script( 'bambu-main', 'bambuL10n', array(
+        'savedOpportunity'       => __( 'Saved opportunity ', 'bambu' ),
+        'saveOpportunity'        => __( 'Save opportunity ', 'bambu' ),
+        'removeSavedOpportunity' => __( 'Remove saved opportunity', 'bambu' ),
+        'requestSent'            => __( 'Request sent', 'bambu' ),
+        'noResults'              => __( 'No opportunities match your filters.', 'bambu' ),
+        'connected'              => __( 'Connected', 'bambu' ),
+    ) );
 }
 add_action( 'wp_enqueue_scripts', 'bambu_enqueue_assets' );
 
@@ -204,7 +257,8 @@ function bambu_get_media_asset_url( $relative_path ) {
  */
 function bambu_login_enqueue_assets() {
     wp_enqueue_style( 'bambu-auth-fonts', get_template_directory_uri() . '/assets/css/fonts.css', array(), BAMBU_VERSION );
-    wp_enqueue_style( 'bambu-auth', get_template_directory_uri() . '/assets/css/auth.css', array( 'bambu-auth-fonts' ), BAMBU_VERSION );
+    wp_enqueue_style( 'bambu-auth-globals', get_template_directory_uri() . '/assets/css/globals.css', array( 'bambu-auth-fonts' ), BAMBU_VERSION );
+    wp_enqueue_style( 'bambu-auth', get_template_directory_uri() . '/assets/css/auth.css', array( 'bambu-auth-globals' ), BAMBU_VERSION );
 }
 add_action( 'login_enqueue_scripts', 'bambu_login_enqueue_assets' );
 

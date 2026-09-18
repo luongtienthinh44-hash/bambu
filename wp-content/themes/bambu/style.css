@@ -83,12 +83,16 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    font-family: "Manrope", Helvetica;
     font-weight: 800;
     color: #ffffff;
     font-size: 20px;
-    letter-spacing: -0.5px;
     white-space: nowrap;
+}
+
+.bambu-page .brand-home-link,
+.bambu-page .footer-brand-home-link {
+    color: inherit;
+    text-decoration: none;
 }
 
 .bambu-page .brand-suffix {
@@ -96,7 +100,6 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
     background: linear-gradient(90deg,
             rgba(53, 173, 104, 1) 0%,
             rgba(29, 160, 149, 1) 24%,
@@ -107,11 +110,9 @@ Text Domain: bambu
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
-    font-family: "Manrope", Helvetica;
     font-weight: 800;
     color: transparent;
     font-size: 24px;
-    letter-spacing: -0.6px;
     white-space: nowrap;
 }
 
@@ -128,11 +129,9 @@ Text Domain: bambu
 
 .bambu-page .brand-tagline-text {
     position: relative;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #94a3b8;
     font-size: 8px;
-    letter-spacing: 1.6px;
     white-space: nowrap;
 }
 
@@ -143,7 +142,6 @@ Text Domain: bambu
     max-width: 661px;
     align-items: flex-start;
     gap: 10px;
-    padding: 9px 22px;
     position: relative;
 }
 
@@ -163,13 +161,16 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #ffffff;
     font-size: 16px;
-    letter-spacing: 0;
     white-space: nowrap;
+}
+
+.bambu-page .primary-navigation>li.current-menu-item>a,
+.bambu-page .primary-navigation>li.current-menu-ancestor>a,
+.bambu-page .primary-navigation>li.current_page_item>a {
+    color: #35AD68;
 }
 
 .bambu-page .inline-link-wrapper {
@@ -189,17 +190,52 @@ Text Domain: bambu
     flex: 0 0 auto;
 }
 
+.bambu-page .mobile-menu-toggle {
+    display: none;
+}
+
+.bambu-page .header-search,
+.bambu-page .header-notification {
+    display: inline-flex;
+    position: relative;
+    width: 46px;
+    height: 46px;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 46px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: #101D38;
+    cursor: pointer;
+}
+
+.bambu-page .search-icon,
+.bambu-page .notification-icon {
+    display: block;
+    width: 16px;
+    max-width: 16px;
+    flex: 0 0 16px;
+}
+
+.bambu-page .notification-dot {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2FD59D;
+}
+
 .bambu-page .header-contact-link {
     position: relative;
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "DM Sans", Helvetica;
     font-weight: 400;
-    color: #ffffffcc;
-    font-size: 13px;
-    letter-spacing: 0;
+    color: #CBD5E1;
+    font-size: 16px;
     white-space: nowrap;
 }
 
@@ -213,7 +249,6 @@ Text Domain: bambu
     border-radius: 9999px;
     border: 1px solid;
     border-color: #ffffff33;
-    font-family: "Manrope", Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 400;
     color: #e2e8f0;
@@ -250,10 +285,8 @@ Text Domain: bambu
     justify-content: center;
     min-height: 30px;
     color: #1e293b;
-    font-family: "Manrope", Helvetica, sans-serif;
     font-size: clamp(16px, 2vw, 24px);
     font-weight: 600;
-    letter-spacing: -0.5px;
     text-align: center;
     white-space: nowrap;
 }
@@ -264,13 +297,10 @@ Text Domain: bambu
     align-items: center;
     justify-content: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #e2e8f0;
     font-size: 12px;
     text-align: center;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -291,11 +321,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #e2e8f0;
     font-size: 12px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -321,13 +349,17 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #ffffff;
     font-size: 12px;
-    letter-spacing: 0;
     white-space: nowrap;
+}
+
+.bambu-page .signup-arrow-icon {
+    display: block;
+    width: 9px;
+    max-width: 9px;
+    flex: 0 0 9px;
 }
 
 .bambu-page .content-stack {
@@ -391,15 +423,13 @@ Text Domain: bambu
 
 .bambu-page .innovation-hero-heading {
     width: 100%;
-    max-width: 512px;
+    max-width: 560px;
     min-height: 160px;
     height: auto;
     margin: 0;
-    font-family: "Manrope", Helvetica, sans-serif;
     font-size: 96px;
     font-style: normal;
     font-weight: 800;
-    letter-spacing: -2px;
     color: #ffffff;
 }
 
@@ -425,7 +455,6 @@ Text Domain: bambu
     max-width: 539px;
     margin: 0;
     padding-top: 6.81px;
-    font-family: "Manrope", Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 400;
     color: #cbd5e1;
@@ -447,7 +476,6 @@ Text Domain: bambu
     min-height: 44px;
     padding: 12px 28px;
     border-radius: 9999px;
-    font-family: "Manrope", Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 600;
     white-space: nowrap;
@@ -506,12 +534,9 @@ Text Domain: bambu
     align-items: center;
     width: 100%;
     max-width: 539px;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #cbd5e1;
     font-size: 20px;
-    letter-spacing: 0;
 }
 
 .bambu-page .hero-cta-buttons {
@@ -559,12 +584,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 600;
     color: #ffffff;
     font-size: 14px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -610,25 +632,19 @@ Text Domain: bambu
     align-items: center;
     justify-content: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 700;
     color: #ffffff;
     font-size: 11px;
     text-align: center;
-    letter-spacing: 1.76px;
     white-space: nowrap;
 }
 
 .bambu-page .metric-value {
     position: relative;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: transparent;
     font-size: 46px;
     text-align: center;
-    letter-spacing: 0;
-    padding: 10px 20px;
 }
 
 .bambu-page .metric-number-value {
@@ -656,25 +672,20 @@ Text Domain: bambu
 .bambu-page .metric-description {
     position: relative;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #ffffff;
     font-size: 12px;
     text-align: center;
-    letter-spacing: 0;
 }
 
 .bambu-page .element-2 {
     position: relative;
     width: 150px;
     height: 60px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: transparent;
     font-size: 45px;
     text-align: center;
-    letter-spacing: 0;
 }
 
 .bambu-page .content-section {
@@ -732,12 +743,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #318b78;
     font-size: 12px;
-    letter-spacing: 1.92px;
     white-space: nowrap;
 }
 
@@ -755,12 +763,9 @@ Text Domain: bambu
 .bambu-page .section-title {
     position: relative;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 600;
     color: #08162d;
     font-size: 72px;
-    letter-spacing: -4px;
 }
 
 .bambu-page .platform-intro {
@@ -776,11 +781,9 @@ Text Domain: bambu
     height: auto;
     display: flex;
     align-items: center;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #66758b;
     font-size: 17px;
-    letter-spacing: 0;
 }
 
 .bambu-page .card-grid {
@@ -869,12 +872,10 @@ Text Domain: bambu
     align-items: center;
     justify-content: center;
     width: fit-content;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #ffffff;
     font-size: 20px;
     text-align: center;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -894,13 +895,10 @@ Text Domain: bambu
 .bambu-page .audience-card-eyebrow {
     font-weight: 700;
     font-size: 11px;
-    letter-spacing: 1.98px;
     position: relative;
     display: flex;
     align-items: center;
     align-self: stretch;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     color: #ffffff;
 }
 
@@ -920,13 +918,10 @@ Text Domain: bambu
     align-items: center;
     width: 100%;
     max-width: 522px;
-    margin-top: -1px;
     margin-right: -74px;
-    font-family: "Manrope", Helvetica;
     font-weight: 800;
     color: #ffffff;
     font-size: 28px;
-    letter-spacing: 0;
 }
 
 .bambu-page .card-action-link {
@@ -943,12 +938,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #ffffff;
     font-size: 14px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -1000,13 +992,10 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: 491px;
-    margin-top: -1px;
     margin-right: -43px;
-    font-family: "Manrope", Helvetica;
     font-weight: 800;
     color: #ffffff;
     font-size: 28px;
-    letter-spacing: 0;
 }
 
 .bambu-page .services-section {
@@ -1064,12 +1053,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #318b78;
     font-size: 12px;
-    letter-spacing: 1.92px;
     white-space: nowrap;
 }
 
@@ -1086,11 +1072,9 @@ Text Domain: bambu
     height: auto;
     display: flex;
     align-items: center;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #66758b;
     font-size: 17px;
-    letter-spacing: 0;
 }
 
 .bambu-page .services-list {
@@ -1130,12 +1114,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Liberation Mono-Bold", Helvetica;
     font-weight: 700;
     color: #94a3b8;
     font-size: 18px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -1208,12 +1189,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     align-self: stretch;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 700;
     color: #0f172a;
     font-size: 24px;
-    letter-spacing: 0;
 }
 
 .bambu-page .service-description-wrapper {
@@ -1231,12 +1209,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #475569;
     font-size: 16px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -1268,12 +1243,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 800;
     color: #94a3b8;
     font-size: 20px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -1317,12 +1289,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     align-self: stretch;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 800;
     color: #08162d;
     font-size: 22px;
-    letter-spacing: 0;
 }
 
 .bambu-page .service-description-secondary {
@@ -1330,13 +1299,10 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
     margin-right: -47px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #66758b;
     font-size: 14px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -1355,12 +1321,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #66758b;
     font-size: 14px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -1398,7 +1361,6 @@ Text Domain: bambu
 .bambu-page .section-title-wrapper {
     display: flex;
     flex-direction: column;
-    height: 68px;
     align-items: flex-start;
     position: relative;
     align-self: stretch;
@@ -1407,16 +1369,12 @@ Text Domain: bambu
 
 .bambu-page .section-kicker {
     width: fit-content;
-    margin-bottom: -18px;
     font-weight: 800;
     color: #1e293b;
     font-size: 64px;
-    letter-spacing: 1.92px;
     position: relative;
     display: flex;
     align-items: center;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
 }
 
 .bambu-page .subheading-wrapper {
@@ -1434,11 +1392,9 @@ Text Domain: bambu
     height: 44px;
     display: flex;
     align-items: center;
-    font-family: "Manrope", Helvetica;
     font-weight: 600;
     color: #35ad68;
     font-size: 32px;
-    letter-spacing: 1px;
 }
 
 .bambu-page .section-action-link {
@@ -1475,12 +1431,9 @@ Text Domain: bambu
 .bambu-page .section-action-label {
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #059669;
     font-size: 14px;
-    letter-spacing: 0;
     white-space: nowrap;
     display: flex;
     position: relative;
@@ -1540,13 +1493,10 @@ Text Domain: bambu
     font-weight: 400;
     color: #020617;
     font-size: 11px;
-    letter-spacing: 0;
     white-space: nowrap;
     position: relative;
     display: flex;
     align-items: center;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
 }
 
 .bambu-page .opportunity-body {
@@ -1576,12 +1526,9 @@ Text Domain: bambu
 .bambu-page .opportunity-title {
     position: relative;
     align-self: stretch;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 700;
     color: #08162d;
     font-size: 18px;
-    letter-spacing: 0;
 }
 
 .bambu-page .opportunity-tags {
@@ -1611,12 +1558,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #475569;
     font-size: 11px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -1634,12 +1578,9 @@ Text Domain: bambu
 .bambu-page .opportunity-description {
     position: relative;
     align-self: stretch;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #66758b;
     font-size: 13px;
-    letter-spacing: 0;
 }
 
 .bambu-page .opportunity-footer {
@@ -1672,12 +1613,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #08162d;
     font-size: 12px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -1780,13 +1718,10 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
     margin-bottom: -18px;
-    font-family: "Manrope", Helvetica;
     font-weight: 800;
     color: #ffffff;
     font-size: 64px;
-    letter-spacing: 1.92px;
 }
 
 .bambu-page .impact-subheading {
@@ -1798,11 +1733,9 @@ Text Domain: bambu
     height: auto;
     display: flex;
     align-items: center;
-    font-family: "Manrope", Helvetica;
     font-weight: 600;
     color: #58ddb0;
     font-size: 32px;
-    letter-spacing: 1px;
 }
 
 .bambu-page .impact-layout {
@@ -1892,12 +1825,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #4ade80;
     font-size: 12px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -1942,10 +1872,7 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -1965,12 +1892,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #312e81;
     font-size: 12px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -1987,12 +1911,9 @@ Text Domain: bambu
 .bambu-page .challenge-title {
     position: relative;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 700;
     color: #ffffff;
     font-size: 30px;
-    letter-spacing: 0;
 }
 
 .bambu-page .challenge-meta {
@@ -2021,12 +1942,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #94a3b8;
     font-size: 12px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -2035,11 +1953,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    font-family: "Manrope", Helvetica;
     font-weight: 700;
     color: #ffffff;
     font-size: 16px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -2139,12 +2055,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     align-self: stretch;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 700;
     color: #ffffff;
     font-size: 20px;
-    letter-spacing: 0;
 }
 
 .bambu-page .side-card-tags {
@@ -2231,11 +2144,9 @@ Text Domain: bambu
     height: 44px;
     display: flex;
     align-items: center;
-    font-family: "Manrope", Helvetica;
     font-weight: 600;
     color: #35ad68;
     font-size: 32px;
-    letter-spacing: 1px;
 }
 
 .bambu-page .insights-layout {
@@ -2300,12 +2211,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     align-self: stretch;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 700;
     color: #059669;
     font-size: 12px;
-    letter-spacing: 0.6px;
 }
 
 .bambu-page .report-title-wrapper {
@@ -2322,12 +2230,9 @@ Text Domain: bambu
 .bambu-page .vietnam-report-title {
     position: relative;
     align-self: stretch;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 800;
     color: #08162d;
     font-size: 26px;
-    letter-spacing: 0;
 }
 
 .bambu-page .signals-sectors-and-wrapper {
@@ -2344,12 +2249,9 @@ Text Domain: bambu
 .bambu-page .report-summary {
     position: relative;
     align-self: stretch;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #66758b;
     font-size: 15px;
-    letter-spacing: 0;
 }
 
 .bambu-page .right-articles-list {
@@ -2382,12 +2284,9 @@ Text Domain: bambu
     font-weight: 700;
     color: #94a3b8;
     font-size: 11px;
-    letter-spacing: 0.55px;
     position: relative;
     display: flex;
     align-items: center;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
 }
 
 .bambu-page .article-title {
@@ -2395,12 +2294,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     align-self: stretch;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 700;
     color: #08162d;
     font-size: 20px;
-    letter-spacing: 0;
 }
 
 .bambu-page .article-action-link {
@@ -2483,13 +2379,10 @@ Text Domain: bambu
 .bambu-page .testimonial-heading-copy {
     position: relative;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 700;
     color: #ffffff;
     font-size: 32px;
     text-align: center;
-    letter-spacing: 0;
 }
 
 .bambu-page .testimonial-card-primary {
@@ -2534,12 +2427,9 @@ Text Domain: bambu
 .bambu-page .testimonial-quote {
     position: relative;
     align-self: stretch;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #cbd5e1;
     font-size: 14px;
-    letter-spacing: 0;
 }
 
 .bambu-page .testimonial-author-primary {
@@ -2576,13 +2466,10 @@ Text Domain: bambu
     align-items: center;
     justify-content: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 700;
     color: #020617;
     font-size: 14px;
     text-align: center;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -2591,12 +2478,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 700;
     color: #ffffff;
     font-size: 14px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -2741,13 +2625,10 @@ Text Domain: bambu
     align-items: center;
     justify-content: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 800;
     color: #08162d;
     font-size: 24px;
     text-align: center;
-    letter-spacing: -0.6px;
     white-space: nowrap;
 }
 
@@ -2776,12 +2657,10 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Liberation Serif-Regular", Helvetica;
     font-weight: 400;
     color: #1e293b;
     font-size: 20px;
     text-align: center;
-    letter-spacing: -0.5px;
     white-space: nowrap;
 }
 
@@ -2793,12 +2672,10 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Liberation Serif-Regular", Helvetica;
     font-weight: 400;
     color: #1e293b;
     font-size: 14px;
     text-align: center;
-    letter-spacing: -0.5px;
     white-space: nowrap;
 }
 
@@ -2810,12 +2687,10 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Liberation Serif-Regular", Helvetica;
     font-weight: 400;
     color: #1e293b;
     font-size: 20px;
     text-align: center;
-    letter-spacing: -0.5px;
     white-space: nowrap;
 }
 
@@ -2835,13 +2710,10 @@ Text Domain: bambu
     align-items: center;
     justify-content: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #0f172a;
     font-size: 24px;
     text-align: center;
-    letter-spacing: -0.6px;
     white-space: nowrap;
 }
 
@@ -2860,13 +2732,10 @@ Text Domain: bambu
     align-items: center;
     justify-content: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #475569;
     font-size: 7px;
     text-align: center;
-    letter-spacing: 0.35px;
     white-space: nowrap;
 }
 
@@ -2928,13 +2797,10 @@ Text Domain: bambu
     display: flex;
     justify-content: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #0f172a;
     font-size: 20px;
     text-align: center;
-    letter-spacing: -0.5px;
     white-space: nowrap;
     align-items: center;
     position: relative;
@@ -2955,13 +2821,10 @@ Text Domain: bambu
     align-items: center;
     justify-content: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #0f172a;
     font-size: 30px;
     text-align: center;
-    letter-spacing: -1.5px;
     white-space: nowrap;
 }
 
@@ -2971,26 +2834,20 @@ Text Domain: bambu
     align-items: center;
     justify-content: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #0f172a;
     font-size: 30px;
     text-align: center;
-    letter-spacing: 1.5px;
     white-space: nowrap;
 }
 
 .bambu-page .la-french-tech-logo {
     position: relative;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #475569;
     font-size: 6px;
     text-align: center;
-    letter-spacing: -0.3px;
 }
 
 .bambu-page .call-to-action-section {
@@ -3034,12 +2891,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 800;
     color: #08162d;
     font-size: 28px;
-    letter-spacing: -0.7px;
     white-space: nowrap;
 }
 
@@ -3048,12 +2902,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #334155;
     font-size: 14px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -3081,10 +2932,7 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -3114,8 +2962,6 @@ Text Domain: bambu
     align-self: stretch;
     width: 100%;
     flex: 0 0 auto;
-    margin-top: -39.5px;
-    margin-bottom: -39.5px;
 }
 
 .bambu-page .footer-columns {
@@ -3123,7 +2969,7 @@ Text Domain: bambu
     grid-template-columns: repeat(12, minmax(0, 1fr));
     grid-template-rows: 178px;
     height: fit-content;
-    gap: 40px;
+    gap: 20px;
 }
 
 .bambu-page .footer-brand-column {
@@ -3164,13 +3010,10 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
     margin-right: -17.58px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #ffffff;
     font-size: 8px;
-    letter-spacing: 1.6px;
     white-space: nowrap;
 }
 
@@ -3187,12 +3030,9 @@ Text Domain: bambu
 .bambu-page .connecting {
     position: relative;
     align-self: stretch;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #ffffff;
     font-size: 12px;
-    letter-spacing: 0;
 }
 
 .bambu-page .footer-innovation-column {
@@ -3213,12 +3053,11 @@ Text Domain: bambu
     font-weight: 700;
     color: #ffffff;
     font-size: 12px;
-    letter-spacing: 0.6px;
     position: relative;
     display: flex;
     align-items: center;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 .bambu-page .footer-link-list {
@@ -3237,12 +3076,9 @@ Text Domain: bambu
     font-weight: 400;
     color: #ffffff;
     font-size: 12px;
-    letter-spacing: 0;
     position: relative;
     display: flex;
     align-items: center;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
 }
 
 .bambu-page .footer-connection-column {
@@ -3301,12 +3137,9 @@ Text Domain: bambu
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-top: -1px;
-    font-family: "Manrope", Helvetica;
     font-weight: 400;
     color: #64748b;
     font-size: 12px;
-    letter-spacing: 0;
     white-space: nowrap;
 }
 
@@ -3402,7 +3235,7 @@ body {
 }
 
 .bambu-page .innovation-hero-heading {
-    width: min(512px, 100%);
+    width: min(560px, 100%);
     height: auto;
     min-height: 160px;
     font-size: clamp(56px, 5vw, 96px);
@@ -3563,15 +3396,78 @@ body {
 
 @media (max-width: 767px) {
     .bambu-page .site-header {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        grid-template-areas:
+            "brand menu"
+            "actions actions"
+            "navigation navigation";
+        align-items: center;
         padding: 16px 20px;
     }
 
+    .bambu-page .site-header>.layout-stack {
+        grid-area: brand;
+        min-width: 0;
+    }
+
     .bambu-page .header-actions {
+        grid-area: actions;
         justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    .bambu-page .header-search,
+    .bambu-page .header-contact-link,
+    .bambu-page .header-notification {
+        display: none;
     }
 
     .bambu-page .primary-navigation-wrapper {
+        display: none;
+        grid-area: navigation;
         padding: 0;
+        max-width: none;
+    }
+
+    .bambu-page .site-header.is-menu-open .primary-navigation-wrapper {
+        display: flex;
+    }
+
+    .bambu-page .mobile-menu-toggle {
+        display: inline-flex;
+        grid-area: menu;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4px;
+        padding: 8px;
+        border: 1px solid #ffffff33;
+        border-radius: 9999px;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    .bambu-page .mobile-menu-toggle>span:not(.screen-reader-text) {
+        display: block;
+        width: 16px;
+        height: 1px;
+        background: #ffffff;
+        transition: transform 160ms ease, opacity 160ms ease;
+    }
+
+    .bambu-page .site-header.is-menu-open .mobile-menu-toggle>span:nth-child(1) {
+        transform: translateY(5px) rotate(45deg);
+    }
+
+    .bambu-page .site-header.is-menu-open .mobile-menu-toggle>span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .bambu-page .site-header.is-menu-open .mobile-menu-toggle>span:nth-child(3) {
+        transform: translateY(-5px) rotate(-45deg);
     }
 
     .bambu-page .primary-navigation {
@@ -3640,7 +3536,6 @@ body {
     .bambu-page .section-kicker,
     .bambu-page .impact-title {
         font-size: clamp(36px, 10vw, 64px);
-        letter-spacing: -1px;
     }
 
     .bambu-page .opportunities-subheading,
@@ -3844,7 +3739,6 @@ body {
         max-width: 100%;
         min-height: 0;
         font-size: clamp(60px, 8vw, 88px);
-        letter-spacing: -1.5px;
     }
 
     .bambu-page .innovation-hero-description {
@@ -3868,7 +3762,6 @@ body {
 
     .bambu-page .innovation-hero-heading {
         font-size: clamp(42px, 14vw, 72px);
-        letter-spacing: -1px;
     }
 
     .bambu-page .innovation-hero-description {
@@ -3895,5 +3788,849 @@ body {
 @media (max-width: 560px) {
     .bambu-page .hero-section {
         padding-inline: 16px;
+    }
+}
+
+/* Final shared layout and responsive overrides. */
+.bambu-page .hero-section,
+.bambu-page .content-section,
+.bambu-page .services-section,
+.bambu-page .impact-section,
+.bambu-page .testimonials-section {
+    padding-inline: var(--bambu-container-gutter, 24px);
+}
+
+.bambu-page .platform-section-inner,
+.bambu-page .services-section-inner,
+.bambu-page .content-section-inner,
+.bambu-page .section-content,
+.bambu-page .testimonials-content {
+    max-width: var(--bambu-container-max-width, 1290px);
+    padding-inline: 0;
+    box-sizing: border-box;
+}
+
+.bambu-page .content-section > .platform-section-inner {
+    align-self: stretch;
+    width: 100%;
+    max-width: var(--bambu-container-max-width, 1290px);
+    margin-inline: auto;
+    padding-inline: 0;
+}
+
+.bambu-page .platform-section-inner > .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.bambu-page .insights-layout > .featured-report,
+.bambu-page .insights-layout > .right-articles-list {
+    grid-row: 1;
+    align-self: start;
+}
+
+.bambu-page .hero-section {
+    min-height: calc(100vh - var(--bambu-header-height, 70px));
+}
+
+.bambu-page .testimonial-avatar-primary,
+.bambu-page .testimonial-avatar-secondary,
+.bambu-page .testimonial-avatar-tertiary {
+    flex: 0 0 40px;
+    min-width: 40px;
+    min-height: 40px;
+    padding: 0;
+    background: transparent;
+}
+
+.bambu-page .testimonial-avatar-primary img,
+.bambu-page .testimonial-avatar-secondary img,
+.bambu-page .testimonial-avatar-tertiary img {
+    display: block;
+    flex: 0 0 40px;
+    width: 40px;
+    max-width: 40px;
+    min-width: 40px;
+    height: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Keep testimonial cards fluid while aligning their content as a row. */
+.bambu-page .testimonials-content > .card-grid {
+    align-items: stretch;
+}
+
+.bambu-page .testimonial-card-primary,
+.bambu-page .testimonial-card-secondary,
+.bambu-page .testimonial-card-tertiary {
+    align-self: stretch;
+    height: auto;
+    min-height: 0;
+    flex: 1 1 0;
+}
+
+.bambu-page .testimonial-quote {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    line-clamp: 6;
+}
+
+.bambu-page .testimonial-author-primary > .layout-stack,
+.bambu-page .testimonial-author-secondary > .layout-stack,
+.bambu-page .testimonial-author-tertiary > .layout-stack {
+    min-width: 0;
+    flex: 1 1 auto;
+}
+
+.bambu-page .testimonial-author-primary .metadata-label,
+.bambu-page .testimonial-author-secondary .metadata-label,
+.bambu-page .testimonial-author-tertiary .metadata-label {
+    display: -webkit-box;
+    overflow: hidden;
+    width: 100%;
+    min-width: 0;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    white-space: normal;
+}
+
+/* Restore the hero presentation used on the home page. */
+.bambu-page .hero-section {
+    border-bottom: 0;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(assets/images/section.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bambu-page .metrics-row {
+    padding-inline: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+}
+
+.bambu-page .metric-number-value,
+.bambu-page .metric-suffix {
+    color: transparent;
+    background: linear-gradient(90deg, #35ad68 0%, #3977d7 55%, #87516f 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Footer layout matching the current five-column design. */
+.bambu-page .site-footer {
+    min-height: 0;
+    padding: 46px max(24px, calc((100vw - 1290px) / 2)) 44px;
+    background: linear-gradient(110deg, #0c2f39 0%, #111f44 55%, #191443 100%);
+    justify-content: flex-start;
+}
+
+.bambu-page .footer-content {
+    width: 100%;
+    max-width: var(--bambu-container-max-width, 1290px);
+    padding: 0;
+    margin: 0 auto;
+    gap: 0;
+}
+
+.bambu-page .footer-brand-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.bambu-page .footer-brand-lockup {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0;
+    width: auto;
+}
+
+.bambu-page .footer-brand-lockup .brand-name,
+.bambu-page .footer-brand-lockup .brand-suffix {
+    font-size: 28px;
+}
+
+.bambu-page .footer-brand-lockup .brand-name {
+    color: #35ad68;
+}
+
+.bambu-page .footer-brand-row .footer-tagline-text {
+    margin: 0;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.bambu-page .footer-separator {
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    background: #ffffff1a;
+}
+
+.bambu-page .footer-columns {
+    grid-template-columns: minmax(0, 1.9fr) repeat(2, minmax(0, 0.9fr)) minmax(0, 1.3fr) minmax(0, 0.9fr);
+    grid-template-rows: auto;
+    gap: clamp(24px, 4vw, 64px);
+    min-height: 350px;
+    padding-top: 20px;
+}
+
+.bambu-page .footer-columns > *,
+.bambu-page .footer-location-column,
+.bambu-page .footer-innovation-column,
+.bambu-page .footer-access-column,
+.bambu-page .footer-resources-column,
+.bambu-page .footer-company-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-column: auto;
+    grid-row: auto;
+    width: 100%;
+    padding: 0;
+}
+
+.bambu-page .footer-location-column {
+    gap: 20px;
+}
+
+.bambu-page .footer-location-block {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.bambu-page .footer-location-title {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bambu-page .footer-location-details {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.bambu-page .footer-location-details a {
+    color: inherit;
+}
+
+.bambu-page .footer-socials {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.bambu-page .footer-social-icon {
+    display: inline-flex;
+    width: 38px;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #2eae6d;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.bambu-page .footer-innovation-column,
+.bambu-page .footer-access-column,
+.bambu-page .footer-resources-column,
+.bambu-page .footer-company-column {
+    gap: 22px;
+}
+
+.bambu-page .footer-column-title {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.bambu-page .footer-link-list {
+    gap: 12px;
+}
+
+.bambu-page .footer-link-label {
+    color: #cbd5e1;
+    font-size: 16px;
+}
+
+.bambu-page .footer-bottom {
+    margin-top: 0;
+    padding-top: 28px;
+}
+
+.bambu-page .footer-legal-text {
+    color: #94a3b8;
+    font-size: 14px;
+    white-space: normal;
+}
+
+.bambu-page .footer-legal-links {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.bambu-page .footer-legal-link {
+    color: inherit;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .bambu-page .site-footer {
+        padding-inline: 48px;
+    }
+
+    .bambu-page .footer-brand-lockup .brand-name,
+    .bambu-page .footer-brand-lockup .brand-suffix {
+        font-size: 16px;
+    }
+
+    .bambu-page .footer-brand-row .footer-tagline-text {
+        font-size: 8px;
+    }
+
+    .bambu-page .footer-columns {
+        gap: 28px;
+        min-height: 0;
+    }
+
+    .bambu-page .footer-location-title {
+        font-size: 11px;
+    }
+
+    .bambu-page .footer-location-details,
+    .bambu-page .footer-link-label,
+    .bambu-page .footer-legal-text,
+    .bambu-page .footer-legal-links {
+        font-size: 9px;
+    }
+
+    .bambu-page .footer-column-title {
+        font-size: 10px;
+    }
+
+    .bambu-page .footer-link-list {
+        gap: 8px;
+    }
+
+    .bambu-page .footer-socials {
+        gap: 8px;
+        margin-top: 6px;
+    }
+
+    .bambu-page .footer-social-icon {
+        width: 22px;
+        height: 22px;
+        font-size: 11px;
+    }
+
+    .bambu-page .footer-bottom {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bambu-page .hero-section {
+        min-height: 0;
+    }
+
+    .bambu-page .metrics-row {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px 12px;
+        margin-top: 32px;
+    }
+
+    .bambu-page .metric-description-wrapper {
+        width: min(100%, 240px);
+        max-width: 240px;
+    }
+
+    .bambu-page .metric-description {
+        width: 100%;
+        font-size: 11px;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        line-clamp: 2;
+        -webkit-line-clamp: 2;
+    }
+
+    .bambu-page .platform-section-inner > .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bambu-page .insights-layout > .featured-report,
+    .bambu-page .insights-layout > .right-articles-list {
+        grid-row: auto;
+    }
+
+    .bambu-page .site-footer {
+        padding: 40px 20px 32px;
+    }
+
+    .bambu-page .footer-columns {
+        grid-template-columns: 1fr;
+        gap: 48px;
+        min-height: 0;
+        padding-top: 24px;
+    }
+
+    .bambu-page .footer-column-title {
+        font-size: 16px;
+    }
+
+    .bambu-page .footer-link-label {
+        font-size: 14px;
+    }
+
+    .bambu-page .footer-bottom {
+        margin-top: 48px;
+        padding-top: 20px;
+    }
+
+    .bambu-page .footer-legal-links {
+        gap: 8px;
+    }
+}
+
+@media (max-width: 560px) {
+    .bambu-page .metrics-row {
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+    }
+}
+
+/* Testimonial responsive layout. */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .bambu-page .testimonials-section {
+        min-height: 0;
+        padding-inline: 48px;
+    }
+
+    .bambu-page .testimonials-content {
+        gap: 48px;
+    }
+
+    .bambu-page .testimonials-content > .card-grid {
+        gap: 24px;
+    }
+
+    .bambu-page .testimonial-card-primary,
+    .bambu-page .testimonial-card-secondary,
+    .bambu-page .testimonial-card-tertiary {
+        padding: 24px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 899px) {
+    .bambu-page .testimonials-content > .card-grid {
+        flex-direction: column;
+    }
+
+    .bambu-page .testimonial-card-primary,
+    .bambu-page .testimonial-card-secondary,
+    .bambu-page .testimonial-card-tertiary {
+        width: 100%;
+        flex: 0 1 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .bambu-page .testimonials-section {
+        min-height: 0;
+        padding: 64px 20px;
+    }
+
+    .bambu-page .testimonials-content {
+        gap: 32px;
+    }
+
+    .bambu-page .testimonials-heading {
+        align-items: flex-start;
+        max-width: 100%;
+    }
+
+    .bambu-page .testimonial-heading-copy {
+        width: 100%;
+        max-width: 100%;
+        font-size: clamp(24px, 7vw, 30px);
+        text-align: left;
+    }
+
+    .bambu-page .testimonials-content > .card-grid {
+        gap: 20px;
+    }
+
+    .bambu-page .testimonial-card-primary,
+    .bambu-page .testimonial-card-secondary,
+    .bambu-page .testimonial-card-tertiary {
+        width: 100%;
+        padding: 24px;
+        flex: 0 1 auto;
+    }
+
+    .bambu-page .testimonial-author-primary,
+    .bambu-page .testimonial-author-secondary,
+    .bambu-page .testimonial-author-tertiary {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 560px) {
+    .bambu-page .testimonials-section {
+        padding: 48px 16px;
+    }
+}
+
+/* Desktop mega menu panels. */
+@media (min-width: 1200px) {
+    .bambu-page .site-header {
+        z-index: 100;
+    }
+
+    .bambu-page .primary-navigation > li > a {
+        transition: color 180ms ease;
+    }
+
+    .bambu-page .primary-navigation > li > a:hover,
+    .bambu-page .primary-navigation > li.is-mega-menu-active > a {
+        color: #35ad68;
+    }
+
+    .bambu-page .mega-menu-panel {
+        position: absolute;
+        z-index: 20;
+        top: 100%;
+        left: 0;
+        display: block;
+        width: 100%;
+        background: #edf4fb;
+        box-shadow: 0 18px 32px rgba(8, 22, 45, 0.12);
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: opacity 180ms ease, transform 180ms ease, visibility 180ms ease;
+    }
+
+    .bambu-page .site-header.is-mega-menu-open .mega-menu-panel.is-active {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    .bambu-page .mega-menu-inner {
+        display: grid;
+        grid-template-columns: minmax(260px, 0.95fr) minmax(300px, 1.15fr) 260px;
+        gap: 36px;
+        width: min(100% - 96px, 1180px);
+        margin: 0 auto;
+        padding: 36px 0 30px;
+    }
+
+    .bambu-page .mega-menu-intro {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        min-height: 222px;
+        padding-right: 36px;
+        border-right: 1px solid #dbe5ef;
+    }
+
+    .bambu-page .mega-menu-kicker {
+        color: #526987;
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+    }
+
+    .bambu-page .mega-menu-intro h2 {
+        max-width: 330px;
+        margin: 12px 0 10px;
+        color: #101d38;
+        font-size: 27px;
+        font-weight: 800;
+    }
+
+    .bambu-page .mega-menu-intro p {
+        max-width: 330px;
+        margin: 0;
+        color: #61758e;
+        font-size: 13px;
+    }
+
+    .bambu-page .mega-menu-intro-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        margin-top: auto;
+        color: #101d38;
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    .bambu-page .mega-menu-links {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        padding-top: 2px;
+    }
+
+    .bambu-page .mega-menu-links a {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 16px;
+        color: #101d38;
+        transition: color 160ms ease, transform 160ms ease;
+    }
+
+    .bambu-page .mega-menu-links a:hover {
+        color: #35ad68;
+        transform: translateX(4px);
+    }
+
+    .bambu-page .mega-menu-links a > span:first-child {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    .bambu-page .mega-menu-links strong {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .bambu-page .mega-menu-links small {
+        color: #71839a;
+        font-size: 12px;
+    }
+
+    .bambu-page .mega-menu-arrow {
+        color: #9bb0c7;
+        font-size: 12px;
+        transition: color 160ms ease, transform 160ms ease;
+    }
+
+    .bambu-page .mega-menu-links a:hover .mega-menu-arrow {
+        color: #35ad68;
+        transform: translate(2px, -2px);
+    }
+
+    .bambu-page .mega-menu-feature {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px;
+        border: 1px solid #dbe5ef;
+        border-radius: 7px;
+        background: #ffffff;
+        color: #101d38;
+        transition: box-shadow 180ms ease, transform 180ms ease;
+    }
+
+    .bambu-page .mega-menu-feature:hover {
+        box-shadow: 0 10px 20px rgba(8, 22, 45, 0.12);
+        transform: translateY(-3px);
+    }
+
+    .bambu-page .mega-menu-feature img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 2 / 1;
+        border-radius: 3px;
+        object-fit: cover;
+        transition: transform 240ms ease;
+    }
+
+    .bambu-page .mega-menu-feature:hover img {
+        transform: scale(1.02);
+    }
+
+    .bambu-page .mega-menu-feature strong {
+        font-size: 14px;
+    }
+
+    .bambu-page .mega-menu-feature > span {
+        margin-top: auto;
+        font-size: 12px;
+    }
+
+    .bambu-page .mega-menu-inner-innovation {
+        display: block;
+        width: min(100% - 96px, 1008px);
+        padding: 36px 0 30px;
+    }
+
+    .bambu-page .mega-menu-innovation-heading {
+        padding-bottom: 14px;
+        border-bottom: 1px solid #dbe5ef;
+    }
+
+    .bambu-page .mega-menu-innovation-heading h2 {
+        margin: 0;
+        color: #101d38;
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    .bambu-page .mega-menu-innovation-columns {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+
+    .bambu-page .mega-menu-innovation-column {
+        display: flex;
+        min-height: 196px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+        padding: 26px 18px 0;
+        border-left: 1px solid #dbe5ef;
+    }
+
+    .bambu-page .mega-menu-innovation-column:first-child {
+        padding-left: 0;
+        border-left: 0;
+    }
+
+    .bambu-page .mega-menu-innovation-column strong {
+        color: #101d38;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .bambu-page .mega-menu-innovation-column small {
+        min-height: 30px;
+        color: #71839a;
+        font-size: 12px;
+    }
+
+    .bambu-page .mega-menu-innovation-column a {
+        color: #101d38;
+        font-size: 13px;
+        transition: color 160ms ease, transform 160ms ease;
+    }
+
+    .bambu-page .mega-menu-innovation-column a:hover {
+        color: #35ad68;
+        transform: translateX(3px);
+    }
+
+    .bambu-page .mega-menu-innovation-column .mega-menu-column-cta {
+        margin-top: auto;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .bambu-page .mega-menu-panel {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bambu-page .mega-menu-inner-services {
+        grid-template-columns: minmax(260px, 0.95fr) minmax(360px, 1.3fr) 260px;
+    }
+
+    .bambu-page .mega-menu-services-intro h2 {
+        max-width: 350px;
+    }
+
+    .bambu-page .mega-menu-services-links {
+        gap: 12px;
+        padding-top: 0;
+    }
+
+    .bambu-page .mega-menu-services-group-label {
+        color: #526987;
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+    }
+
+    .bambu-page .mega-menu-services-links a {
+        gap: 12px;
+    }
+
+    .bambu-page .mega-menu-services-links a > span:first-child {
+        gap: 2px;
+    }
+
+    .bambu-page .mega-menu-services-links strong {
+        font-size: 13px;
+    }
+
+    .bambu-page .mega-menu-services-links small {
+        max-width: 360px;
+        color: #71839a;
+        font-size: 11px;
+        line-height: 1.35;
+    }
+
+    .bambu-page .mega-menu-services-work-label {
+        margin-top: 5px;
+    }
+
+    .bambu-page .mega-menu-service-feature {
+        min-height: 252px;
+    }
+
+    .bambu-page .mega-menu-service-feature strong {
+        line-height: 1.35;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bambu-page .mega-menu-inner-data-report {
+        grid-template-columns: minmax(260px, 0.95fr) minmax(300px, 1.15fr) 290px;
+    }
+
+    .bambu-page .mega-menu-data-intro h2 {
+        max-width: 340px;
+        margin-top: 0;
+    }
+
+    .bambu-page .mega-menu-data-links {
+        gap: 19px;
+        padding-top: 3px;
+    }
+
+    .bambu-page .mega-menu-data-links strong {
+        font-size: 14px;
+    }
+
+    .bambu-page .mega-menu-data-links small {
+        font-size: 11px;
+    }
+
+    .bambu-page .mega-menu-data-feature {
+        min-height: 234px;
+    }
+
+    .bambu-page .mega-menu-data-feature strong {
+        line-height: 1.35;
     }
 }

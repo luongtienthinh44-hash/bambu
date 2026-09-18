@@ -1,0 +1,375 @@
+.data-report-page {
+    background: #f8fafc;
+    color: #0f172a;
+}
+
+.data-report-page .data-report-container {
+    width: calc(100% - (2 * var(--bambu-container-gutter, 24px)));
+    max-width: var(--bambu-container-max-width, 1290px);
+    margin-inline: auto;
+    box-sizing: border-box;
+}
+
+.data-report-page .data-report-search-section {
+    padding: 24px 0 25px;
+    border-bottom: 1px solid #e2e8f0;
+    background: #f8fafc;
+}
+
+.data-report-page .data-report-search-inner {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.data-report-page .data-report-search-bar {
+    position: relative;
+    flex: 1 1 360px;
+    min-width: 0;
+    max-width: 623px;
+}
+
+.data-report-page .data-report-search-bar > img {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    width: 14px;
+    height: 14px;
+    transform: translateY(-50%);
+}
+
+.data-report-page .data-report-search-bar input {
+    width: 100%;
+    padding: 16px 17px 16px 49px;
+    border: 1px solid #dce5ee;
+    border-radius: 12px;
+    outline: 0;
+    background: #fff;
+    color: #66758b;
+    font: inherit;
+    font-size: 14px;
+}
+
+.data-report-page .data-report-filter-group {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.data-report-page .data-report-filter-button {
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+    padding: 11px 15px;
+    border: 1px solid #dce5ee;
+    border-radius: 8px;
+    background: #fff;
+    color: #08162d;
+    cursor: pointer;
+    font: inherit;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.data-report-page .data-report-filter-button-wide {
+    font-size: 14px;
+}
+
+.data-report-page .data-report-filter-button img {
+    width: 14px;
+    height: 14px;
+}
+
+.data-report-page .data-report-cards-section {
+    padding: 64px 0;
+    background: #e3e9f5;
+}
+
+.data-report-page .data-report-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.data-report-page .data-report-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.data-report-page .data-report-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.data-report-page .data-report-card-image {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    flex: 0 0 auto;
+}
+
+.data-report-page .data-report-card-image > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.data-report-page .data-report-card-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    background: rgba(15, 23, 42, 0.8);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 15px;
+    white-space: nowrap;
+}
+
+.data-report-page .data-report-card-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px;
+}
+
+.data-report-page .data-report-card-tags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.data-report-page .data-report-tag {
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: #ebf2fa;
+    color: #475569;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 16.5px;
+    white-space: nowrap;
+}
+
+.data-report-page .data-report-tag-green {
+    background: #e2ecd3;
+}
+
+.data-report-page .data-report-card h2 {
+    margin: 0;
+    color: #1e293b;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+}
+
+.data-report-page .data-report-card time {
+    color: #94a3b8;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.data-report-page .data-report-card-body > p {
+    display: -webkit-box;
+    margin: 0;
+    overflow: hidden;
+    color: #64748b;
+    font-size: 13px;
+    line-height: 19.5px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.data-report-page .data-report-show-more-wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+.data-report-page .data-report-show-more {
+    display: inline-flex;
+    gap: 16px;
+    align-items: center;
+    padding: 10px 19px;
+    border: 0;
+    border-radius: 9999px;
+    background: linear-gradient(90deg, #43b263 0%, #3ba295 25%, #3b7ab5 50%, #7147a7 75%, #814272 100%);
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    font-size: 16px;
+}
+
+.data-report-page .data-report-show-more img {
+    width: 9px;
+    height: 8px;
+}
+
+.data-report-page .data-report-data-room {
+    padding: 64px 0;
+    background: #f8fafc;
+}
+
+.data-report-page .data-report-data-room-inner {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    padding: 48px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.data-report-page .data-report-data-room-text {
+    display: flex;
+    min-width: 260px;
+    flex: 1;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.data-report-page .data-report-eyebrow {
+    margin: 0;
+    color: #64748b;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.data-report-page .data-report-data-room-text h2 {
+    margin: 0;
+    color: #0f172a;
+    font-size: clamp(28px, 3.3vw, 48px);
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.04;
+}
+
+.data-report-page .data-report-data-room-text > p:not(.data-report-eyebrow) {
+    margin: 0;
+    color: #475569;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.data-report-page .data-report-data-room-text a {
+    margin-top: 16px;
+    color: #0f172a;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.data-report-page .data-report-data-room-map {
+    position: relative;
+    width: min(47vw, 687px);
+    max-width: 100%;
+    overflow: hidden;
+    flex: 0 1 687px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.data-report-page .data-report-data-room-map > img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 687 / 516;
+    object-fit: cover;
+}
+
+.data-report-page .data-report-data-room-map > div {
+    position: absolute;
+    right: 17px;
+    bottom: 17px;
+    left: 17px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.data-report-page .data-report-data-room-map span {
+    color: #64748b;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+@media (max-width: 900px) {
+    .data-report-page .data-report-cards-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 767px) {
+    .data-report-page .data-report-search-inner,
+    .data-report-page .data-report-filter-group,
+    .data-report-page .data-report-data-room-inner {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .data-report-page .data-report-search-bar,
+    .data-report-page .data-report-filter-group,
+    .data-report-page .data-report-filter-button {
+        width: 100%;
+        max-width: none;
+    }
+
+    .data-report-page .data-report-search-bar {
+        flex: 0 1 auto;
+    }
+
+    .data-report-page .data-report-filter-group {
+        gap: 10px;
+    }
+
+    .data-report-page .data-report-filter-button {
+        justify-content: space-between;
+    }
+
+    .data-report-page .data-report-cards-section,
+    .data-report-page .data-report-data-room {
+        padding-block: 48px;
+    }
+
+    .data-report-page .data-report-data-room-inner {
+        gap: 32px;
+        padding: 24px;
+    }
+
+    .data-report-page .data-report-data-room-map {
+        width: 100%;
+        flex-basis: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .data-report-page .data-report-cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .data-report-page .data-report-card-body {
+        padding: 20px;
+    }
+
+    .data-report-page .data-report-data-room-map > div {
+        right: 12px;
+        bottom: 12px;
+        left: 12px;
+        flex-direction: column;
+        gap: 4px;
+    }
+}

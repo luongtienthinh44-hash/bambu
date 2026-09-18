@@ -19,16 +19,16 @@ get_header();
             alt="" />
         <div class="hero-inner">
             <div class="breadcrumb">
-                <a href="<?php echo esc_url(home_url('/')); ?>">Home</a>
+                <a href="<?php echo esc_url(home_url('/')); ?>"><?php esc_html_e( 'Home', 'bambu' ); ?></a>
                 <span class="breadcrumb-sep">/</span>
-                <a href="<?php echo esc_url(home_url('/innovation-intelligence/')); ?>">Innovation Intelligence</a>
+                <a href="<?php echo esc_url(home_url('/innovation-intelligence/')); ?>"><?php esc_html_e( 'Innovation Intelligence', 'bambu' ); ?></a>
                 <span class="breadcrumb-sep">/</span>
-                <span class="breadcrumb-cur">Innovation Need</span>
+                <span class="breadcrumb-cur"><?php esc_html_e( 'Innovation Need', 'bambu' ); ?></span>
             </div>
-            <span class="hero-badge">INNOVATION NEED</span>
-            <h1 class="hero-title">Seeking solutions to restore oral microbiome balance</h1>
-            <p class="hero-sub">Discover business needs, explore innovative solutions, and connect with the right
-                partners.</p>
+            <span class="hero-badge"><?php esc_html_e( 'INNOVATION NEED', 'bambu' ); ?></span>
+            <h1 class="hero-title"><?php esc_html_e( 'Seeking solutions to restore oral microbiome balance', 'bambu' ); ?></h1>
+            <p class="hero-sub"><?php esc_html_e( 'Discover business needs, explore innovative solutions, and connect with the right
+                partners.', 'bambu' ); ?></p>
 
             <!-- Meta bar -->
             <div class="meta-bar">
@@ -40,7 +40,7 @@ get_header();
                         </svg>
                     </div>
                     <div>
-                        <div class="host-name">Healthcare Innovation Partner <span
+                        <div class="host-name"><?php esc_html_e( 'Healthcare Innovation Partner', 'bambu' ); ?> <span
                                 style="color:#38bdf8;font-size:14px;">✓</span></div>
                         <div class="host-location">
                             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -49,7 +49,7 @@ get_header();
                                     stroke="#2DD4BF" stroke-width="1.17" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
-                            Vietnam
+                            <?php esc_html_e( 'Vietnam', 'bambu' ); ?>
                         </div>
                     </div>
                 </div>
@@ -57,29 +57,29 @@ get_header();
                     <div class="meta-pill">
                         <span class="teal">📅</span>
                         <div>
-                            <div class="pill-label">Deadline:</div>
-                            <div class="pill-value">30 Nov 2026</div>
+                            <div class="pill-label"><?php esc_html_e( 'Deadline:', 'bambu' ); ?></div>
+                            <div class="pill-value"><?php esc_html_e( '30 Nov 2026', 'bambu' ); ?></div>
                         </div>
                     </div>
                     <div class="meta-pill">
                         <span class="teal">⚗️</span>
                         <div>
-                            <div class="pill-label">Development Stage:</div>
-                            <div class="pill-value">TRL 5</div>
+                            <div class="pill-label"><?php esc_html_e( 'Development Stage:', 'bambu' ); ?></div>
+                            <div class="pill-value"><?php esc_html_e( 'TRL 5', 'bambu' ); ?></div>
                         </div>
                     </div>
                     <div class="meta-pill">
                         <span class="teal">🌏</span>
                         <div>
-                            <div class="pill-label">Target Regions:</div>
-                            <div class="pill-value">Vietnam &amp; Thailand</div>
+                            <div class="pill-label"><?php esc_html_e( 'Target Regions:', 'bambu' ); ?></div>
+                            <div class="pill-value"><?php _e( 'Vietnam &amp; Thailand', 'bambu' ); ?></div>
                         </div>
                     </div>
                     <div class="meta-pill">
                         <span class="teal">🤝</span>
                         <div>
-                            <div class="pill-label">Collaboration:</div>
-                            <div class="pill-value">Co-development / Licensing</div>
+                            <div class="pill-label"><?php esc_html_e( 'Collaboration:', 'bambu' ); ?></div>
+                            <div class="pill-value"><?php esc_html_e( 'Co-development / Licensing', 'bambu' ); ?></div>
                         </div>
                     </div>
                 </div>
@@ -96,107 +96,107 @@ get_header();
 
                 <!-- Tab Bar -->
                 <div class="tab-bar">
-                    <button class="tab-btn active">Overview</button>
-                    <button class="tab-btn">Requirements</button>
-                    <button class="tab-btn">Collaboration</button>
-                    <button class="tab-btn">About us</button>
+                    <button class="tab-btn active"><?php esc_html_e( 'Overview', 'bambu' ); ?></button>
+                    <button class="tab-btn"><?php esc_html_e( 'Requirements', 'bambu' ); ?></button>
+                    <button class="tab-btn"><?php esc_html_e( 'Collaboration', 'bambu' ); ?></button>
+                    <button class="tab-btn"><?php esc_html_e( 'About us', 'bambu' ); ?></button>
                 </div>
 
                 <!-- Showcase Image -->
                 <img class="showcase-img"
                     src="<?php echo esc_url( bambu_get_media_asset_url( 'innovation-intelligence/hero-decor.jpg' ) ); ?>"
-                    alt="Modern research facility atrium" />
+                    alt="<?php esc_attr_e( 'Modern research facility atrium', 'bambu' ); ?>" />
 
                 <!-- Section 1: Opportunity Overview -->
                 <section>
-                    <div class="sec-title-lg">1. Opportunity overview</div>
-                    <p class="sec-body">Lacer is seeking to identify and develop innovative solutions that address the
+                    <div class="sec-title-lg"><?php esc_html_e( '1. Opportunity overview', 'bambu' ); ?></div>
+                    <p class="sec-body"><?php esc_html_e( 'Lacer is seeking to identify and develop innovative solutions that address the
                         root cause of gingivitis by actively restoring oral microbiome balance (eubiosis), moving beyond
-                        traditional 'kill bacteria' strategies.</p>
+                        traditional \'kill bacteria\' strategies.', 'bambu' ); ?></p>
                     <div class="callout-box" style="margin-top: 7px;">
                         <div class="callout-heading">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                                 <path d="M8 1L9.5 6H15L10.5 9L12 14L8 11L4 14L5.5 9L1 6H6.5L8 1Z" stroke="#0D9488"
                                     stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
-                            Desired outcome
+                            <?php esc_html_e( 'Desired outcome', 'bambu' ); ?>
                         </div>
                         <div class="callout-list">
-                            <div class="callout-item"><span class="bullet">•</span><span>A proven ability to shift the
-                                    oral microbiome composition from a dysbiotic to a eubiotic state.</span></div>
-                            <div class="callout-item"><span class="bullet">•</span><span>A targeted reduction of key
-                                    pathogenic species associated with gingivitis.</span></div>
-                            <div class="callout-item"><span class="bullet">•</span><span>The simultaneous increase or
+                            <div class="callout-item"><span class="bullet">•</span><span><?php esc_html_e( 'A proven ability to shift the
+                                    oral microbiome composition from a dysbiotic to a eubiotic state.', 'bambu' ); ?></span></div>
+                            <div class="callout-item"><span class="bullet">•</span><span><?php esc_html_e( 'A targeted reduction of key
+                                    pathogenic species associated with gingivitis.', 'bambu' ); ?></span></div>
+                            <div class="callout-item"><span class="bullet">•</span><span><?php esc_html_e( 'The simultaneous increase or
                                     preservation of beneficial commensal bacteria to deliver more sustainable clinical
-                                    outcomes.</span></div>
+                                    outcomes.', 'bambu' ); ?></span></div>
                         </div>
                     </div>
                 </section>
 
                 <!-- Section 2: What we are looking for -->
                 <section>
-                    <div class="sec-title-lg">2. What we are looking for</div>
-                    <p class="sec-body">While current gingivitis treatments primarily rely on broad bacterial reduction
+                    <div class="sec-title-lg"><?php esc_html_e( '2. What we are looking for', 'bambu' ); ?></div>
+                    <p class="sec-body"><?php esc_html_e( 'While current gingivitis treatments primarily rely on broad bacterial reduction
                         (antiseptics) or symptom control (anti-inflammatories), emerging science indicates that
                         long-term oral health depends on precise microbiome modulation. Lacer aims to establish
                         leadership in microbiome-based oral care by integrating this science into next-generation
                         products, enabling new differentiated claims such as reversing early-stage gingivitis by
-                        targeting underlying imbalances.</p>
+                        targeting underlying imbalances.', 'bambu' ); ?></p>
                 </section>
 
                 <!-- Section 3: Must-have requirements -->
                 <section>
-                    <div class="sec-title-md" style="margin-bottom: 0; margin-top: 8px;">3. Must-have requirements</div>
+                    <div class="sec-title-md" style="margin-bottom: 0; margin-top: 8px;"><?php esc_html_e( '3. Must-have requirements', 'bambu' ); ?></div>
                     <div class="req-list" style="margin-top: 16px;">
                         <div class="req-row">
                             <div class="req-icon">📊</div>
-                            <div class="req-label">Maturity</div>
-                            <div class="req-value">Technology Readiness Level (TRL) of &gt; 5.</div>
+                            <div class="req-label"><?php esc_html_e( 'Maturity', 'bambu' ); ?></div>
+                            <div class="req-value"><?php _e( 'Technology Readiness Level (TRL) of &gt; 5.', 'bambu' ); ?></div>
                         </div>
                         <div class="req-row">
                             <div class="req-icon">🧫</div>
-                            <div class="req-label">Microbiome Modulation</div>
-                            <div class="req-value">Antimicrobial activity in multispecies oral biofilm models</div>
+                            <div class="req-label"><?php esc_html_e( 'Microbiome Modulation', 'bambu' ); ?></div>
+                            <div class="req-value"><?php esc_html_e( 'Antimicrobial activity in multispecies oral biofilm models', 'bambu' ); ?></div>
                         </div>
                         <div class="req-row">
                             <div class="req-icon">🔬</div>
-                            <div class="req-label">Validation Method</div>
-                            <div class="req-value">16S rRNA gene sequencing.</div>
+                            <div class="req-label"><?php esc_html_e( 'Validation Method', 'bambu' ); ?></div>
+                            <div class="req-value"><?php esc_html_e( '16S rRNA gene sequencing.', 'bambu' ); ?></div>
                         </div>
                         <div class="req-row">
                             <div class="req-icon">🧪</div>
-                            <div class="req-label">Biological Relevance</div>
-                            <div class="req-value">Cosmetic, medical device, or food supplement</div>
+                            <div class="req-label"><?php esc_html_e( 'Biological Relevance', 'bambu' ); ?></div>
+                            <div class="req-value"><?php esc_html_e( 'Cosmetic, medical device, or food supplement', 'bambu' ); ?></div>
                         </div>
                         <div class="req-row">
                             <div class="req-icon">📋</div>
-                            <div class="req-label">Regulatory Framework</div>
-                            <div class="req-value">Spain, the European Union, &amp; Latin America</div>
+                            <div class="req-label"><?php esc_html_e( 'Regulatory Framework', 'bambu' ); ?></div>
+                            <div class="req-value"><?php _e( 'Spain, the European Union, &amp; Latin America', 'bambu' ); ?></div>
                         </div>
                     </div>
                 </section>
 
                 <!-- Section 4: Nice to have -->
                 <section>
-                    <div class="sec-title-lg">4. Nice to have</div>
+                    <div class="sec-title-lg"><?php esc_html_e( '4. Nice to have', 'bambu' ); ?></div>
                     <div class="nice-box">
                         <div class="nice-icon-bg">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                                 <path d="M8 1L9.5 6H15L10.5 9L12 14L8 11L4 14L5.5 9L1 6H6.5L8 1Z" fill="#35AD68" />
                             </svg>
                         </div>
-                        <div class="nice-text">We are looking for technologies at least capable of demonstrating
-                            efficacy in patients with Grade 2 gingivitis, ideally showing measurable improvements.</div>
+                        <div class="nice-text"><?php esc_html_e( 'We are looking for technologies at least capable of demonstrating
+                            efficacy in patients with Grade 2 gingivitis, ideally showing measurable improvements.', 'bambu' ); ?></div>
                     </div>
                 </section>
 
                 <!-- Section 5: Related Keywords -->
                 <section>
-                    <div class="sec-title-lg">5. Related Keywords</div>
+                    <div class="sec-title-lg"><?php esc_html_e( '5. Related Keywords', 'bambu' ); ?></div>
                     <div class="keywords-box">
-                        PharmaceuticsCare, Hygiene, Beauty, CosmeticsBiological SciencesMedicine, Human HealthBiology /
+                        <?php esc_html_e( 'PharmaceuticsCare, Hygiene, Beauty, CosmeticsBiological SciencesMedicine, Human HealthBiology /
                         BiotechnologyMicrobiology TechnologyHealth careMedical Health relatedOther Medical / Health
-                        RelatedConsumer relatedHealth and beauty aids, Cosmeticsoral careeubiosis
+                        RelatedConsumer relatedHealth and beauty aids, Cosmeticsoral careeubiosis', 'bambu' ); ?>
                     </div>
                 </section>
 
@@ -206,23 +206,23 @@ get_header();
                         <div class="org-left">
                             <div class="org-logo">
                                 <div class="org-logo-icon" style="color:#e8505b;">L</div>
-                                <div class="org-logo-name">LACER S.A.</div>
+                                <div class="org-logo-name"><?php esc_html_e( 'LACER S.A.', 'bambu' ); ?></div>
                             </div>
                             <div>
                                 <div class="org-name">
-                                    Lacer S.A. (Healthcare Innovation Partner)
+                                    <?php esc_html_e( 'Lacer S.A. (Healthcare Innovation Partner)', 'bambu' ); ?>
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
                                             d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm3.71 5.71a1 1 0 0 0-1.42-1.42L7 8.59 5.71 7.3A1 1 0 0 0 4.3 8.71l2 2a1 1 0 0 0 1.41 0l4-4z"
                                             fill="#0EA5E9" />
                                     </svg>
                                 </div>
-                                <div class="org-desc">Lacer S.A is a pharmaceutical laboratory firmly committed to
-                                    public health. Our research and services focus on improving people's well-being and
-                                    quality of life.</div>
+                                <div class="org-desc"><?php esc_html_e( 'Lacer S.A is a pharmaceutical laboratory firmly committed to
+                                    public health. Our research and services focus on improving people\'s well-being and
+                                    quality of life.', 'bambu' ); ?></div>
                             </div>
                         </div>
-                        <button class="view-profile-btn">View organization profile →</button>
+                        <button class="view-profile-btn"><?php esc_html_e( 'View organization profile →', 'bambu' ); ?></button>
                     </div>
                 </section>
 
@@ -233,22 +233,22 @@ get_header();
 
                 <!-- Interested card -->
                 <div class="interested-card">
-                    <div class="interested-title">Interested in this opportunity?</div>
-                    <div class="interested-sub">Tell the organization why your solution could be a good fit</div>
+                    <div class="interested-title"><?php esc_html_e( 'Interested in this opportunity?', 'bambu' ); ?></div>
+                    <div class="interested-sub"><?php esc_html_e( 'Tell the organization why your solution could be a good fit', 'bambu' ); ?></div>
                     <button class="req-conn-btn">
-                        Request connection
+                        <?php esc_html_e( 'Request connection', 'bambu' ); ?>
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                             <path d="M3 8h10M8 3l5 5-5 5" stroke="white" stroke-width="1.33" stroke-linecap="round"
                                 stroke-linejoin="round" />
                         </svg>
                     </button>
-                    <div class="signin-note">Sign in to continue.</div>
+                    <div class="signin-note"><?php esc_html_e( 'Sign in to continue.', 'bambu' ); ?></div>
                     <div class="review-notice">
                         <span class="review-icon">✓</span>
-                        <div class="review-text">Your request is review before contact details are shared.</div>
+                        <div class="review-text"><?php esc_html_e( 'Your request is review before contact details are shared.', 'bambu' ); ?></div>
                     </div>
                     <button class="save-btn">
-                        Save opportunity
+                        <?php esc_html_e( 'Save opportunity', 'bambu' ); ?>
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                             <path
                                 d="M3 2h10a1 1 0 0 1 1 1v10.586a.5.5 0 0 1-.854.353L8 8.707l-5.146 5.232A.5.5 0 0 1 2 13.586V3a1 1 0 0 1 1-1z"
@@ -264,11 +264,11 @@ get_header();
                             <circle cx="8" cy="8" r="6.5" stroke="#0D9488" stroke-width="1.33" />
                             <path d="M8 11V8M8 5h.01" stroke="#0D9488" stroke-width="1.33" stroke-linecap="round" />
                         </svg>
-                        Help
+                        <?php esc_html_e( 'Help', 'bambu' ); ?>
                     </div>
-                    <div class="side-card-body">Need help submitting your proposal or have questions regarding this
-                        Innovation Need?</div>
-                    <div class="support-link">Contact BambuUP support →</div>
+                    <div class="side-card-body"><?php esc_html_e( 'Need help submitting your proposal or have questions regarding this
+                        Innovation Need?', 'bambu' ); ?></div>
+                    <div class="support-link"><?php esc_html_e( 'Contact BambuUP support →', 'bambu' ); ?></div>
                 </div>
 
                 <!-- FAQ -->
@@ -279,27 +279,27 @@ get_header();
                             <path d="M6.5 6a1.5 1.5 0 1 1 2 1.415A1.5 1.5 0 0 0 8 9M8 11h.01" stroke="#475569"
                                 stroke-width="1.33" stroke-linecap="round" />
                         </svg>
-                        FAQs
+                        <?php esc_html_e( 'FAQs', 'bambu' ); ?>
                     </div>
-                    <div class="faq-item">How do I write a winning proposal? <span class="faq-caret">▾</span></div>
-                    <div class="faq-item">Who will evaluate my proposal? <span class="faq-caret">▾</span></div>
-                    <div class="faq-item">How do I protect my intellectual property? <span class="faq-caret">▾</span>
+                    <div class="faq-item"><?php esc_html_e( 'How do I write a winning proposal?', 'bambu' ); ?> <span class="faq-caret">▾</span></div>
+                    <div class="faq-item"><?php esc_html_e( 'Who will evaluate my proposal?', 'bambu' ); ?> <span class="faq-caret">▾</span></div>
+                    <div class="faq-item"><?php esc_html_e( 'How do I protect my intellectual property?', 'bambu' ); ?> <span class="faq-caret">▾</span>
                     </div>
-                    <div class="faq-item">Do I have to reveal confidential information? <span class="faq-caret">▾</span>
+                    <div class="faq-item"><?php esc_html_e( 'Do I have to reveal confidential information?', 'bambu' ); ?> <span class="faq-caret">▾</span>
                     </div>
-                    <div class="faq-item">Do I need to sign an NDA before submitting? <span class="faq-caret">▾</span>
+                    <div class="faq-item"><?php esc_html_e( 'Do I need to sign an NDA before submitting?', 'bambu' ); ?> <span class="faq-caret">▾</span>
                     </div>
-                    <div class="faq-item">How long will it take to get a response? <span class="faq-caret">▾</span>
+                    <div class="faq-item"><?php esc_html_e( 'How long will it take to get a response?', 'bambu' ); ?> <span class="faq-caret">▾</span>
                     </div>
                 </div>
 
                 <!-- Share -->
                 <div class="share-card">
-                    <div class="share-label">Share this opportunity</div>
+                    <div class="share-label"><?php esc_html_e( 'Share this opportunity', 'bambu' ); ?></div>
                     <div class="share-icons">
-                        <div class="share-icon" title="LinkedIn">in</div>
-                        <div class="share-icon" title="Telegram">✈</div>
-                        <div class="share-icon" title="Copy link">🔗</div>
+                        <div class="share-icon" title="<?php esc_attr_e( 'LinkedIn', 'bambu' ); ?>">in</div>
+                        <div class="share-icon" title="<?php esc_attr_e( 'Telegram', 'bambu' ); ?>">✈</div>
+                        <div class="share-icon" title="<?php esc_attr_e( 'Copy link', 'bambu' ); ?>">🔗</div>
                     </div>
                 </div>
 
@@ -310,11 +310,11 @@ get_header();
         <div class="not-ready-wrap">
             <div class="not-ready-banner">
                 <div>
-                    <div class="not-ready-title">Not ready to connect yet?</div>
-                    <div class="not-ready-sub">Save this opportunity and return when your proposal is ready</div>
+                    <div class="not-ready-title"><?php esc_html_e( 'Not ready to connect yet?', 'bambu' ); ?></div>
+                    <div class="not-ready-sub"><?php esc_html_e( 'Save this opportunity and return when your proposal is ready', 'bambu' ); ?></div>
                 </div>
                 <button class="save-opp-btn">
-                    Save opportunity
+                    <?php esc_html_e( 'Save opportunity', 'bambu' ); ?>
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                         <path
                             d="M2.5 2h9a.5.5 0 0 1 .5.5V12.5a.5.5 0 0 1-.854.353L7 8.707l-4.146 4.146A.5.5 0 0 1 2 12.5V2.5a.5.5 0 0 1 .5-.5z"
@@ -326,27 +326,27 @@ get_header();
 
         <!-- RELATED OPPORTUNITIES -->
         <div class="related-section">
-            <div class="related-title">Related innovation opportunities</div>
+            <div class="related-title"><?php esc_html_e( 'Related innovation opportunities', 'bambu' ); ?></div>
             <div class="related-grid">
 
                 <div class="rel-card">
                     <div class="rel-card-img">
                         <img src="<?php echo esc_url( bambu_get_media_asset_url( 'innovation-intelligence/robotics.jpg' ) ); ?>"
                             alt="" />
-                        <span class="rel-badge">Innovation Need</span>
+                        <span class="rel-badge"><?php esc_html_e( 'Innovation Need', 'bambu' ); ?></span>
                         <div class="rel-save">♡</div>
                     </div>
                     <div class="rel-body">
-                        <div class="rel-title">AI-powered supply chain visibility platform</div>
-                        <div class="rel-date">Posted July 14, 2026</div>
-                        <div class="rel-org">Tech Solution Provider <span class="rel-org-check">✓</span></div>
-                        <div class="rel-tags"><span class="rel-tag">Manufacturing</span><span
-                                class="rel-tag">Sustainability</span><span class="rel-tag">Vietnam</span></div>
-                        <div class="rel-looking">Looking for <strong>• Pilot Project</strong></div>
+                        <div class="rel-title"><?php esc_html_e( 'AI-powered supply chain visibility platform', 'bambu' ); ?></div>
+                        <div class="rel-date"><?php esc_html_e( 'Posted July 14, 2026', 'bambu' ); ?></div>
+                        <div class="rel-org"><?php esc_html_e( 'Tech Solution Provider', 'bambu' ); ?> <span class="rel-org-check">✓</span></div>
+                        <div class="rel-tags"><span class="rel-tag"><?php esc_html_e( 'Manufacturing', 'bambu' ); ?></span><span
+                                class="rel-tag"><?php esc_html_e( 'Sustainability', 'bambu' ); ?></span><span class="rel-tag"><?php esc_html_e( 'Vietnam', 'bambu' ); ?></span></div>
+                        <div class="rel-looking"><?php esc_html_e( 'Looking for', 'bambu' ); ?> <strong><?php esc_html_e( '• Pilot Project', 'bambu' ); ?></strong></div>
                     </div>
                     <div class="rel-footer">
-                        <span class="rel-view">View details ➔</span>
-                        <button class="rel-connect">Connect</button>
+                        <span class="rel-view"><?php esc_html_e( 'View details ➔', 'bambu' ); ?></span>
+                        <button class="rel-connect"><?php esc_html_e( 'Connect', 'bambu' ); ?></button>
                     </div>
                 </div>
 
@@ -354,20 +354,20 @@ get_header();
                     <div class="rel-card-img">
                         <img src="<?php echo esc_url( bambu_get_media_asset_url( 'innovation-intelligence/manufacturing.jpg' ) ); ?>"
                             alt="" />
-                        <span class="rel-badge">Innovation Offer</span>
+                        <span class="rel-badge"><?php esc_html_e( 'Innovation Offer', 'bambu' ); ?></span>
                         <div class="rel-save">♡</div>
                     </div>
                     <div class="rel-body">
-                        <div class="rel-title">Low-carbon material manufacturing solutions</div>
-                        <div class="rel-date">Posted July 12, 2026</div>
-                        <div class="rel-org">Consumer Goods Company <span class="rel-org-check">✓</span></div>
-                        <div class="rel-tags"><span class="rel-tag">Manufacturing</span><span
-                                class="rel-tag">Sustainability</span></div>
-                        <div class="rel-looking">Available for <strong>• POC &amp; Co-growth</strong></div>
+                        <div class="rel-title"><?php esc_html_e( 'Low-carbon material manufacturing solutions', 'bambu' ); ?></div>
+                        <div class="rel-date"><?php esc_html_e( 'Posted July 12, 2026', 'bambu' ); ?></div>
+                        <div class="rel-org"><?php esc_html_e( 'Consumer Goods Company', 'bambu' ); ?> <span class="rel-org-check">✓</span></div>
+                        <div class="rel-tags"><span class="rel-tag"><?php esc_html_e( 'Manufacturing', 'bambu' ); ?></span><span
+                                class="rel-tag"><?php esc_html_e( 'Sustainability', 'bambu' ); ?></span></div>
+                        <div class="rel-looking"><?php esc_html_e( 'Available for', 'bambu' ); ?> <strong><?php _e( '• POC &amp; Co-growth', 'bambu' ); ?></strong></div>
                     </div>
                     <div class="rel-footer">
-                        <span class="rel-view">View details ➔</span>
-                        <button class="rel-connect">Connect</button>
+                        <span class="rel-view"><?php esc_html_e( 'View details ➔', 'bambu' ); ?></span>
+                        <button class="rel-connect"><?php esc_html_e( 'Connect', 'bambu' ); ?></button>
                     </div>
                 </div>
 
@@ -375,20 +375,20 @@ get_header();
                     <div class="rel-card-img">
                         <img src="<?php echo esc_url( bambu_get_media_asset_url( 'innovation-intelligence/smart-city.jpg' ) ); ?>"
                             alt="" />
-                        <span class="rel-badge">Innovation Need</span>
+                        <span class="rel-badge"><?php esc_html_e( 'Innovation Need', 'bambu' ); ?></span>
                         <div class="rel-save">♡</div>
                     </div>
                     <div class="rel-body">
-                        <div class="rel-title">AI-powered supply chain rider volatility platform</div>
-                        <div class="rel-date">Posted July 10, 2026</div>
-                        <div class="rel-org">Tech Solution Provider <span class="rel-org-check">✓</span></div>
-                        <div class="rel-tags"><span class="rel-tag">Manufacturing</span><span
-                                class="rel-tag">Sustainability</span><span class="rel-tag">Global</span></div>
-                        <div class="rel-looking">Looking for <strong>• Pilot Project</strong></div>
+                        <div class="rel-title"><?php esc_html_e( 'AI-powered supply chain rider volatility platform', 'bambu' ); ?></div>
+                        <div class="rel-date"><?php esc_html_e( 'Posted July 10, 2026', 'bambu' ); ?></div>
+                        <div class="rel-org"><?php esc_html_e( 'Tech Solution Provider', 'bambu' ); ?> <span class="rel-org-check">✓</span></div>
+                        <div class="rel-tags"><span class="rel-tag"><?php esc_html_e( 'Manufacturing', 'bambu' ); ?></span><span
+                                class="rel-tag"><?php esc_html_e( 'Sustainability', 'bambu' ); ?></span><span class="rel-tag"><?php esc_html_e( 'Global', 'bambu' ); ?></span></div>
+                        <div class="rel-looking"><?php esc_html_e( 'Looking for', 'bambu' ); ?> <strong><?php esc_html_e( '• Pilot Project', 'bambu' ); ?></strong></div>
                     </div>
                     <div class="rel-footer">
-                        <span class="rel-view">View details ➔</span>
-                        <button class="rel-connect">Connect</button>
+                        <span class="rel-view"><?php esc_html_e( 'View details ➔', 'bambu' ); ?></span>
+                        <button class="rel-connect"><?php esc_html_e( 'Connect', 'bambu' ); ?></button>
                     </div>
                 </div>
 
@@ -396,20 +396,20 @@ get_header();
                     <div class="rel-card-img">
                         <img src="<?php echo esc_url( bambu_get_media_asset_url( 'innovation-intelligence/hero-decor.jpg' ) ); ?>"
                             alt="" />
-                        <span class="rel-badge">Innovation Offer</span>
+                        <span class="rel-badge"><?php esc_html_e( 'Innovation Offer', 'bambu' ); ?></span>
                         <div class="rel-save">♡</div>
                     </div>
                     <div class="rel-body">
-                        <div class="rel-title">Low-carbon tech manufacturing solutions</div>
-                        <div class="rel-date">Posted July 08, 2026</div>
-                        <div class="rel-org">Consumer Goods Company <span class="rel-org-check">✓</span></div>
-                        <div class="rel-tags"><span class="rel-tag">Manufacturing</span><span
-                                class="rel-tag">Digitization</span></div>
-                        <div class="rel-looking">Available for <strong>• POC &amp; Co-growth</strong></div>
+                        <div class="rel-title"><?php esc_html_e( 'Low-carbon tech manufacturing solutions', 'bambu' ); ?></div>
+                        <div class="rel-date"><?php esc_html_e( 'Posted July 08, 2026', 'bambu' ); ?></div>
+                        <div class="rel-org"><?php esc_html_e( 'Consumer Goods Company', 'bambu' ); ?> <span class="rel-org-check">✓</span></div>
+                        <div class="rel-tags"><span class="rel-tag"><?php esc_html_e( 'Manufacturing', 'bambu' ); ?></span><span
+                                class="rel-tag"><?php esc_html_e( 'Digitization', 'bambu' ); ?></span></div>
+                        <div class="rel-looking"><?php esc_html_e( 'Available for', 'bambu' ); ?> <strong><?php _e( '• POC &amp; Co-growth', 'bambu' ); ?></strong></div>
                     </div>
                     <div class="rel-footer">
-                        <span class="rel-view">View details ➔</span>
-                        <button class="rel-connect">Connect</button>
+                        <span class="rel-view"><?php esc_html_e( 'View details ➔', 'bambu' ); ?></span>
+                        <button class="rel-connect"><?php esc_html_e( 'Connect', 'bambu' ); ?></button>
                     </div>
                 </div>
 

@@ -5,7 +5,6 @@ body.login {
         linear-gradient(rgba(7, 17, 39, 0.84), rgba(7, 17, 39, 0.94)),
         url('https://wp.aries.id.vn/wp-content/uploads/2026/09/section.png') center / cover;
     color: #cbd5e1;
-    font-family: 'Manrope', sans-serif;
 }
 
 body.login #login {

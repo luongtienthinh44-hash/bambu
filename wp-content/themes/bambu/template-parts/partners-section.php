@@ -12,8 +12,8 @@ $partners = bambu_get_global_partners();
 ?>
 <section class="partners-section">
     <div class="partners-section-inner">
-        <h2 class="partners-title"><?php echo esc_html( bambu_get_global_section_option( 'bambu_global_partners_title', 'Trusted by Our Partners' ) ); ?></h2>
-        <div class="partners-row" aria-label="Partner organizations">
+        <h2 class="partners-title"><?php echo esc_html( bambu_get_global_section_option( 'bambu_global_partners_title', __( 'Trusted by Our Partners', 'bambu' ) ) ); ?></h2>
+        <div class="partners-row" aria-label="<?php esc_attr_e( 'Partner organizations', 'bambu' ); ?>">
             <?php foreach ( $partners as $partner ) : ?>
                 <?php
                 $partner_name = isset( $partner['name'] ) ? $partner['name'] : '';
